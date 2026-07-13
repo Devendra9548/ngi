@@ -1,0 +1,153 @@
+@import 'style.sass'
+
+.first-section
+    p
+        width: 75%
+        display: block
+        margin: auto
+        font-size: 22px
+        line-height: 36px
+        color: $gray
+        font-weight: 300
+
+.reshaping-section
+    .container
+        position: relative
+    img
+        position: absolute
+        bottom: 0px
+        width: 34%
+        height: 500px!important
+
+.service-section
+    text-align: center
+    h3
+        color: $gray
+        font-size: 18px
+        margin-bottom: 10px
+    i
+        background: $golden
+        color: #000
+        font-size: 2rem
+        padding: 20px
+        border-radius: 100%
+        width: 70px
+        height: 70px
+        display: flex
+        justify-content: center
+        align-items: center
+        border: 1px solid #0009
+    p
+        font-size: 16px
+        padding: 0px 20px
+
+.customer-benefit
+    .container
+        box-shadow: 0px 0px 5px 4px #b6b6b675
+        img
+            border-radius: 10px !important
+            height: 100%
+            object-fit: cover
+            object-position: right
+        .blue-line
+            margin-left: 0px
+            margin-bottom: 20px
+            width: 20%
+        .reshaping-img
+            object-position: center
+
+.mision-section
+    img
+        height: 400px !important
+        object-fit: cover
+        object-position: center
+        border-radius: 0px!important
+
+    .blue-line
+        margin-left: 0px
+        margin-bottom: 20px
+        width: 15%!important
+
+.semzo-culture-section
+    ul
+        margin-left: 12px
+        li
+            line-height: 30px
+.vision-section
+    img
+        height: 380px!important
+
+.first-benefit-section
+    img
+        height: 390px !important
+
+.ourvalues-section
+    .cards
+        text-align: center
+        background: $golden
+        padding: 35px 0px
+        height: 100%
+        position: relative
+        overflow: hidden
+    p
+        font-size: 26px
+        padding: 0px 30px
+        margin-bottom: 0px
+        font-weight: 600
+    i
+        font-size: 66px
+        margin-bottom: 25px
+    .squre
+        border-top: 0px solid $golden
+        opacity: 1
+        margin: 0px
+        border: 3px solid $golden
+        padding: 20px
+        width: 120px
+        transform: rotate(315deg)
+        position: absolute
+        right: -41px
+        background: #fff
+        bottom: -15px
+        z-index: 2
+
+@media only screen and (max-height:610px)
+    .reshaping-section
+        img
+            height: 540px!important
+    .mision-section
+        img
+            height: 460px !important
+    .vision-section
+        img
+            height: 360px!important
+
+@media only screen and (max-width:768px)
+    .first-section p
+        width: 100%
+        display: block
+        margin: auto
+        font-size: 16px
+        line-height: 24px
+    .blue-line
+        width: 45% !important
+    .customer-benefit
+        .container
+            width: 90% !important
+    .first-benefit-section, .customer-benefit
+        img
+            height: auto !important
+            padding: 15px 0px
+            border-radius: 10px!important
+            padding-bottom: 30px
+    .reshaping-section
+        img
+            position: relative
+            bottom: -30px
+            width: 100%
+            
+    .ourvalues-section p
+        font-size: 18px
+        padding: 0px 21px
+        margin-bottom: 0px
+        font-weight: 600

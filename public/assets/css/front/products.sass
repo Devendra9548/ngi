@@ -1,0 +1,78 @@
+@import 'style.sass'
+header
+    background: #fff !important
+    li
+        a
+            color: $gray !important
+            &:hover
+                color: $blue !important
+    .center-logo img
+        width: 105px !important
+        width: 40px !important
+
+.our-products
+    .slide-arrow
+        width: 30px
+        height: 30px
+        text-align: center
+        padding: 0px
+    .prev-arrow
+        left: -20px
+    .next-arrow
+        right: -20px
+    .cards
+        padding: 0px
+        padding-bottom: 0px
+        border-top-left-radius: 100px
+        border-top-right-radius: 100px
+        height: 100%
+        padding-top: 30px
+        text-align: center
+        border-bottom-left-radius: 10px
+        border-bottom-right-radius: 10px
+        width: 200px
+        margin: auto
+        p
+            margin-top: 15px
+            font-size: 18px
+            font-weight: bold
+            text-align: center
+            margin-bottom: 15px
+        img
+            border-radius: 100%
+            width: 150px
+            height: 150px
+            object-fit: cover
+            text-align: center
+            border: 1px solid #0005
+            outline: 1px solid #0004
+            outline-offset: 2px
+            margin: auto
+
+.other-products
+    img
+        height: 250px
+        object-fit: cover
+        object-position: center
+    p
+        margin-bottom: 0px
+        margin-top: 10px
+        font-size: 18px
+        text-align: center
+        font-weight: bold
+    .pcards
+        border: 1px solid #0005
+        padding: 0px
+        padding-bottom: 20px
+        border-radius: 10px
+        img
+            border-top-left-radius: 10px
+            border-top-right-radius: 10px
+            margin-bottom: 10px
+
+@media only screen and (max-width:768px)
+    .prev-arrow
+        left: 10px !important
+    .next-arrow
+        right: 10px !important
+    

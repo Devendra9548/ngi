@@ -1,0 +1,76 @@
+$hcolor: #000
+$pcolor: #453d3d
+$brandcolor: #24748c
+$fontManrope: "Manrope", sans-serif
+$fontlato: "Lato", sans-serif
+$fontOpenSans: "Open Sans", sans-serif
+$fontPlusJakartaSans: "Plus Jakarta Sans", sans-serif
+
+h1,h2,h3,h4,h5,h6
+    font-family: $fontManrope
+    color: $hcolor
+    
+p,ul,li,span,a,i,strong,div,body
+    font-family: $fontlato
+    color: $pcolor !important
+
+
+body
+    background: #f7f7f7
+
+    p,h3,h3,h1,span
+        background-color: transparent !important
+
+a
+    color: $pcolor
+    text-decoration: none !important
+p
+    margin-bottom: 0px !important
+    font-size: 1rem !important
+
+
+.prev-arrow,.next-arrow
+    position: absolute
+    top: 50%
+    z-index: 999
+    font-size: 21px
+    background: transparent
+    color: #fff
+    border: 2px solid #fff
+    left: -1px
+    padding: 10px 20px
+
+.next-arrow
+    right: 0px
+    left: auto
+
+.prev-arrow:hover,.next-arrow:hover
+    background: #fff!important
+    color: #000!important
+    border-color: #fff!important
+
+.globalbtn
+    background: $brandcolor
+    font-family: $fontlato
+    font-weight: 700
+    color: #fff
+    padding: 6px 20px
+    border-radius: 10px
+    display: inline-block
+    font-size: 1rem
+    z-index: 2
+    &:hover
+        background: #000
+
+@media only screen and (max-width:768px)
+    .globalbtn
+        font-size: 16px !important
+
+    .prev-arrow, .next-arrow
+        top: 46%
+        z-index: 999
+        font-size: 9px
+        background: transparent
+        color: #fff
+        border: 2px solid #b8b6b6
+        padding: 5px 5px

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /author/
+Disallow: /public/category/uncategorized/

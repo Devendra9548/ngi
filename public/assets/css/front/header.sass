@@ -1,0 +1,242 @@
+$hcolor: #000
+$pcolor: #453d3d
+$brandbluecolor: #01406f
+$brandgreencolor: #04a35f
+$brandlightgreencolor: #0fc85e
+$fontManrope: "Manrope", sans-serif
+$fontlato: "Lato", sans-serif
+$fontOpenSans: "Open Sans", sans-serif
+$fontPlusJakartaSans: "Plus Jakarta Sans", sans-serif
+
+.container-fluid
+    width: 88% !important
+
+.donatebtn, header .donatebtn
+    background: $brandgreencolor !important
+    color: #fff !important
+    padding: 10px 18px !important
+    border-radius: 10px !important
+    font-size: $fontlato !important
+    font-size: 16px !important
+    overflow: hidden
+    transition: all 0.35s ease
+    animation: pulse 2s infinite
+    &:hover
+        background: $brandlightgreencolor !important
+        color: #fff !important
+        box-shadow: 2px 2px 2px 2px #0002
+        animation-play-state: paused
+
+    i
+        color: #fff !important
+
+.topbar, .topbar .container-fluid
+    background-color: $brandbluecolor !important
+
+.topbar
+    position: relative !important
+    top: 0px
+    height: auto
+    .row
+        height: auto !important
+    p,i
+        color: #fff !important
+    p
+        font-size: 14px !important
+        font-family: $fontPlusJakartaSans
+        font-weight: 500 !important
+    .social-info-left i
+        font-size: 14px !important
+
+.active
+    color: $brandbluecolor !important
+
+header
+    position: sticky
+    background: #fff
+    top: 0px
+    width: 100%
+    left: 0px
+    z-index: 9
+    margin-bottom: 0px
+    box-shadow: 0px 2px 12px 4px rgb(0 0 0 / 14%)
+    a
+        font-family: $fontManrope !important
+    li
+        margin-bottom: 0px
+        padding-bottom: 0px
+    .row
+        height: 90px
+
+#CtSpinner
+    display: none
+
+.navb
+    ul
+        li:not(:last-child)
+            margin-right: 40px
+
+.p-menu:hover > .submenu
+    display: block
+
+.ds-header
+    display: block
+.mb-header
+    display: none
+
+header .container-fluid 
+    background: #Ffff !important
+
+header a, header i, header p 
+    color: $pcolor !important
+    font-size: 1.125rem
+    font-weight: 600
+
+.position-ll
+    position: relative
+    top: 4px
+
+.p-menu
+    position: relative
+    padding-bottom: 8px
+    padding-top: 8px
+
+.submenu
+    position: absolute
+    top: 45px
+    border: 2px solid rgba(0, 0, 0, 0.2)
+    z-index: 1
+    background: #fff
+    display: none
+    width: 285px
+    padding-left: 20px
+    padding-top: 10px
+    padding-bottom: 5px
+    left: -16px
+    border-radius: 10px
+    border-top: 4px solid #24738a
+    li
+        padding-bottom: 15px!important
+        a
+            font-size: 1rem
+
+#menuburgar,#closeiconmenu
+    display: none
+
+.whatsapp
+    position: fixed!important
+    bottom: 20px!important
+    right: 20px!important
+    z-index: 999!important
+
+.login-div .submenu
+    width: 160px !important
+
+.drotate
+    transform: rotate(178deg)
+
+header
+    a
+        &:hover
+            color: #000 !important
+
+#scrollTopBtn
+    i
+        color: #fff !important
+        
+@media only screen and (max-width:1300px)
+    .navb ul li:not(:last-child)
+        margin-right: 25px
+    .logo
+        img
+            width: 165px
+
+@media only screen and (max-width:768px)
+    .topbar
+        display: none
+
+    #mbnav
+        display: none
+
+    #mbnav
+        position: fixed
+        top: 69px
+        width: 100%
+        padding: 0px !important
+        margin: 0px !important
+        left: 0px
+        z-index: 1000
+        padding-left: 20px !important
+        padding-top: 20px !important
+        background: rgb(255, 255, 255)
+        border-bottom: 1px solid rgba(0, 0, 0, 0.267)
+        box-shadow: rgb(0 0 0 / 25%) 0px 2px 12px 1px
+        ul
+            li
+                display: block!important
+                margin-bottom: 26px!important
+                a
+                    font-size: 1rem!important
+                    font-weight: 800 !important
+
+    .container-fluid
+        width: 100% !important
+    #menuburgar
+        display: block
+        i
+            font-size: 18px
+            margin-right: 10px
+    .mb-header
+        display: block
+    #mbnav
+        ul, li
+            display: block !important
+    #closeiconmenu
+        i
+            font-size: 18px
+            margin-right: 20px
+
+    header
+        .logo
+            img
+                height: 70px
+                object-fit: contain
+        .row
+            height: 70px
+
+    .whatsapp
+        text-align: right
+        img
+            width: 70%
+
+    #mbnav
+        .submenu
+            position: relative
+            top: 12px
+            border: 0px solid rgba(0, 0, 0, 0.2)
+            z-index: 1
+            background: #fff
+            width: 100%
+            padding-left: 25px
+            padding-top: 10px
+            padding-bottom: 0px
+            left: -16px
+            border-radius: 10px
+            margin-bottom: -12px
+            li
+                margin-bottom: 6px !important
+                a
+                    font-weight: 500 !important
+
+@keyframes pulse
+    0%
+        transform: scale(1)
+        box-shadow: 0 0 0 0 #00000033
+
+    70%
+        transform: scale(1.05)
+        box-shadow: 0 0 0 4px #0000001b
+
+    100%
+        transform: scale(1)
+        box-shadow: 0 0 0 0 #00000019
