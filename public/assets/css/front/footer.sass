@@ -1,308 +1,265 @@
-@import 'style.sass'
 
-.whatsapp
-    position: fixed
-    bottom: 20px
-    right: 20px
-    z-index: 12
-    img
-        width: 50px
+.brb-footer
+    width: 100%
+    font-family: Arial, Helvetica, sans-serif
 
-.left-sticky
-    position: fixed
-    top: 30%
-    left: 0
-    border-top-right-radius: 10px
-    border-bottom-right-radius: 10px
-    img
-        width: 60px
-        height: 100%
-        object-fit: contain
-        border-top-right-radius: 10px
-        border-bottom-right-radius: 10px
+.brb-footer-main
+    background: #242424
+    color: #fff !important
+    padding: 12px 0 48px
+    padding-top: 60px
 
-footer
-    background: #f2f2f2
+.brb-footer-brand
+    padding-top: 0
+
+.brb-footer-logo
+    width: 255px
+    max-width: 100%
+    height: auto
+    display: block
+    margin-bottom: 52px
+
+.brb-footer-social-title
+    font-size: 18px
+    line-height: 1.4
+    margin-bottom: 25px
+    color: #fff !important
+    opacity: 0.8
+
+.brb-footer-social
+    display: flex
+    align-items: center
+    gap: 17px
+
+.brb-footer-social a
+    color: #fff !important
+    text-decoration: none
+    font-size: 25px
+    i
+        color: #fff !important
+        opacity: 0.7
+
+.brb-footer-social a:hover
+    color: #fff !important
+    opacity: 0.7
+
+.brb-footer-heading
+    color: #fff !important
+    font-size: 20px
+    font-weight: 700
+    margin: 0 0 14px
+    text-transform: uppercase
+
+.brb-footer-links
+    list-style: none
+    padding: 0
+    margin: 0
+
+.brb-footer-links li
+    margin-bottom: 13px
+
+.brb-footer-links a
+    color: #fff !important
+    text-decoration: none !important
+    font-size: 15px
+    line-height: 1.4
+    opacity: 0.8
+
+.brb-footer-links a:hover
+    color: #fff !important
+    opacity: 0.65
+
+.brb-footer-popular
+    margin-top: 2px
+
+.brb-footer-popular h6
+    color: #fff !important
+    font-size: 16px
+    font-weight: 700
+    margin-bottom: 10px
+
+.brb-footer-search-links
+    color: #fff !important
+    font-size: 14px
+    line-height: 1.65
+    font-weight: 600
+
+.brb-footer-search-links a
+    color: #fff !important
+    text-decoration: none
+
+.brb-footer-search-links a:hover
+    text-decoration: underline
+
+.brb-footer-search-links span
+    margin: 0 5px
+    color: #fff !important
+
+.brb-footer-disclaimer
+    padding-top: 30px
+    color: #484848 !important
+    border-top: 1px solid #404040
+    margin-top: 20px
+
+.brb-footer-disclaimer p
+    margin-bottom: 8px
+    font-size: 12px
+    line-height: 1.45
+    color: #fff !important
+    opacity: 0.8
+    margin-bottom: 10px!important
+    font-size: 13px!important
+
+.brb-footer-disclaimer strong
+    font-weight: 700
+    color: #fff !important
+
+.brb-footer-bottom
     background: #fff
-    background-image: url('/assets/imgs/21.jpg')
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: center center
-    .bgleyer-footer
-        background: #fff8
-    .golden-line
-        margin-left: 0px
-        width: 50%
-    form
-        input
-            width: 100%
-            border: 1px solid #000
-            padding: 10px 12px
-            display: block
-            line-height: 16px
-            border-radius: 5px
-            margin-bottom: 12px
-        .btn-blue
-            width: 100%!important
-            padding: 12px!important
-            font-weight: 500
+    color: #777
+    padding: 16px 0
+    font-size: 14px
 
-    .inner
-        padding-left: 100px!important
-    p
-        line-height: 30px
-    ul
-        margin: 0px
-        padding-left: 5px
-        list-style: none
-        li
-            margin-bottom: 10px
-            line-height: 30px
-            a
-                font-size: 18px
-                color: #000
-                text-decoration: none
-                &:hover
-                    color: $blue
-                i
-                    color: $blue
-.foot-logo
-    width: 250px
-    object-fit: contain
-    margin-bottom: 15px
+.brb-footer-bottom span
+    color: #777
 
-.copyright
+.brb-footer-bottom a
+    color: #777
+    text-decoration: none
+    margin-left: 10px
+
+.brb-footer-bottom a:hover
+    color: #333
+
+.brb-footer-whatsapp
+    position: fixed
+    right: 20px
+    bottom: 72px
+    width: 50px
+    height: 50px
+    border-radius: 50%
+    background: #20c636
+    color: #fff !important
     display: flex
     align-items: center
     justify-content: center
-    background: $blue
-    color: #fff
-    text-align: center
-    padding: 12px 0px
-    padding-bottom: 8px
-    p
-        color: #fff
-        margin: 0px
-    .line
-        margin-right: 10px
-    ul
-        display: flex
-        align-items: center
-        justify-content: center
-        margin: 0px
-        padding: 0px
-        list-style: none
-        li
-            margin-left: 15px
-            margin-bottom: 0px!important
-            a
-                color: #fff
-                text-decoration: none
-                &:hover
-                    color: $golden
-
-.social-bar
-    position: fixed
-    top: 30%
-    right: 0
-    display: flex
-    flex-direction: column
-    z-index: 1
-    width: 150px
-    pointer-events: none
-
-.social-bar a
-    pointer-events: auto
     text-decoration: none
-    color: white
-    height: 45px
+    font-size: 29px
+    z-index: 999
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25)
+
+.brb-footer-whatsapp:hover
+    color: #fff !important
+    transform: scale(1.05)
+
+.brb-footer-help
+    position: fixed
+    right: 6px
+    bottom: 7px
+    height: 47px
+    min-width: 108px
+    padding: 0 17px
+    border-radius: 25px
+    background: #e51c12
+    color: #111
     display: flex
     align-items: center
-    justify-content: flex-end
-    margin: 0px
-    border-radius: 4px 0 0 4px
-    transition: background 0.2s ease
-    position: relative
-    padding-right: 0px
-    box-sizing: border-box
-    overflow: visible
+    justify-content: center
+    gap: 8px
+    text-decoration: none
+    font-size: 15px
+    font-weight: 600
+    z-index: 1000
 
-.social-bar a i
-    width: 45px
-    height: 45px
+.brb-footer-help:hover
+    color: #111
+
+.brb-footer-help-icon
+    width: 19px
+    height: 19px
+    border: 2px solid #111
+    border-radius: 50%
     display: inline-flex
     align-items: center
     justify-content: center
-    border-radius: 0px
-    margin-left: 0
-    flex: 0 0 45px
-    font-size: 18px
+    font-size: 12px
+    font-weight: 700
 
-.social-bar a
-    .first-radius
-        border-top-left-radius: 7px
-.social-bar a
-    .last-radius
-        border-bottom-left-radius: 7px
+@media (max-width: 991.98px)
 
-.facebook i
-    background: #3b5998
-.x i
-    background: #000
-    color: #fff
-.youtube i
-    background: #ff0000
-.linkedin i
-    background: #0077b5
-.instagram i
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)
+    .brb-footer-main
+        padding: 35px 0 45px
 
-.social-bar a span
-    position: absolute
-    right: 60px
-    top: 50%
-    transform: translateY(-50%) translateX(10px)
-    background: rgba(0,0,0,0.85)
-    color: #fff
-    padding: 6px 12px
-    border-radius: 4px
-    white-space: nowrap
-    opacity: 0
-    transition: opacity 0.18s ease, transform 0.18s ease
-    pointer-events: none
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3)
+    .brb-footer-logo
+        margin-bottom: 30px
+        width: 230px
 
-.social-bar a:hover span
-    opacity: 1
-    transform: translateY(-50%) translateX(0)
-
-.social-bar a:hover i
-    filter: brightness(1.05)
-
-.cta-social-info
-    margin-bottom: -62px
-    position: relative
-    z-index: 1
-    .container
-        background: $blue
-        padding: 30px
-        border-radius: 20px
-        h3,p, i
-            color: #fff
-        i
-            width: 56px
-            height: 56px
-            display: flex
-            align-items: center
-            justify-content: center
-            background: #0004
-            border-radius: 100px
-            margin-right: 20px
-            font-size: 26px
-        .cards
-            display: flex
-            align-items: start
-            justify-content: start
-            .i-content
-                padding-right: 30px
-
-.vertical-line
-    margin-right: 10px
-    font-size: 18px
-
-.center-clms
-    display: flex !important
-    align-items: center !important
-    justify-content: center !important
-
-.tcsfooter
-    border-top: 2px solid rgb(213 213 213 / 25%)
-    background: $white
-    .tcscontainer img
-        width: 114px !important
-        margin-bottom: 0px
-        animation: spin 20s linear infinite
-        position: relative
-    .container
-        background: $white
-        p,a
-            text-decoration: none
-            color: #000 !important
-            font-weight: bold
-        a:hover
-            color: $blue !important
-        .line
-            margin-left: 15px
-        i
-            color: $blue
-            margin-right: 10px
-
-@media only screen and (max-width:768px)
-    .tcsfooter
-        .tcscontainer img
-            width: 65% !important
-            margin-bottom: 30px
-        p
-            text-align: center!important
-
-    .center-clms
-        display: flex !important
-        align-items: start !important
-        justify-content: start !important
-    .cta-social-info .container i
-        width: 40px
-        height: 40px
-        display: flex
-        align-items: center
-        justify-content: center
-        background: rgba(0, 0, 0, 0.2666666667)
-        border-radius: 100px
-        margin-right: 15px
+    .brb-footer-heading
         font-size: 18px
-    .copyright
-        display: block
-        p,a
-            font-size: 14px
-        .line-1
-            display: none
-    .justify-mb-2
-        img
-            margin-left: 15px
-    .foot-logo
-        width: 190px
 
-    .mb-ct-space
-        margin-bottom: -15px !important
-    .left-sticky
-        z-index: 9
-        img
-            width: 40px
-    .whatsapp
-        position: fixed
-        bottom: 15px
-        right: 12px
-        z-index: 212
-        text-align: right
-        img
-            width: 70%
-    .social-bar, .left-sticky
-        display: none
-        z-index: 99
-        top: 16%
-    .left-sticky
-        img
-            width: 60px
+    .brb-footer-links a
+        font-size: 14px
 
-    footer .inner 
-            padding-left: 15px !important
-    .social-bar a span
-        display: none
-    .social-bar
-        width: 46px
+    .brb-footer-popular
+        margin-top: 25px
 
-@keyframes spin
-    from
-        transform: rotate(0deg)
+@media (max-width: 767.98px)
 
-    to
-        transform: rotate(360deg)
+    .brb-footer-main
+        padding: 35px 15px
+
+    .brb-footer-brand
+        margin-bottom: 15px
+
+    .brb-footer-logo
+        width: 220px
+
+    .brb-footer-heading
+        margin-top: 10px
+
+    .brb-footer-bottom
+        padding: 18px 15px
+
+    .brb-footer-bottom .row > div
+        margin-bottom: 8px
+
+    .brb-footer-bottom .row > div:last-child
+        margin-bottom: 0
+
+    .brb-footer-bottom a
+        margin: 0 5px
+
+    .brb-footer-whatsapp
+        right: 15px
+        bottom: 65px
+        width: 47px
+        height: 47px
+        font-size: 26px
+
+    .brb-footer-help
+        right: 5px
+        bottom: 5px
+
+@media (max-width: 575.98px)
+
+    .brb-footer-main
+        padding-left: 12px
+        padding-right: 12px
+
+    .brb-footer-logo
+        width: 210px
+
+    .brb-footer-social
+        gap: 15px
+
+    .brb-footer-social a
+        font-size: 23px
+
+    .brb-footer-search-links
+        font-size: 13px
+
+    .brb-footer-disclaimer p
+        font-size: 11px
+
+    .brb-footer-bottom
+        font-size: 12px

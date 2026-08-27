@@ -27,6 +27,7 @@ Route::get('/dev', [frontendController::class, 'working']);
 Route::middleware(['safty'])->group(function () {
 Route::get('/', [frontendController::class, 'home']);
 Route::get('/home', [frontendController::class, 'home'])->name('homepage');
+Route::get('/home2', [frontendController::class, 'home2'])->name('homepage2');
 Route::get('/about', [frontendController::class, 'about'])->name('about');
 Route::get('/legal-notice', [frontendController::class, 'legalnotice'])->name('legalnotice');
 Route::get('/privacy-notice', [frontendController::class, 'privacypolicy'])->name('privacy');

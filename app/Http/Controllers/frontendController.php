@@ -41,12 +41,19 @@ class frontendController extends Controller
     else{
         return redirect("/safty");
     }
-   }
-   function home(){
+    }
+    function home(){
         $pageseo = PageSeo::where('pagename', 'Home')->get();
         $homepageseo = PageSeo::where('pagename', 'Home')->get();
         $gseo = GlobalSeo::find(1);
         return view('home', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
+    }
+
+    function home2(){
+        $pageseo = PageSeo::where('pagename', 'Home2')->get();
+        $homepageseo = PageSeo::where('pagename', 'Home2')->get();
+        $gseo = GlobalSeo::find(1);
+        return view('home-3', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
     }
 
     function blog(){

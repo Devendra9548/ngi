@@ -1,7 +1,7 @@
 <header class="topbar">
     <div class="container-fluid">
         <div class="row py-1">
-            <div class="col-6">
+            <div class="col-6 d-flex align-items-center">
                 <div class="social-info social-info-left d-flex">
                     <div class="icon-box me-3">
                         <a href="" class="d-flex align-items-center">
@@ -45,7 +45,7 @@
                         <li><a href="{{route('homepage')}}"
                                 class="{{ request()->routeIs('homepage') ? 'active' : '' }}">Home</a></li>
                         <li class="p-menu" id="pmenu"><a href="{{route('about')}}"
-                                class="menu-toggle {{ request()->routeIs('about') ? 'active' : '' }}">About Us
+                                class="menu-toggle">About Us
                                 <i id="uparrow" class="fa-solid fa-chevron-down darrow" style="font-size:12px"></i></a>
                             <div class="submenu sub-p-1" id="submenu">
                                 <ul class="m-0 p-0" style="list-style:none">
