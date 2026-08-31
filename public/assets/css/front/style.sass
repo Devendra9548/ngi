@@ -1,28 +1,61 @@
 $hcolor: #000
 $pcolor: #453d3d
-$brandcolor: #24748c
+$brandbluecolor: #01406f
+$brandgreencolor: #04a35f
+$brandlightgreencolor: #0fc85e
+$branddarkgreencolor: #318129
 $fontManrope: "Manrope", sans-serif
 $fontlato: "Lato", sans-serif
 $fontOpenSans: "Open Sans", sans-serif
 $fontPlusJakartaSans: "Plus Jakarta Sans", sans-serif
+$fontPoppins: "Poppins", sans-serif
+$fontAlexandria: "Alexandria", sans-serif
+$fontGeist: "Geist", sans-serif
+$fontInstrument: "Instrument Serif", serif
+$brandOrange: rgb(255, 159, 28)
+$brandGreen: rgb(117, 172, 57)
+$brandyellow: #ffe4c2
 
-h1,h2,h3,h4,h5,h6
-    font-family: $fontManrope
-    color: $hcolor
-    
-p,ul,li,span,a,i,strong,div,body
-    font-family: $fontlato
-    color: $pcolor !important
+h2
+    color: $brandGreen
+    font-family: $fontGeist
+    font-size: 52px
+    font-weight: 700
+    line-height: 1
+    span
+        color: #000
+        font-size: 46px
+        font-weight: 500
+.subheading
+    font-style: italic
+    font-size: 52px
+    color: #000
+    font-weight: 500
+    font-family: $fontInstrument !important
 
+.ct-tooltip
+    display: inline-block
+    background: $brandOrange
+    color: #fff !important
+    padding: 6px 15px
+    border-radius: 100px
+    font-size: 15px
+    font-family: $fontAlexandria !important
+    margin-bottom: 15px !important
 
 body
     background: #fff
+
 a
-    color: $pcolor
     text-decoration: none !important
 p
-    margin-bottom: 0px !important
-    font-size: 1rem !important
+    margin-bottom: 0px
+    font-size: 1.2rem
+    font-family: $fontlato
+    font-weight: 400
+    color: #333
+    strong
+        color: #000
 
 .prev-arrow,.next-arrow
     position: absolute
@@ -45,7 +78,7 @@ p
     border-color: #fff!important
 
 .globalbtn
-    background: $brandcolor
+    background: $brandGreen
     font-family: $fontlato
     font-weight: 700
     color: #fff
@@ -56,6 +89,9 @@ p
     z-index: 2
     &:hover
         background: #000
+
+section
+    padding: 80px 0px
 
 @media only screen and (max-width:768px)
     .globalbtn

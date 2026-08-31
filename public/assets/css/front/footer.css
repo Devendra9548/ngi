@@ -137,18 +137,17 @@
 }
 
 .brb-footer-bottom {
-  background: #fff;
-  color: #777;
-  padding: 16px 0;
-  font-size: 14px;
+  padding: 6px 0;
+  font-size: 13px;
+  background: #303030 !important;
 }
 
 .brb-footer-bottom span {
-  color: #777;
+  color: #fff !important;
 }
 
 .brb-footer-bottom a {
-  color: #777;
+  color: #fff !important;
   text-decoration: none;
   margin-left: 10px;
 }

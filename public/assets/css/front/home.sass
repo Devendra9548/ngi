@@ -8,4 +8,119 @@ $fontManrope: "Manrope", sans-serif
 $fontlato: "Lato", sans-serif
 $fontOpenSans: "Open Sans", sans-serif
 $fontPlusJakartaSans: "Plus Jakarta Sans", sans-serif
+$fontPoppins: "Poppins", sans-serif
+$fontAlexandria: "Alexandria", sans-serif
+$fontGeist: "Geist", sans-serif
+$fontInstrument: "Instrument Serif", serif
+$brandOrange: rgb(255, 159, 28)
+$brandGreen: rgb(117, 172, 57)
+$brandyellow: #ffe4c2
 
+.first-section
+    p
+        width: 45% !important
+        margin: 0px auto !important
+        font-size: 22px !important
+    .imgs-row
+        text-align: center
+        img
+            width: 85%
+            margin: 20px auto
+            border-radius: 100%
+            border: 8px solid #afafaf
+            cursor: pointer
+            &:hover
+                border-color: $brandGreen !important
+        p
+            font-size: 20px !important
+            text-align: center !important
+            line-height: 1 !important
+            width: 80%!important
+
+.second-section
+    background: #E6F3FF !important
+    h2
+        margin-bottom: 12px
+    .mission-vision-clm
+        border-left: 2px solid $brandGreen
+        padding-left: 20px
+        margin-left: 2px
+        margin-top: 25px
+        padding-right: 30px
+        h3
+            color: $brandGreen !important
+            margin-bottom: 12px
+    .globalbtn
+        margin-top: 35px !important
+
+#india-map
+    width: 100%
+    max-width: 650px
+    margin: 30px auto
+    position: relative
+
+#india-map svg
+    width: 100%
+    height: auto
+    display: block
+
+#india-map .state
+    fill: #ffffff
+    stroke: #909090
+    stroke-width: 1.2
+    transition: fill 0.2s ease
+
+#india-map .working-state
+    fill: #909090
+    stroke: #ffffff
+    stroke-width: 1.2
+    cursor: pointer
+
+#india-map .working-state:hover
+    fill: #28a745
+
+#state-tooltip
+    position: fixed
+    display: none
+    background: #222
+    color: #fff
+    padding: 7px 12px
+    border-radius: 5px
+    font-size: 13px
+    font-family: Arial, sans-serif
+    pointer-events: none
+    z-index: 9999
+    white-space: nowrap
+
+.third-section
+    h2
+        color: $brandbluecolor !important
+
+.fourth-section
+    .main-row
+        display: flex
+        justify-content: center
+        align-items: center
+        .left-img
+            width: 50% !important
+            img
+                height: 758px
+                object-fit: cover
+        .right-content
+            background-image: url(/assets/imgs/1/bg-pink-line.png)
+            background-size: cover
+            background-position: top center
+            background-repeat: no-repeat
+            width: 50%
+            padding: 50px
+            height: 758px
+            h2
+                color: $brandOrange
+                span
+                    font-style: italic
+                    color: $brandOrange
+                    font-weight: bold
+        .inner-content
+            width: 65%
+        .counter
+            color: $brandGreen !important
