@@ -2,7 +2,6 @@
 @section('customcss')
 <link rel="stylesheet" href="/assets/css/front/home.css">
 <style>
-
 </style>
 @endsection
 @section('body')
@@ -78,7 +77,7 @@
         <div class="row">
             <div class="col-12 col-md-6 d-flex align-items-center">
                 <div class="content">
-                    <h2 class="mb-4">NextGen Impact's Programmes Across India</h2>
+                    <h2 class="mb-4">NextGen Impact's <span>Nationwide Programmes</span></h2>
                     <p class="mb-3">NextGen Impact's programmes are creating meaningful change across India by
                         empowering communities, supporting sustainable development, and addressing local challenges
                         through impactful initiatives designed for long-term progress and inclusion.</p>
@@ -92,6 +91,24 @@
                 <div id="india-map"></div>
                 <div id="state-tooltip"></div>
 
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="story-section">
+    <div class="container">
+        <div class="row">
+            <div class="about-clm text-center">
+                <div class="title ct-tooltip">About Us</div>
+                <h2>Millions of Children <span>Risk
+                        Being</span></h2>
+                <h3 class="subheading">Left Behind</h3>
+                <p>Without urgent action today, <strong>an
+                        entire
+                        generation of India's most vulnerable children</strong> will
+                    grow up without the
+                    education, skills, or confidence to shape their own futures.</p>
             </div>
         </div>
     </div>
@@ -122,6 +139,173 @@
                 <div class="col-6 col-md-6 mb-5">
                     <h2 class="counter" data-target="950">0K+</h2>
                     <p>Children empowered every year</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-work-section">
+    <div class="container">
+        <div class="about-clm text-center">
+            <div class="title ct-tooltip">Our Work</div>
+            <h2>Our Fields of <span>Work</span></h2>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col-6 col-md-2">
+                <img src="/assets/imgs/works/1.webp" alt="first" width="60%">
+                <p class="first">EDUCATION </p>
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="/assets/imgs/works/2.webp" alt="second" width="60%">
+                <p class="second">HEALTH </p>
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="/assets/imgs/works/3.webp" alt="third" width="60%">
+                <p class="third">RESILIENCE </p>
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="/assets/imgs/works/4.webp" alt="fourth" width="60%">
+                <p class="fourth">LIVELIHOOD </p>
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="/assets/imgs/works/5.webp" alt="fifth" width="60%">
+                <p class="fifth">PROTECTION </p>
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="/assets/imgs/works/6.webp" alt="sixth" width="60%">
+                <p class="sixth">HUMANITARIAN </p>
+            </div>
+        </div>
+    </div>
+    <div class="video-clm text-center mt-5">
+        <video autoplay muted loop playsinline width="56%">
+            <source src="/assets/videos/1.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+<section class="fifth-section">
+    <div class="container">
+        <h2 class="text-center mb-4"><i>"Young people are often told they are the future. At NextGen Impact, they are
+                already shaping it."</i></h2>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="img-box">
+                    <img src="/assets/imgs/1/10.png" alt="2" width="100%">
+                    <h3>Be the Reason <span>Someone Smiles.</span></h3>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="right-img-box">
+                    <img src="/assets/imgs/1/11.avif" alt="11" width="48%" class="me-3">
+                    <img src="/assets/imgs/1/12.avif" alt="12" width="48%">
+                </div>
+                <div class="content-box">
+                    <h3 class="first">Join us in the journey to empower communities and change lives.</h3>
+                    <h3 class="number">80,000+</h3>
+                    <h3 class="last"><strong>Youth and Children reached </strong></h3>
+                    <a href="#" class="globalbtn">Donate Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="br-faq-section">
+    <div class="br-faq-wrapper">
+        <div class="br-faq-visual">
+            <div class="br-question-mark">?</div>
+        </div>
+        <div class="br-faq-content">
+            <h2 class="br-faq-title">FAQs</h2>
+            <div class="br-faq-list">
+                <div class="br-faq-item">
+                    <button class="br-faq-question">
+                        <span class="br-faq-icon">+</span>
+                        <span>WHAT IS THE PROCESS TO AVAIL TAX EXEMPTION CERTIFICATE?</span>
+                    </button>
+                    <div class="br-faq-answer">
+                        <p>
+                            After making your donation, the required donation receipt
+                            and tax exemption documentation can be provided as per
+                            the applicable process.
+                        </p>
+                    </div>
+                </div>
+                <div class="br-faq-item">
+                    <button class="br-faq-question">
+                        <span class="br-faq-icon">+</span>
+                        <span>HOW CAN I DONATE ONLINE?</span>
+                    </button>
+
+                    <div class="br-faq-answer">
+                        <p>
+                            You can donate online through the official donation
+                            platform using the available payment options.
+                        </p>
+                    </div>
+                </div>
+                <div class="br-faq-item">
+                    <button class="br-faq-question">
+                        <span class="br-faq-icon">+</span>
+                        <span>IS THERE ANY ADVANTAGE TO DONATING ONLINE?</span>
+                    </button>
+                    <div class="br-faq-answer">
+                        <p>
+                            Online donations are quick, convenient and provide
+                            an easy way to receive confirmation of your contribution.
+                        </p>
+                    </div>
+                </div>
+                <div class="br-faq-item">
+                    <button class="br-faq-question">
+                        <span class="br-faq-icon">+</span>
+                        <span>IS IT SAFE TO GIVE MY CREDIT CARD DETAILS ONLINE?</span>
+                    </button>
+                    <div class="br-faq-answer">
+                        <p>
+                            Payments should always be made through the organization's
+                            official and secure payment gateway. Avoid sharing card
+                            details through email or other unsecured channels.
+                        </p>
+                    </div>
+                </div>
+                <div class="br-faq-item">
+                    <button class="br-faq-question">
+                        <span class="br-faq-icon">+</span>
+                        <span>HOW DO I CONTACT YOU REGARDING MY DONATION?</span>
+                    </button>
+                    <div class="br-faq-answer">
+                        <p>
+                            You can contact the organization's support or donation
+                            team through the contact details provided on its official website.
+                        </p>
+                    </div>
+                </div>
+                <div class="br-faq-item">
+                    <button class="br-faq-question">
+                        <span class="br-faq-icon">+</span>
+                        <span>IS IT COMPLICATED TO MAKE A DONATION ONLINE?</span>
+                    </button>
+                    <div class="br-faq-answer">
+                        <p>
+                            No. The online donation process is designed to be simple
+                            and can generally be completed in just a few steps.
+                        </p>
+                    </div>
+                </div>
+                <div class="br-faq-item">
+                    <button class="br-faq-question">
+                        <span class="br-faq-icon">+</span>
+                        <span>HOW SAFE IS MY PERSONAL INFORMATION WITH BAL RAKSHA BHARAT?</span>
+                    </button>
+                    <div class="br-faq-answer">
+                        <p>
+                            Personal information should be handled according to the
+                            organization's privacy policy and applicable data protection laws.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -433,13 +617,14 @@ function getStateName(d) {
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     const counters = document.querySelectorAll(".counter");
     counters.forEach(counter => {
         const target = parseInt(counter.getAttribute("data-target"));
         let current = 0;
         const duration = 2000; // 2 seconds
         const increment = target / (duration / 16);
+
         function updateCounter() {
             current += increment;
             if (current < target) {
@@ -452,6 +637,28 @@ document.addEventListener("DOMContentLoaded", function () {
         updateCounter();
     });
 
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const faqItems = document.querySelectorAll(".br-faq-item");
+    faqItems.forEach(function(item) {
+        const question = item.querySelector(".br-faq-question");
+        const icon = item.querySelector(".br-faq-icon");
+        question.addEventListener("click", function() {
+            const isActive = item.classList.contains("active");
+            faqItems.forEach(function(otherItem) {
+                otherItem.classList.remove("active");
+                const otherIcon =
+                    otherItem.querySelector(".br-faq-icon");
+                otherIcon.textContent = "+";
+            });
+            if (!isActive) {
+                item.classList.add("active");
+                icon.textContent = "−";
+            }
+        });
+    });
 });
 </script>
 @endsection

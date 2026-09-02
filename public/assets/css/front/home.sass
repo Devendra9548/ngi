@@ -92,11 +92,10 @@ $brandyellow: #ffe4c2
     z-index: 9999
     white-space: nowrap
 
-.third-section
-    h2
-        color: $brandbluecolor !important
+   
 
 .fourth-section
+    padding: 0px 0px !important
     .main-row
         display: flex
         justify-content: center
@@ -114,6 +113,11 @@ $brandyellow: #ffe4c2
             width: 50%
             padding: 50px
             height: 758px
+            align-items: start
+            display: flex
+            justify-content: center
+            flex-direction: column
+
             h2
                 color: $brandOrange
                 span
@@ -124,3 +128,243 @@ $brandyellow: #ffe4c2
             width: 65%
         .counter
             color: $brandGreen !important
+
+.our-work-section
+    p
+        text-align: center
+        font-family: $fontPlusJakartaSans !important
+        font-weight: bold
+        margin-top: 12px
+        font-size: 20px
+    .first
+        color: #17b0bc
+    .second
+        color: #f7b1bd
+    .third
+        color: #efb645
+    .fourth
+        color: #67cb94
+    .fifth
+        color: #dc723d
+    .sixth
+        color: #ab90c5
+
+.fifth-section
+    padding-top: 0px
+    h2
+        margin-left: auto !important
+        margin-right: auto !important
+        line-height: 1.2
+    img
+        border-radius: 20px
+    .right-img-box
+        img
+            height: 250px
+            object-fit: cover
+            object-position: center
+    .content-box
+        background: $brandOrange !important
+        border-radius: 20px
+        padding: 30px
+        margin-top: 25px
+        h3
+            color: #fff !important
+        a
+            color: $brandOrange !important
+            width: 100%
+            border-radius: 25px
+            text-align: center
+            margin-top: 12px
+            background: #fff !important
+            font-size: 22px
+        .first
+            width: 80%
+            font-size: 30px
+        h3
+            strong
+                font-size: 24px
+        .number
+            font-size: 52px
+            margin: 15px 0px
+    .img-box
+        height: 100%
+        border-radius: 20px
+        img
+            height: 78%
+            object-fit: cover
+            border-bottom-left-radius: 0px
+            border-bottom-right-radius: 0px
+        h3
+            background-image: url(/assets/imgs/1/10-layer.png)
+            background-size: cover
+            background-position: top
+            background-repeat: no-repeat
+            padding: 30px
+            color: #fff
+            height: 22%
+            border-bottom-left-radius: 20px
+            border-bottom-right-radius: 20px
+            font-size: 32px
+            font-weight: bold
+            font-style: italic
+            span
+                display: block
+                font-size: 32px
+                font-weight: bold
+                font-style: italic
+
+.br-faq-section
+    position: relative
+    width: 100%
+    padding-top: 40px
+    padding-bottom: 0px
+    overflow: hidden
+    background-color: #fff
+    background-image: radial-gradient(#eeeeee 1.2px, transparent 1.2px)
+    background-size: 8px 8px
+    border-bottom: 5px solid $brandGreen
+
+.br-faq-wrapper
+    max-width: 1250px
+    margin: 0 auto
+    display: grid
+    grid-template-columns: 42% 58%
+    align-items: center
+
+.br-faq-visual
+    position: relative
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    overflow: hidden
+
+.br-question-mark
+    font-family: $fontGeist
+    font-size: 600px
+    line-height: 0.75
+    font-weight: 700
+    color: transparent
+    -webkit-text-stroke: 8px $brandGreen
+    transform: translateY(30px)
+    user-select: none
+    position: relative
+    bottom: -10px
+
+.br-faq-content
+    padding-left: 25px
+
+.br-faq-title
+    font-family: $fontGeist
+    font-size: 52px
+    font-weight: 700
+    color: $brandGreen
+    margin-bottom: 20px
+
+.br-faq-item
+    border: 0
+    margin: 0
+    margin-bottom: 10px
+
+.br-faq-list
+    padding-bottom: 50px
+
+.br-faq-question
+    width: 100%
+    display: flex
+    align-items: center
+    gap: 12px
+    padding: 9px 0
+    border: 0
+    background: transparent
+    text-align: left
+    cursor: pointer
+    font-family: $fontlato
+    font-size: 16px
+    font-weight: bold
+    line-height: 1.5
+    color: #050505
+    transition: color 0.25s ease
+
+.br-faq-question:hover
+    color: $brandGreen
+
+.br-faq-icon
+    flex: 0 0 10px
+    width: 10px
+    height: 10px
+    display: flex
+    align-items: center
+    justify-content: center
+    color: $brandGreen
+    font-size: 19px
+    font-weight: 400
+    line-height: 10px
+    transition: transform 0.3s ease
+
+.br-faq-answer
+    max-height: 0
+    overflow: hidden
+    padding-left: 22px
+    transition: max-height 0.4s ease, padding 0.3s ease
+
+.br-faq-answer p
+    margin: 0
+    padding: 0 0 12px
+    font-family: $fontlato
+    font-size: 16px
+    color: #000
+
+.br-faq-item.active .br-faq-answer
+    max-height: 200px
+
+.br-faq-item.active .br-faq-icon
+    transform: rotate(180deg)
+
+.br-faq-item.active .br-faq-question
+    color: $brandGreen
+
+@media (max-width: 991px)
+
+    .br-faq-section
+        padding: 60px 30px
+
+    .br-faq-wrapper
+        grid-template-columns: 30% 70%
+
+    .br-question-mark
+        font-size: 250px
+        -webkit-text-stroke: 6px $brandGreen
+
+    .br-faq-content
+        padding-left: 20px
+
+@media (max-width: 767px)
+
+    .br-faq-section
+        padding: 50px 20px
+
+    .br-faq-wrapper
+        display: block
+
+    .br-faq-visual
+        height: 150px
+        margin-bottom: 25px
+
+    .br-question-mark
+        font-size: 180px
+        transform: translateY(10px)
+
+    .br-faq-content
+        padding-left: 0
+
+    .br-faq-title
+        font-size: 22px
+        margin-bottom: 20px
+
+    .br-faq-question
+        font-size: 11px
+        padding: 11px 0
+
+    .br-faq-answer
+        padding-left: 20px
