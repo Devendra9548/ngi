@@ -89,6 +89,36 @@
   white-space: nowrap;
 }
 
+.story-section {
+  padding-top: 0px !important;
+}
+.story-section .story-box img {
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.story-section .story-box h3 {
+  font-size: 22px !important;
+  text-align: left;
+  color: rgb(117, 172, 57) !important;
+  font-family: "Geist", sans-serif !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.story-section .story-box p {
+  font-family: "Lato", sans-serif !important;
+  font-size: 16px !important;
+  text-align: left !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
 .fourth-section {
   padding: 0px 0px !important;
 }

@@ -100,15 +100,60 @@
     <div class="container">
         <div class="row">
             <div class="about-clm text-center">
-                <div class="title ct-tooltip">About Us</div>
-                <h2>Millions of Children <span>Risk
-                        Being</span></h2>
+                <div class="title ct-tooltip">Stories</div>
+                <h2>Success <span>Stories</span></h2>
                 <h3 class="subheading">Left Behind</h3>
-                <p>Without urgent action today, <strong>an
-                        entire
-                        generation of India's most vulnerable children</strong> will
-                    grow up without the
-                    education, skills, or confidence to shape their own futures.</p>
+                <p>NextGen Impact's interventions have empowered countless marginalised children to transform their
+                    own lives. From the slums of Delhi to remote rural reaches, we have witnessed stories of triumph in
+                    the face of child marriage, poverty, health struggles and more. The organisation's investment in
+                    instilling skills, mindsets, and values is fuelling journeys to education, financial independence
+                    and advocacy roles within communities. Be it defeating poverty or combating chronic diseases,
+                    success stories speak of incredible resilience and change catalysed in the most vulnerable
+                    communities. These tales of determination showcase how with the right support, the most vulnerable
+                    can build futures of security, self-reliance, and dignity. NextGen Impact continues to kindle
+                    their indomitable spirit, seeding systemic transformation - one child at a time.
+                </p>
+                <div class="row mt-4">
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
+                            <h3>Ensuring Hygiene & Dignity Amid Flood</h3>
+                            <p>Twelve-year-old Ruma Kurmi is dealing with losses far beyond her years. Two months ago,
+                                she lost her mother after a prolonged illness. Just as the family was beginning to cope
+                                with the loss of</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
+                            <h3>Hope Finds Its Way…even Amidst The Hardest Of Times</h3>
+                            <p>In the midst of severe flooding in #Assam, a quiet but powerful act of resilience took
+                                place on the 80th Independence Day, at Bamunpukhuri, Nazira, Sivasagar—we inaugurated
+                                the Child Friendly Space</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/22.png" alt="20" width="100%">
+                            <h3>Ravinder’s Courageous Journey: A Voice Against Substance Abuse</h3>
+                            <p>“Change begins the moment you decide to fight your own battles — not with others, but
+                                within yourself.” – Ravinder In the quiet lanes of Rampur village, Shravasti district,
+                                Uttar Pradesh</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/23.png" alt="20" width="100%">
+                            <h3>Irtiqa’s Journey Back To School: Rebuilding Dreams Through Education</h3>
+                            <p>When support arrives at the right time, it can turn hesitation into hope and bring a
+                                child back to where they belong — In the remote village of Pethmakhama in Budgam
+                                district, Kashmir</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="readmore text-center mt-5">
+                    <a href="#" class="globalbtn">Read More Stories</a>
+                </div>
             </div>
         </div>
     </div>
@@ -298,7 +343,7 @@
                 <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
-                        <span>HOW SAFE IS MY PERSONAL INFORMATION WITH BAL RAKSHA BHARAT?</span>
+                        <span>HOW SAFE IS MY PERSONAL INFORMATION WITH NextGen Impact?</span>
                     </button>
                     <div class="br-faq-answer">
                         <p>
