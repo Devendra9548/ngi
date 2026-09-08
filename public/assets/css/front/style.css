@@ -51,19 +51,30 @@ p strong {
 
 .prev-arrow, .next-arrow {
   position: absolute;
-  top: 50%;
   z-index: 999;
   font-size: 21px;
   background: transparent;
-  color: #fff;
+  color: #000000;
   border: 2px solid #fff;
   left: -1px;
   padding: 10px 20px;
 }
 
+.slick-next, .slick-prev {
+  bottom: -70px;
+}
+
 .next-arrow {
   right: 0px;
   left: auto;
+}
+
+.slick-dots {
+  bottom: -55px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 14px !important;
 }
 
 .prev-arrow:hover, .next-arrow:hover {
@@ -85,6 +96,14 @@ p strong {
 }
 .globalbtn:hover {
   background: #000;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-family: slick;
+  font-size: 26px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #000 !important;
 }
 
 section {

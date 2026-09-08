@@ -1,6 +1,10 @@
 @extends('templates.front.main')
 @section('customcss')
 <link rel="stylesheet" href="/assets/css/front/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
 <style>
 </style>
 @endsection
@@ -50,7 +54,7 @@
                 <img src="/assets/imgs/1/6.png" alt="6" width="100%">
             </div>
             <div class="col-12 col-md-7">
-                <h2>NextGen Impact Foundation</h2>
+                <h2>NextGen Impact <span>Foundation</span></h2>
                 <p>NextGen Impact Foundation is a not-for-profit organisation headquartered in Bengaluru, India. The
                     Foundation strives to eliminate classroom hunger by implementing the PM POSHAN (Mid-Day Meal)
                     Programme. It provides nutritious meals to children studying in government schools and
@@ -100,19 +104,17 @@
     <div class="container">
         <div class="row">
             <div class="about-clm text-center">
-                <div class="title ct-tooltip">Stories</div>
+                <!-- <div class="title ct-tooltip">Stories</div> -->
                 <h2>Success <span>Stories</span></h2>
-                <h3 class="subheading">Left Behind</h3>
-                <p>NextGen Impact's interventions have empowered countless marginalised children to transform their
+                <!-- <h3 class="subheading">Left Behind</h3> -->
+                <!-- <p>NextGen Impact's interventions have empowered countless marginalised children to transform their
                     own lives. From the slums of Delhi to remote rural reaches, we have witnessed stories of triumph in
                     the face of child marriage, poverty, health struggles and more. The organisation's investment in
                     instilling skills, mindsets, and values is fuelling journeys to education, financial independence
                     and advocacy roles within communities. Be it defeating poverty or combating chronic diseases,
                     success stories speak of incredible resilience and change catalysed in the most vulnerable
-                    communities. These tales of determination showcase how with the right support, the most vulnerable
-                    can build futures of security, self-reliance, and dignity. NextGen Impact continues to kindle
-                    their indomitable spirit, seeding systemic transformation - one child at a time.
-                </p>
+                    communities.
+                </p> -->
                 <div class="row mt-4">
                     <div class="col-12 col-md-3">
                         <div class="story-box">
@@ -257,6 +259,185 @@
     </div>
 </section>
 
+<section class="clinic-testimonial-section">
+
+    <!-- Background Title -->
+    <div class="testimonial-bg-title">
+        Testimonials
+    </div>
+
+    <!-- Left Images -->
+    <div class="testimonial-images testimonial-left">
+
+        <div class="test-img img-1">
+            <img src="images/testimonial-1.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-2">
+            <img src="images/testimonial-2.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-3">
+            <img src="images/testimonial-3.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-4">
+            <img src="images/testimonial-4.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-5">
+            <img src="images/testimonial-5.jpg" alt="Patient">
+        </div>
+
+    </div>
+
+
+    <!-- Right Images -->
+    <div class="testimonial-images testimonial-right">
+
+        <div class="test-img img-6">
+            <img src="images/testimonial-6.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-7">
+            <img src="images/testimonial-7.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-8">
+            <img src="images/testimonial-8.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-9">
+            <img src="images/testimonial-9.jpg" alt="Patient">
+        </div>
+
+        <div class="test-img img-10">
+            <img src="images/testimonial-10.jpg" alt="Patient">
+        </div>
+
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-9">
+                <div class="testimonial-content">
+                    <div class="testimonial-heading">
+                        <h2>What Donor <span>Says</span></h2>
+                    </div>
+                    <div class="testimonial-slider">
+
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">
+                                I truly appreciate Bal Raksha Bharat for the incredible work they do in standing up for
+                                those in need. It’s heartening to see how small acts of kindness can bring real change.
+                                When each of us contributes in our own way, we help build a more caring and united
+                                world.
+                            </p>
+                            <div class="testimonial-author">
+                                <span>–</span>
+                                Pradhuman Gangwar,
+                                <strong>Gujarat</strong>
+                            </div>
+                        </div>
+
+
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">
+                                It’s a simple contribution from my end, but it brings me immense happiness and
+                                fulfillment. I truly admire the heartfelt efforts of your organization in uplifting
+                                children in need. Your selfless service is inspiring, and I hope more people come
+                                forward to support this cause.
+                            </p>
+                            <div class="testimonial-author">
+                                <span>–</span>
+                                Rahul Sharma,
+                                <strong>Delhi</strong>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">
+                                I truly appreciate Bal Raksha Bharat for the incredible work they do in standing up for
+                                those in need. It’s heartening to see how small acts of kindness can bring real change.
+                                When each of us contributes in our own way, we help build a more caring and united
+                                world.
+                            </p>
+                            <div class="testimonial-author">
+                                <span>–</span>
+                                Ankit Joshi,
+                                <strong>Uttarakhand</strong>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="story-section">
+    <div class="container">
+        <div class="row">
+            <div class="about-clm text-center">
+                <!-- <div class="title ct-tooltip">News</div> -->
+                <h2>Our <span>Blogs</span></h2>
+                <!-- <h3 class="subheading">Left Behind</h3>
+                <p>Donors across the country share our commitment to providing every child with a safe and nurturing
+                    environment. Here, you can read inspiring words, written by people like you, about how they value
+                    investing in underprivileged children and showing them a better and brighter future. Through their
+                    words, you will discover that every rupee and every person matters in our common journey towards a
+                    better tomorrow.
+                </p> -->
+                <div class="row mt-4">
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
+                            <h3>Ensuring Hygiene & Dignity Amid Flood</h3>
+                            <p>Twelve-year-old Ruma Kurmi is dealing with losses far beyond her years. Two months ago,
+                                she lost her mother after a prolonged illness. Just as the family was beginning to cope
+                                with the loss of</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
+                            <h3>Hope Finds Its Way…even Amidst The Hardest Of Times</h3>
+                            <p>In the midst of severe flooding in #Assam, a quiet but powerful act of resilience took
+                                place on the 80th Independence Day, at Bamunpukhuri, Nazira, Sivasagar—we inaugurated
+                                the Child Friendly Space</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/22.png" alt="20" width="100%">
+                            <h3>Ravinder’s Courageous Journey: A Voice Against Substance Abuse</h3>
+                            <p>“Change begins the moment you decide to fight your own battles — not with others, but
+                                within yourself.” – Ravinder In the quiet lanes of Rampur village, Shravasti district,
+                                Uttar Pradesh</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="story-box">
+                            <img src="/assets/imgs/1/23.png" alt="20" width="100%">
+                            <h3>Irtiqa’s Journey Back To School: Rebuilding Dreams Through Education</h3>
+                            <p>When support arrives at the right time, it can turn hesitation into hope and bring a
+                                child back to where they belong — In the remote village of Pethmakhama in Budgam
+                                district, Kashmir</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="readmore text-center mt-5">
+                    <a href="#" class="globalbtn">Read More Stories</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="br-faq-section">
     <div class="br-faq-wrapper">
         <div class="br-faq-visual">
@@ -360,6 +541,8 @@
 @endsection
 @section('customjs')
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
 const workingStates = [
@@ -703,6 +886,24 @@ document.addEventListener("DOMContentLoaded", function() {
                 icon.textContent = "−";
             }
         });
+    });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('.testimonial-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 700,
+        arrows: false,
+        dots: true,
+        adaptiveHeight: true,
+        pauseOnHover: true,
+        swipe: true
     });
 });
 </script>
