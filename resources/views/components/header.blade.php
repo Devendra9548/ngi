@@ -59,7 +59,7 @@
                         <li><a href="javascript:void(0)">Our Solution</a></li>
                         <li><a href="javascript:void(0)">Impact</a></li>
                         <li><a href="javascript:void(0)">Gallery</a></li>
-                        <li><a href="javascript:void(0)">Blogs</a></li>
+                        <li><a href="">Blogs</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                         <li><a href="javascript:void(0)" class="globalbtn">Donate Now <i class="fa-solid fa-angles-right"></i></a></li>
                     </ul>

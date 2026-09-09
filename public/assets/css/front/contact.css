@@ -44,14 +44,19 @@
   color: rgb(117, 172, 57);
 }
 
-.first-section h2 {
+h2 {
   color: rgb(255, 159, 28) !important;
-  margin-bottom: 20px;
+  margin-bottom: 25px !important;
 }
-.first-section h2 span {
+h2 span {
   color: #333 !important;
   font-weight: 600;
 }
+
+.left-clm {
+  padding-right: 30px !important;
+}
+
 .first-section .left-clm img {
   height: 260px;
   -o-object-fit: cover;
@@ -89,13 +94,14 @@
   margin-top: 35px;
   padding: 16px;
 }
-.first-section .right-clm .right-inner-clm {
+
+.right-inner-clm {
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1333333333);
   border-radius: 12px;
   padding: 25px;
   height: 100%;
 }
-.first-section .right-clm .right-inner-clm img {
+.right-inner-clm img {
   height: 428px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -103,17 +109,112 @@
      object-position: center;
   border-radius: 20px;
 }
-.first-section .right-clm .right-inner-clm p {
+.right-inner-clm p {
   font-family: "Instrument Serif", serif !important;
-  font-style: italic;
-  font-size: 52px;
+  font-style: italic !important;
+  font-size: 43px !important;
   line-height: 1.2 !important;
 }
-.first-section .right-clm .right-inner-clm .globalbtn {
+.right-inner-clm .globalbtn {
   margin-top: 30px;
   background: linear-gradient(135deg, #ff9f1c 0%, #ff9f1c 45%, #ff9f1c 100%) !important;
 }
-.first-section .right-clm .right-inner-clm .globalbtn i {
+.right-inner-clm .globalbtn i {
+  padding: 5px;
+  width: 22px;
+  height: 22px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  left: 10px !important;
+  top: 0px !important;
+  background: #fff !important;
+  color: #000 !important;
+  border-radius: 100%;
+}
+
+.ctform {
+  border: 2px solid rgb(255, 159, 28) !important;
+  padding: 30px !important;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.13) !important;
+  border: 0px !important;
+  height: 100% !important;
+  border-radius: 12px !important;
+}
+
+.ctform input, .ctform select, .ctform textarea, .ctform canvas {
+  padding: 8px 12px;
+  border: 1px solid #555 !important;
+  border-radius: 10px;
+  color: #000 !important;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+#contactform .globalbtn {
+  margin-top: 15px !important;
+  background: linear-gradient(135deg, #ff9f1c 0%, #ff9f1c 45%, #ff9f1c 100%) !important;
+  color: #fff !important;
+  width: auto;
+  padding: 10px 30px !important;
+  font-size: 18px !important;
+  letter-spacing: 1px;
+  border: 0px !important;
+}
+#contactform .globalbtn i {
+  padding: 5px;
+  width: 22px;
+  height: 22px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  left: 10px !important;
+  top: 0px !important;
+  background: #fff !important;
+  color: #000 !important;
+  border-radius: 100%;
+}
+
+.cta-section {
+  background-color: rgb(249, 234, 216) !important;
+}
+.cta-section h2 {
+  color: #000 !important;
+}
+.cta-section h2 span {
+  font-family: "Instrument Serif", serif !important;
+  font-weight: 500;
+  font-style: italic;
+  color: #000 !important;
+}
+.cta-section .heading {
+  font-size: 26px !important;
+  font-weight: 600;
+  margin-bottom: 5px !important;
+}
+.cta-section .address {
+  margin-bottom: 25px;
+  color: #555 !important;
+  font-size: 20px !important;
+  font-style: italic;
+  width: 38%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-section .globalbtn {
+  margin-top: 15px !important;
+  background: linear-gradient(135deg, #ff9f1c 0%, #ff9f1c 45%, #ff9f1c 100%) !important;
+  color: #fff !important;
+  width: auto;
+  padding: 10px 30px !important;
+  font-size: 18px !important;
+  letter-spacing: 1px;
+  border: 0px !important;
+}
+.cta-section .globalbtn i {
   padding: 5px;
   width: 22px;
   height: 22px;

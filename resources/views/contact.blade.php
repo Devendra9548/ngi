@@ -67,117 +67,17 @@
         </div>
     </div>
 </section>
-<section class="contact-us-section py-5">
-    <div class="container py-5">
+<section class="contact-us-section pt-0">
+    <div class="container-fluid py-5">
         <div class="row">
-            <div class="col-12 col-md-6 pe-md-5">
-                <div class="contact-infos">
-                    <h2>Contact Information</h2>
-
-                    <div class="ds-contact-info mt-4">
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <!-- Phone Icon -->
-                                <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
-                                    style="width: 30px; height: auto; margin-top: 0px;margin-bottom:10px" />
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="tel:+919999787894" target="_blank"
-                                    class="size-21 centers-name-list">{{$gseo->whatsapp}}</a>
-                            </div>
-                        </div>
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 10px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
-                                    style="width: 30px;height: auto;margin-top: 0px;border-radius: 0px;margin-bottom:10px" />
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="mailto:semzoglobal@gmail.com" class="size-21 centers-name-list" title="">
-                                    semzoglobal@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <img src="https://flagcdn.com/w40/in.png"
-                                    style="width: 30px;height: auto;border-radius: 0px; margin-top: 6px;" />
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="javascript:void(0)"
-                                    class="size-21 centers-name-list address-here">{{$gseo->address1}}</a>
-                            </div>
-                        </div>
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <img src="https://flagcdn.com/w40/ae.png"
-                                    style="width: 30px;height: 20px;border-radius: 0px; margin-top: 6px;" />
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="javascript:void(0)"
-                                    class="size-21 centers-name-list address-here">{{$gseo->address2}}</a>
-                            </div>
-                        </div>
-
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <i class="fa-brands fa-square-facebook"></i>
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="https://www.facebook.com/semzoglobal/" target="_blank"
-                                    class="size-21 centers-name-list">Facebook.com/semzoglobal</a>
-                            </div>
-                        </div>
-
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <i class="fa-brands fa-square-x-twitter"></i>
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="https://x.com/Semzoglobal" target="_blank"
-                                    class="size-21 centers-name-list">X.com/semzoglobal</a>
-                            </div>
-                        </div>
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <i class="fa-brands fa-youtube"></i>
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="http://www.youtube.com/@semzoglobal" target="_blank"
-                                    class="size-21 centers-name-list">Youtube.com/@semzoglobal</a>
-                            </div>
-                        </div>
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="https://www.linkedin.com/company/semzoglobal/" target="_blank"
-                                    class="size-21 centers-name-list">Linkedin.com/company/semzoglobal</a>
-                            </div>
-                        </div>
-
-                        <div class="icon-main-row" style="display: flex; padding-top: 20px;">
-                            <div class="icon-box" style="width: 10%;">
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
-                            <div class="icon-text" style="width: 92%;">
-                                <a href="https://www.instagram.com/semzoglobal/" target="_blank"
-                                    class="size-21 centers-name-list">Instagram.com/semzoglobal</a>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-
+            <div class="col-12">
+                <h2 class="text-center">Child Protection <span>Code Of Conduct</span></h2>
+            </div>
+            <div class="col-12 col-md-6 left-clm">
+              <div class="right-inner-clm">
+                <p class="mb-3">Child Protection Code Of Conduct For Children of India. </p>
+                <img src="/assets/imgs/1/15.avif" alt="15" width="100%">
+              </div>
             </div>
             <div class="col-12 col-md-6 mt-5 mt-md-0">
                 <div class="ctform">
@@ -189,7 +89,7 @@
                             <label for="name">Full Name<span class="star">*</span></label>
                             <input type="text" id="name" name="name" placeholder="Full Name" required>
                         </div>
-                        <div class="groups-2 lsgroup">
+                        <div class="groups-2">
                             <label for="email">Email<span class="star">*</span></label>
                             <input type="email" id="email" name="email" placeholder="Email Address" required>
                         </div>
@@ -202,17 +102,33 @@
 
                         </div>
                         <div class="groups-2">
+                            <label for="subject">Subject<span class="star">*</span></label>
+                            <input type="subject" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="groups-2">
                             <label for="cname">Message<span class="star">*</span></label>
                             <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message"
                                 required></textarea>
                         </div>
-                        <input type="submit" value="Send" class="btn-blue">
+                        <button type="submit" class="globalbtn">Submit <i class="fa-solid fa-arrow-right"></i></button>
                         <img src="/assets/imgs/spinner.gif" alt="" width="22px" id="CtSpinner">
                         <p id="messagehere">Thank you for your submission.</p>
                     </form>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
 
+<section class="cta-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Our Regional <span>Offices</span></h2>
+                <p class="heading">Chennai Office</p>
+                <p class="address">3/2, Karpaga Vinayagar Koil Street, Alandur, Chennai – 600016, India</p>
+                <a href="#" class="globalbtn">Have Questions? Check our FAQs <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
         </div>
     </div>
 </section>
