@@ -143,15 +143,39 @@ p
 section
     padding: 80px 0px
 
-.main-banner img
+.main-banner-pages
+    position: relative
+    overflow: hidden
+    padding: 120px 0px
+
+.main-banner-pages img
     width: 100%
     position: absolute
     left: 0px
     height: 450px
+    top: 0px
     -o-object-fit: cover
     object-fit: cover
     object-position: top
-    opacity: 0 !important
+    opacity: 1 !important
+
+.main-banner-pages
+    h1
+        font-size: 65px
+        font-weight: bold
+        color: #fff !important
+        font-family: $fontGeist
+        margin-bottom: 0px
+    p
+        font-family: $fontInstrument
+        color: $brandOrange !important
+        font-size: 65px
+        font-weight: 600
+        font-style: italic
+    .container-fluid
+        position: relative
+        z-index: 2
+
 
 @media only screen and (max-width:768px)
     .globalbtn
