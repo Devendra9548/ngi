@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-
 <style>
+
 </style>
 @endsection
 @section('body')
@@ -260,33 +260,29 @@
 </section>
 
 <section class="clinic-testimonial-section">
-
-    <!-- Background Title -->
     <div class="testimonial-bg-title">
         Testimonials
     </div>
 
-    <!-- Left Images -->
     <div class="testimonial-images testimonial-left">
-
         <div class="test-img img-1">
-            <img src="images/testimonial-1.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/1.webp" alt="Patient">
         </div>
 
         <div class="test-img img-2">
-            <img src="images/testimonial-2.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/2.webp" alt="Patient">
         </div>
 
         <div class="test-img img-3">
-            <img src="images/testimonial-3.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/3.webp" alt="Patient">
         </div>
 
         <div class="test-img img-4">
-            <img src="images/testimonial-4.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/4.webp" alt="Patient">
         </div>
 
         <div class="test-img img-5">
-            <img src="images/testimonial-5.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/5.webp" alt="Patient">
         </div>
 
     </div>
@@ -296,23 +292,23 @@
     <div class="testimonial-images testimonial-right">
 
         <div class="test-img img-6">
-            <img src="images/testimonial-6.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/6.webp" alt="Patient">
         </div>
 
         <div class="test-img img-7">
-            <img src="images/testimonial-7.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/7.webp" alt="Patient">
         </div>
 
         <div class="test-img img-8">
-            <img src="images/testimonial-8.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/8.webp" alt="Patient">
         </div>
 
         <div class="test-img img-9">
-            <img src="images/testimonial-9.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/9.webp" alt="Patient">
         </div>
 
         <div class="test-img img-10">
-            <img src="images/testimonial-10.jpg" alt="Patient">
+            <img src="/assets/imgs/reviews/2.webp" alt="Patient">
         </div>
 
     </div>

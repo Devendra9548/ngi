@@ -1,7 +1,9 @@
 @extends('templates.front.main')
 @section('customcss')
 <link rel="stylesheet" href="/assets/css/front/contact.css" />
+<link rel="stylesheet" href="/assets/css/front/style.css" />
 <link rel="stylesheet" href="/assets/css/front/careers.css" />
+<title>Contact Us </title>
 <style>
 .address-here:hover
 {
@@ -11,7 +13,7 @@
 </style>
 @endsection
 @section('body')
-<x-mainbanner name="Contact" para="" imgs="/assets/imgs/55.jpeg" />
+<x-mainbanner name="Reach Out." para="We are here always.." imgs="/assets/imgs/1/13.avif" />
 <section class="contact-us-section py-5">
     <div class="container py-5">
         <div class="row">

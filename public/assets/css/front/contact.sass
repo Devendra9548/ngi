@@ -1,4 +1,9 @@
-@import 'style.sass'
+$fontlato: "Lato", sans-serif
+$fontGeist: "Geist", sans-serif
+$fontInstrument: "Instrument Serif", serif
+$brandOrange: rgb(255, 159, 28)
+$brandGreen: rgb(117, 172, 57)
+$brandyellow: #ffe4c2
 
 .contact-us-section
     .ctform
@@ -18,10 +23,19 @@
     a:hover
         text-decoration: underline
 
-
 .main-banner
+    h1
+        font-size: 65px
+        font-weight: bold
     p
-        display: none
+        font-family: $fontInstrument
+        color: $brandOrange !important
+        font-size: 65px
+        font-weight: 600
+        font-style: italic
+    .container-fluid
+        position: relative
+        z-index: 9
 
 .contact-infos
     hr
@@ -29,7 +43,7 @@
         width: 35%
     .icon-main-row
         i
-            background: $blue
+            background: $brandGreen
             color: #fff
             padding: 10px
             width: 30px
@@ -44,4 +58,4 @@
             text-decoration: none
             font-size: 18px
             &:hover
-                color: $blue
+                color: $brandGreen

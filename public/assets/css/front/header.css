@@ -25,8 +25,8 @@
   color: #fff !important;
 }
 
-.topbar, .topbar .container-fluid {
-  background-color: #318129 !important;
+.topbar {
+  background: linear-gradient(135deg, #003f68 0%, #007d76 48%, #00d45a 100%);
 }
 
 .topbar {
@@ -53,7 +53,7 @@
   color: #01406f !important;
 }
 
-header {
+.ds-header {
   position: -webkit-sticky;
   position: sticky;
   background: #fff;
@@ -64,14 +64,14 @@ header {
   margin-bottom: 0px;
   box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.14);
 }
-header a {
+.ds-header a {
   font-family: "Manrope", sans-serif !important;
 }
-header li {
+.ds-header li {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-header .row {
+.ds-header .row {
   height: 90px;
 }
 
@@ -95,12 +95,12 @@ header .row {
   display: none;
 }
 
-header .container-fluid {
+.ds-header .container-fluid {
   background: white !important;
 }
 
-header a, header i, header p {
-  color: #453d3d !important;
+.ds-header a, .ds-header i, .ds-header p {
+  color: #453d3d;
   font-size: 1.125rem;
   font-weight: 600;
 }
@@ -112,8 +112,8 @@ header a, header i, header p {
 
 .p-menu {
   position: relative;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
 }
 
 .submenu {

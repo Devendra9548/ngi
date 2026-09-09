@@ -31,8 +31,9 @@ $fontPlusJakartaSans: "Plus Jakarta Sans", sans-serif
     i
         color: #fff !important
 
-.topbar, .topbar .container-fluid
-    background-color: $branddarkgreencolor !important
+.topbar
+    background: linear-gradient(135deg, #003f68 0%, #007d76 48%, #00d45a 100%)
+
 
 .topbar
     position: relative !important
@@ -52,7 +53,7 @@ $fontPlusJakartaSans: "Plus Jakarta Sans", sans-serif
 .active
     color: $brandbluecolor !important
 
-header
+.ds-header
     position: sticky
     background: #fff
     top: 0px
@@ -85,11 +86,11 @@ header
 .mb-header
     display: none
 
-header .container-fluid 
+.ds-header .container-fluid 
     background: #Ffff !important
 
-header a, header i, header p 
-    color: $pcolor !important
+.ds-header a, .ds-header i, .ds-header p 
+    color: $pcolor 
     font-size: 1.125rem
     font-weight: 600
 
@@ -99,8 +100,8 @@ header a, header i, header p
 
 .p-menu
     position: relative
-    padding-bottom: 8px
-    padding-top: 8px
+    padding-bottom: 8px!important
+    padding-top: 8px !important
 
 .submenu
     position: absolute
