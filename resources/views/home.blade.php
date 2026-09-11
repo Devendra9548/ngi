@@ -259,7 +259,26 @@
     </div>
 </section>
 
-<section class="clinic-testimonial-section">
+<div class="img-fluid text-center">
+    <img src="/assets/imgs/bg-girls.png" alt="bg-girls" width="64%">
+</div>
+<section class="cta-section">
+    <div class="container-fluid">
+        <h2 class="text-center">Take <span>Actions</span></h2>
+        <div class="row">
+            <div class="col-12 col-md-6 text-center inner-clms">
+                <img src="/assets/imgs/1/21.webp" alt="21" width="100%">
+                <a href="#" class="globalbtn">Become a Supporter <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="col-12 col-md-6 text-center inner-clms">
+                <img src="/assets/imgs/1/22.webp" alt="22" width="100%">
+                <a href="#" class="globalbtn">Give one time or monthly <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="clinic-testimonial-section my-5">
     <div class="testimonial-bg-title">
         Testimonials
     </div>

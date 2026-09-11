@@ -28,7 +28,10 @@ Route::middleware(['safty'])->group(function () {
 Route::get('/', [frontendController::class, 'home']);
 Route::get('/home', [frontendController::class, 'home'])->name('homepage');
 Route::get('/home2', [frontendController::class, 'home2'])->name('homepage2');
-Route::get('/about', [frontendController::class, 'about'])->name('about');
+Route::get('/about', [frontendController::class, 'about'])->name('about'); 
+Route::get('/our-solution', [frontendController::class, 'oursolution'])->name('oursolution');
+Route::get('/gallery', [frontendController::class, 'gallery'])->name('gallery');
+Route::get('/impact', [frontendController::class, 'impact'])->name('impact');
 Route::get('/legal-notice', [frontendController::class, 'legalnotice'])->name('legalnotice');
 Route::get('/privacy-notice', [frontendController::class, 'privacypolicy'])->name('privacy');
 Route::get('/affiliation', [frontendController::class, 'affiliations'])->name('affiliations');
@@ -38,8 +41,8 @@ Route::get('/our-products', [frontendController::class, 'products'])->name('prod
 Route::get('/ncnda7', [frontendController::class, 'ncnda'])->name('ncnda');
 Route::get('/ncnda', [frontendController::class, 'ncndamain'])->name('ncndamain');
 
-// Route::get('/search', [frontendController::class, 'search'])->name('front.search');
-// Route::get('/blog', [frontendController::class, 'blog'])->name('front.blog');
+Route::get('/search', [frontendController::class, 'search'])->name('front.search');
+Route::get('/blog', [frontendController::class, 'blog'])->name('blog');
 Route::get('/contact-us', [frontendController::class, 'contact'])->name('contact');
 Route::post('/contact-us', [frontendController::class, 'sendcontact']); 
 Route::post('/affiliateform-post', [frontendController::class, 'sendaffiliateform']); 

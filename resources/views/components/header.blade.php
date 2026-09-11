@@ -49,17 +49,17 @@
                                 <i id="uparrow" class="fa-solid fa-chevron-down darrow" style="font-size:12px"></i></a>
                             <div class="submenu sub-p-1" id="submenu">
                                 <ul class="m-0 p-0" style="list-style:none">
-                                    <li><a href="javascript:void(0)">Mission</a></li>
-                                    <li><a href="javascript:void(0)">Why Government Schools</a></li>
-                                    <li><a href="javascript:void(0)">Our Timeline</a></li>
-                                    <li><a href="javascript:void(0)">Our Partners</a></li>
+                                    <li><a href="{{route('about')}}">Mission</a></li>
+                                    <li><a href="{{route('about')}}">Why Government Schools</a></li>
+                                    <li><a href="{{route('about')}}">Our Timeline</a></li>
+                                    <li><a href="{{route('about')}}">Our Partners</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="javascript:void(0)">Our Solution</a></li>
-                        <li><a href="javascript:void(0)">Impact</a></li>
-                        <li><a href="javascript:void(0)">Gallery</a></li>
-                        <li><a href="">Blogs</a></li>
+                        <li><a href="{{route('oursolution')}}">Our Solution</a></li>
+                        <li><a href="{{route('impact')}}">Impact</a></li>
+                        <li><a href="{{route('gallery')}}">Gallery</a></li>
+                        <li><a href="{{route('blog')}}">Blogs</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                         <li><a href="javascript:void(0)" class="globalbtn">Donate Now <i class="fa-solid fa-angles-right"></i></a></li>
                     </ul>
