@@ -87,20 +87,60 @@
         <div class="row">
             <div class="col-12 col-md-6 d-flex align-items-center">
                 <div class="content">
-                    <h2 class="mb-4">NextGen Impact's <span>Nationwide Programmes</span></h2>
-                    <p class="mb-3">NextGen Impact's programmes are creating meaningful change across India by
-                        empowering communities, supporting sustainable development, and addressing local challenges
-                        through impactful initiatives designed for long-term progress and inclusion.</p>
-                    <p class="mb-4">From grassroots communities to growing cities, our programmes focus on education,
-                        opportunity, awareness, and social development, building stronger communities and creating
-                        positive outcomes for people across diverse regions.</p>
-                    <a href="#" class="globalbtn">Read More</a>
+                    <h2 class="mb-4">Our Future Goal - <span>Building Better Schools, Across India</span></h2>
+                    <p class="mb-3">The Build My School Mission begins with strengthening government schools in underserved communities. With a vision to expand to more schools, NextGen Impact is working towards a future where every child can learn in an environment that inspires curiosity, creativity and confidence.</p>
+                    <p class="mb-4">Expand the Build My School Mission to more government schools, creating safe, inspiring and technology-enabled learning spaces for children across India.</p>
+                    <a href="#" class="globalbtn">Read Our Story</a>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div id="india-map"></div>
                 <div id="state-tooltip"></div>
 
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fourth-section">
+    <div class="main-row">
+        <div class="left-img">
+            <img src="/assets/imgs/1/1.avif" alt="" width="100%">
+        </div>
+        <div class="right-content">
+            <div class="inner-content">
+                <h2 class="mb-3">Every Number Tells a <span class="subheading">Story</span></h2>
+                <p>A focused intervention across <strong>government schools in rural Rajasthan</strong> is creating better opportunities for children through digital learning, safe drinking water and teacher training.</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6 col-md-4 mb-5 text-center">
+                    <h2 class="counter" data-target="3">3</h2>
+                    <p>Government Schools Covered</p>
+                </div>
+
+                <div class="col-6 col-md-4 mb-5 text-center">
+                    <h2 class="counter" data-target="2">2</h2>
+                    <p>Districts Reached</p>
+                </div>
+
+                <div class="col-6 col-md-4 mb-5 text-center">
+                    <h2 class="counter" data-target="3">3</h2>
+                    <p>AI Interactive Smartboards Installed</p>
+                </div>
+                <div class="col-6 col-md-4 mb-5 text-center">
+                    <h2 class="counter" data-target="3">3</h2>
+                    <p>RO Water Coolers Installed</p>
+                </div>
+
+                <div class="col-6 col-md-4 mb-5 text-center">
+                    <h2 class="counter" data-target="2">2</h2>
+                    <p>Schools with Faculty Training</p>
+                </div>
+
+                <div class="col-6 col-md-4 mb-5 text-center">
+                    <h2 class="counter" data-target="1">1</h2>
+                    <p>Mission for Better Childhood</p>
+                </div>
             </div>
         </div>
     </div>
@@ -159,49 +199,6 @@
     </div>
 </section>
 
-<section class="fourth-section">
-    <div class="main-row">
-        <div class="left-img">
-            <img src="/assets/imgs/1/1.avif" alt="" width="100%">
-        </div>
-        <div class="right-content">
-            <div class="inner-content">
-                <h2 class="mb-3">Every Number Tells a <span class="subheading">Story</span></h2>
-                <p>A focused intervention across <strong>government schools in rural Rajasthan</strong> is creating better opportunities for children through digital learning, safe drinking water and teacher training.</p>
-            </div>
-            <div class="row mt-5">
-                <div class="col-6 col-md-4 mb-5">
-                    <h2 class="counter" data-target="3">3</h2>
-                    <p>Government Schools Covered</p>
-                </div>
-
-                <div class="col-6 col-md-4 mb-5">
-                    <h2 class="counter" data-target="2">2</h2>
-                    <p>Districts Reached</p>
-                </div>
-
-                <div class="col-6 col-md-4 mb-5">
-                    <h2 class="counter" data-target="3">3</h2>
-                    <p>AI Interactive Smartboards Installed</p>
-                </div>
-                <div class="col-6 col-md-4 mb-5">
-                    <h2 class="counter" data-target="3">3</h2>
-                    <p>RO Water Coolers Installed</p>
-                </div>
-
-                <div class="col-6 col-md-4 mb-5">
-                    <h2 class="counter" data-target="2">2</h2>
-                    <p>Schools with Faculty Training</p>
-                </div>
-
-                <div class="col-6 col-md-4 mb-5">
-                    <h2 class="counter" data-target="1">1</h2>
-                    <p>Mission for Better Childhood</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="our-work-section">
     <div class="container">
