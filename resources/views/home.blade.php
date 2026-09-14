@@ -9,39 +9,48 @@
 </style>
 @endsection
 @section('body')
+
+<section class="first-hero-section">
+    <picture>
+        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/3.webp">
+        <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/3.webp">
+        <img src="/assets/imgs/banners/new/3.webp" alt="Banner" width="100%">
+    </picture>
+    <picture>
+        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/4.webp">
+        <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/4.webp">
+        <img src="/assets/imgs/banners/new/4.webp" alt="Banner" width="100%">
+    </picture>
+</section>
+
 <section class="first-section">
     <div class="container">
         <div class="about-clm text-center">
             <div class="title ct-tooltip">About Us</div>
-            <h2>Millions of Children <span>Risk
-                    Being</span></h2>
-            <h3 class="subheading">Left Behind</h3>
-            <p>Without urgent action today, <strong>an
-                    entire
-                    generation of India's most vulnerable children</strong> will
-                grow up without the
-                education, skills, or confidence to shape their own futures.</p>
+            <h2>Build My School Mission <span>- INDIA</span></h2>
+            <h3 class="subheading">- NextGen Impact</h3>
+            <p>"Let's not just build school, let's build a childhood worth remembering"</p>
         </div>
         <div class="row imgs-row mt-3">
             <div class="col-12 col-md">
                 <img src="/assets/imgs/1/1.png" alt="1" width="100%">
-                <p>PM POSHAN Programme</p>
+                <p>Digital <br>Learning</p>
             </div>
             <div class="col-12 col-md">
                 <img src="/assets/imgs/1/2.png" alt="1" width="100%">
-                <p>PM POSHAN Programme</p>
+                <p>Safe Drinking<br> Water</p>
             </div>
             <div class="col-12 col-md">
                 <img src="/assets/imgs/1/3.png" alt="1" width="100%">
-                <p>PM POSHAN Programme</p>
+                <p>Faculty <br>Training</p>
             </div>
             <div class="col-12 col-md">
                 <img src="/assets/imgs/1/4.png" alt="1" width="100%">
-                <p>PM POSHAN Programme</p>
+                <p>Better <br>Classrooms</p>
             </div>
             <div class="col-12 col-md">
                 <img src="/assets/imgs/1/5.png" alt="1" width="100%">
-                <p>PM POSHAN Programme</p>
+                <p>Sustainable <br>Impact</p>
             </div>
         </div>
     </div>
@@ -54,23 +63,20 @@
                 <img src="/assets/imgs/1/6.png" alt="6" width="100%">
             </div>
             <div class="col-12 col-md-7">
-                <h2>NextGen Impact <span>Foundation</span></h2>
-                <p>NextGen Impact Foundation is a not-for-profit organisation headquartered in Bengaluru, India. The
-                    Foundation strives to eliminate classroom hunger by implementing the PM POSHAN (Mid-Day Meal)
-                    Programme. It provides nutritious meals to children studying in government schools and
-                    government-aided schools. NextGen Impact also aims to counter malnutrition and support the Right to
-                    Education of children hailing from socio-economically challenging backgrounds.</p>
+                <h2>NextGen Impact <span> - A Unit of Earth Initiative Foundation</span></h2>
+                <p class="mb-2">Earth Initiative Foundation is a registered non-governmental organization working to strengthen education and child development through Corporate Social Responsibility initiatives. </p>
+                <p>Under its flagship CSR programme, NextGen Impact, the Foundation launched the Build My School Mission in Rajasthan to create safe, inspiring and technology-enabled learning environments for children from rural and economically weaker backgrounds.</p>
                 <div class="d-flex">
                     <div class="mission-vision-clm">
                         <h3>Our Vision</h3>
-                        <p>No child in India shall be deprived of education because of hunger</p>
+                        <p>Every government school inspires curiosity, nurtures creativity and empowers every child through joyful learning, innovation and life skills.</p>
                     </div>
                     <div class="mission-vision-clm">
                         <h3>Our Mission</h3>
-                        <p>No child in India shall be deprived of education because of hunger</p>
+                        <p>To create spaces where children feel safe, inspired and excited to learn every day.</p>
                     </div>
                 </div>
-                <a href="#" class="globalbtn">Read More</a>
+                <a href="#" class="globalbtn">Read Our Story</a>
             </div>
         </div>
     </div>
@@ -119,37 +125,29 @@
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
-                            <h3>Ensuring Hygiene & Dignity Amid Flood</h3>
-                            <p>Twelve-year-old Ruma Kurmi is dealing with losses far beyond her years. Two months ago,
-                                she lost her mother after a prolonged illness. Just as the family was beginning to cope
-                                with the loss of</p>
+                            <h3>Smart Learning Begins</h3>
+                            <p>AI Interactive Flat Panel Displays were installed to make classroom learning more engaging, interactive and effective.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
-                            <h3>Hope Finds Its Way…even Amidst The Hardest Of Times</h3>
-                            <p>In the midst of severe flooding in #Assam, a quiet but powerful act of resilience took
-                                place on the 80th Independence Day, at Bamunpukhuri, Nazira, Sivasagar—we inaugurated
-                                the Child Friendly Space</p>
+                            <h3>Safe Drinking Water</h3>
+                            <p>RO-enabled water coolers were installed to provide students and staff with safe and clean drinking water.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/22.png" alt="20" width="100%">
-                            <h3>Ravinder’s Courageous Journey: A Voice Against Substance Abuse</h3>
-                            <p>“Change begins the moment you decide to fight your own battles — not with others, but
-                                within yourself.” – Ravinder In the quiet lanes of Rampur village, Shravasti district,
-                                Uttar Pradesh</p>
+                            <h3>Empowering Teachers</h3>
+                            <p>Faculty received hands-on orientation on operating and using Smartboards effectively in classroom teaching.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/23.png" alt="20" width="100%">
-                            <h3>Irtiqa’s Journey Back To School: Rebuilding Dreams Through Education</h3>
-                            <p>When support arrives at the right time, it can turn hesitation into hope and bring a
-                                child back to where they belong — In the remote village of Pethmakhama in Budgam
-                                district, Kashmir</p>
+                            <h3>Better Learning Environment</h3>
+                            <p>The initiative is helping create more inspiring, safe and technology-enabled learning spaces for rural children.</p>
                         </div>
                     </div>
                 </div>
@@ -168,24 +166,37 @@
         </div>
         <div class="right-content">
             <div class="inner-content">
-                <h2 class="mb-3">Every Number is a <span class="subheading">Story</span></h2>
-                <p><strong>Behind every statistic is a child</strong> who discovered their potential, a volunteer who
-                    found their purpose, a school that was transformed</p>
+                <h2 class="mb-3">Every Number Tells a <span class="subheading">Story</span></h2>
+                <p>A focused intervention across <strong>government schools in rural Rajasthan</strong> is creating better opportunities for children through digital learning, safe drinking water and teacher training.</p>
             </div>
             <div class="row mt-5">
-                <div class="col-6 col-md-6 mb-5">
-                    <h2 class="counter" data-target="95">0K+</h2>
-                    <p>Children empowered every year</p>
+                <div class="col-6 col-md-4 mb-5">
+                    <h2 class="counter" data-target="3">3</h2>
+                    <p>Government Schools Covered</p>
                 </div>
 
-                <div class="col-6 col-md-6 mb-5">
-                    <h2 class="counter" data-target="905">0K+</h2>
-                    <p>Children empowered every year</p>
+                <div class="col-6 col-md-4 mb-5">
+                    <h2 class="counter" data-target="2">2</h2>
+                    <p>Districts Reached</p>
                 </div>
 
-                <div class="col-6 col-md-6 mb-5">
-                    <h2 class="counter" data-target="950">0K+</h2>
-                    <p>Children empowered every year</p>
+                <div class="col-6 col-md-4 mb-5">
+                    <h2 class="counter" data-target="3">3</h2>
+                    <p>AI Interactive Smartboards Installed</p>
+                </div>
+                <div class="col-6 col-md-4 mb-5">
+                    <h2 class="counter" data-target="3">3</h2>
+                    <p>RO Water Coolers Installed</p>
+                </div>
+
+                <div class="col-6 col-md-4 mb-5">
+                    <h2 class="counter" data-target="2">2</h2>
+                    <p>Schools with Faculty Training</p>
+                </div>
+
+                <div class="col-6 col-md-4 mb-5">
+                    <h2 class="counter" data-target="1">1</h2>
+                    <p>Mission for Better Childhood</p>
                 </div>
             </div>
         </div>
@@ -196,33 +207,33 @@
     <div class="container">
         <div class="about-clm text-center">
             <div class="title ct-tooltip">Our Work</div>
-            <h2>Our Fields of <span>Work</span></h2>
+            <h2>Our Areas of <span>Impact</span></h2>
         </div>
         <div class="row text-center mt-5">
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-3">
                 <img src="/assets/imgs/works/1.webp" alt="first" width="60%">
                 <p class="first">EDUCATION </p>
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-3">
                 <img src="/assets/imgs/works/2.webp" alt="second" width="60%">
-                <p class="second">HEALTH </p>
+                <p class="second">SAFE WATER </p>
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-3">
                 <img src="/assets/imgs/works/3.webp" alt="third" width="60%">
-                <p class="third">RESILIENCE </p>
+                <p class="third">FACULTY DEVELOPMENT </p>
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-3">
                 <img src="/assets/imgs/works/4.webp" alt="fourth" width="60%">
-                <p class="fourth">LIVELIHOOD </p>
+                <p class="fourth">CHILD DEVELOPMENT </p>
             </div>
-            <div class="col-6 col-md-2">
+            <!-- <div class="col-6 col-md-2">
                 <img src="/assets/imgs/works/5.webp" alt="fifth" width="60%">
                 <p class="fifth">PROTECTION </p>
             </div>
             <div class="col-6 col-md-2">
                 <img src="/assets/imgs/works/6.webp" alt="sixth" width="60%">
                 <p class="sixth">HUMANITARIAN </p>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="video-clm text-center mt-5">
@@ -234,13 +245,12 @@
 
 <section class="fifth-section">
     <div class="container">
-        <h2 class="text-center mb-4"><i>"Young people are often told they are the future. At NextGen Impact, they are
-                already shaping it."</i></h2>
+        <h2 class="text-center mb-4"><i>"At NextGen Impact, we believe that better infrastructure can create better opportunities for children to learn, explore and grow."</i></h2>
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="img-box">
                     <img src="/assets/imgs/1/10.png" alt="2" width="100%">
-                    <h3>Be the Reason <span>Someone Smiles.</span></h3>
+                    <h3>Be Part of the Mission.<span></span></h3>
                 </div>
             </div>
             <div class="col-12 col-md-6">
@@ -249,10 +259,10 @@
                     <img src="/assets/imgs/1/12.avif" alt="12" width="48%">
                 </div>
                 <div class="content-box">
-                    <h3 class="first">Join us in the journey to empower communities and change lives.</h3>
-                    <h3 class="number">80,000+</h3>
-                    <h3 class="last"><strong>Youth and Children reached </strong></h3>
-                    <a href="#" class="globalbtn">Donate Now</a>
+                    <h3 class="first">Together, we can help create government schools where children have access to better learning technology, safe drinking water and supportive learning environments.</h3>
+                    <h3 class="number">3 Schools</h3>
+                    <h3 class="last"><strong>Already supported through the Build My School Mission - India. </strong></h3>
+                    <a href="#" class="globalbtn">Support the Mission - Donate Now</a>
                 </div>
             </div>
         </div>
@@ -268,11 +278,11 @@
         <div class="row">
             <div class="col-12 col-md-6 text-center inner-clms">
                 <img src="/assets/imgs/1/21.webp" alt="21" width="100%">
-                <a href="#" class="globalbtn">Become a Supporter <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="globalbtn">Support a School <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="col-12 col-md-6 text-center inner-clms">
                 <img src="/assets/imgs/1/22.webp" alt="22" width="100%">
-                <a href="#" class="globalbtn">Give one time or monthly <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="globalbtn">Join the Mission <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </div>
@@ -411,37 +421,29 @@
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
-                            <h3>Ensuring Hygiene & Dignity Amid Flood</h3>
-                            <p>Twelve-year-old Ruma Kurmi is dealing with losses far beyond her years. Two months ago,
-                                she lost her mother after a prolonged illness. Just as the family was beginning to cope
-                                with the loss of</p>
+                            <h3>Build My School Mission – India</h3>
+                            <p>An overview of the initiative and its vision for rural government schools.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
-                            <h3>Hope Finds Its Way…even Amidst The Hardest Of Times</h3>
-                            <p>In the midst of severe flooding in #Assam, a quiet but powerful act of resilience took
-                                place on the 80th Independence Day, at Bamunpukhuri, Nazira, Sivasagar—we inaugurated
-                                the Child Friendly Space</p>
+                            <h3>Bringing Smart Learning to Rural Schools</h3>
+                            <p>How AI Interactive Flat Panel Displays can make classroom learning more engaging.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/22.png" alt="20" width="100%">
-                            <h3>Ravinder’s Courageous Journey: A Voice Against Substance Abuse</h3>
-                            <p>“Change begins the moment you decide to fight your own battles — not with others, but
-                                within yourself.” – Ravinder In the quiet lanes of Rampur village, Shravasti district,
-                                Uttar Pradesh</p>
+                            <h3>Safe Drinking Water in Schools</h3>
+                            <p>Strengthening basic student amenities through RO-enabled water coolers.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/23.png" alt="20" width="100%">
-                            <h3>Irtiqa’s Journey Back To School: Rebuilding Dreams Through Education</h3>
-                            <p>When support arrives at the right time, it can turn hesitation into hope and bring a
-                                child back to where they belong — In the remote village of Pethmakhama in Budgam
-                                district, Kashmir</p>
+                            <h3>Empowering Teachers Through Technology</h3>
+                            <p>Faculty orientation for effective classroom use of Smartboards.</p>
                         </div>
                     </div>
                 </div>
@@ -464,79 +466,59 @@
                 <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
-                        <span>WHAT IS THE PROCESS TO AVAIL TAX EXEMPTION CERTIFICATE?</span>
+                        <span>What is the Build My School Mission?</span>
                     </button>
                     <div class="br-faq-answer">
-                        <p>
-                            After making your donation, the required donation receipt
-                            and tax exemption documentation can be provided as per
-                            the applicable process.
-                        </p>
+                        <p>Build My School Mission is an initiative under NextGen Impact focused on strengthening government schools in underserved rural areas through improved learning infrastructure and basic student amenities.</p>
                     </div>
                 </div>
                 <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
-                        <span>HOW CAN I DONATE ONLINE?</span>
+                        <span>Where has the project been implemented?</span>
                     </button>
 
                     <div class="br-faq-answer">
-                        <p>
-                            You can donate online through the official donation
-                            platform using the available payment options.
-                        </p>
+                        <p>The project has been implemented across three government schools in Churu and Nagaur districts of Rajasthan.</p>
                     </div>
                 </div>
                 <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
-                        <span>IS THERE ANY ADVANTAGE TO DONATING ONLINE?</span>
+                        <span>What facilities were provided?</span>
                     </button>
                     <div class="br-faq-answer">
-                        <p>
-                            Online donations are quick, convenient and provide
-                            an easy way to receive confirmation of your contribution.
-                        </p>
+                        <p>Each school received an AI Interactive Flat Panel Display (Smartboard) and a water cooler with RO unit.</p>
                     </div>
                 </div>
                 <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
-                        <span>IS IT SAFE TO GIVE MY CREDIT CARD DETAILS ONLINE?</span>
+                        <span>Was teacher training provided?</span>
                     </button>
                     <div class="br-faq-answer">
-                        <p>
-                            Payments should always be made through the organization's
-                            official and secure payment gateway. Avoid sharing card
-                            details through email or other unsecured channels.
-                        </p>
+                        <p>Yes. Hands-on orientation was conducted for school faculty on operating and effectively using the Smartboard.</p>
                     </div>
                 </div>
                 <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
-                        <span>HOW DO I CONTACT YOU REGARDING MY DONATION?</span>
+                        <span>What is the expected impact?</span>
                     </button>
                     <div class="br-faq-answer">
-                        <p>
-                            You can contact the organization's support or donation
-                            team through the contact details provided on its official website.
-                        </p>
+                        <p>The project aims to improve classroom engagement, access to safe drinking water, teaching capacity and the overall learning environment.</p>
                     </div>
                 </div>
                 <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
-                        <span>IS IT COMPLICATED TO MAKE A DONATION ONLINE?</span>
+                        <span>Who are the CSR partners?</span>
                     </button>
                     <div class="br-faq-answer">
-                        <p>
-                            No. The online donation process is designed to be simple
-                            and can generally be completed in just a few steps.
-                        </p>
+                        <p>GEM Enviro Management Ltd. (Green Earth Movement) and Securocrop are the CSR partners supporting the initiative.</p>
                     </div>
                 </div>
-                <div class="br-faq-item">
+                <!-- <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
                         <span>HOW SAFE IS MY PERSONAL INFORMATION WITH NextGen Impact?</span>
@@ -547,7 +529,7 @@
                             organization's privacy policy and applicable data protection laws.
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -871,10 +853,10 @@ document.addEventListener("DOMContentLoaded", function() {
         function updateCounter() {
             current += increment;
             if (current < target) {
-                counter.textContent = Math.floor(current) + "K+";
+                counter.textContent = Math.floor(current) + "";
                 requestAnimationFrame(updateCounter);
             } else {
-                counter.textContent = target + "K+";
+                counter.textContent = target + "";
             }
         }
         updateCounter();
@@ -920,6 +902,21 @@ $(document).ready(function() {
         pauseOnHover: true,
         swipe: true
     });
+});
+</script>
+<script>
+$('.first-hero-section').slick({
+    slidesToShow: 1,
+    arrows: true,
+    infinite: true,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 1,
+            arrows: false,
+            dots: true,
+        }
+    }]
 });
 </script>
 @endsection
