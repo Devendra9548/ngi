@@ -33,23 +33,23 @@
         </div>
         <div class="row imgs-row mt-3">
             <div class="col-12 col-md">
-                <img src="/assets/imgs/1/1.png" alt="1" width="100%">
+                <img src="/assets/imgs/about/1.webp" alt="1" width="100%">
                 <p>Digital <br>Learning</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/1/2.png" alt="1" width="100%">
+                <img src="/assets/imgs/about/2.webp" alt="1" width="100%">
                 <p>Safe Drinking<br> Water</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/1/3.png" alt="1" width="100%">
+                <img src="/assets/imgs/about/3.webp" alt="1" width="100%">
                 <p>Faculty <br>Training</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/1/4.png" alt="1" width="100%">
+                <img src="/assets/imgs/about/4.jpeg" alt="1" width="100%">
                 <p>Better <br>Classrooms</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/1/5.png" alt="1" width="100%">
+                <img src="/assets/imgs/about/5.jpeg" alt="1" width="100%">
                 <p>Sustainable <br>Impact</p>
             </div>
         </div>
@@ -60,16 +60,20 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-5">
-                <img src="/assets/imgs/1/6.png" alt="6" width="100%">
+                <img src="/assets/imgs/1/25.webp" alt="6" width="100%" clsas="mt-3">
             </div>
             <div class="col-12 col-md-7">
                 <h2>NextGen Impact <span> - A Unit of Earth Initiative Foundation</span></h2>
-                <p class="mb-2">Earth Initiative Foundation is a registered non-governmental organization working to strengthen education and child development through Corporate Social Responsibility initiatives. </p>
-                <p>Under its flagship CSR programme, NextGen Impact, the Foundation launched the Build My School Mission in Rajasthan to create safe, inspiring and technology-enabled learning environments for children from rural and economically weaker backgrounds.</p>
+                <p class="mb-2">Earth Initiative Foundation is a registered non-governmental organization working to
+                    strengthen education and child development through Corporate Social Responsibility initiatives. </p>
+                <p>Under its flagship CSR programme, NextGen Impact, the Foundation launched the Build My School Mission
+                    in Rajasthan to create safe, inspiring and technology-enabled learning environments for children
+                    from rural and economically weaker backgrounds.</p>
                 <div class="d-flex">
                     <div class="mission-vision-clm">
                         <h3>Our Vision</h3>
-                        <p>Every government school inspires curiosity, nurtures creativity and empowers every child through joyful learning, innovation and life skills.</p>
+                        <p>Every government school inspires curiosity, nurtures creativity and empowers every child
+                            through joyful learning, innovation and life skills.</p>
                     </div>
                     <div class="mission-vision-clm">
                         <h3>Our Mission</h3>
@@ -88,8 +92,12 @@
             <div class="col-12 col-md-6 d-flex align-items-center">
                 <div class="content">
                     <h2 class="mb-4">Our Future Goal - <span>Building Better Schools, Across India</span></h2>
-                    <p class="mb-3">The Build My School Mission begins with strengthening government schools in underserved communities. With a vision to expand to more schools, NextGen Impact is working towards a future where every child can learn in an environment that inspires curiosity, creativity and confidence.</p>
-                    <p class="mb-4">Expand the Build My School Mission to more government schools, creating safe, inspiring and technology-enabled learning spaces for children across India.</p>
+                    <p class="mb-3">The Build My School Mission begins with strengthening government schools in
+                        underserved communities. With a vision to expand to more schools, NextGen Impact is working
+                        towards a future where every child can learn in an environment that inspires curiosity,
+                        creativity and confidence.</p>
+                    <p class="mb-4">Expand the Build My School Mission to more government schools, creating safe,
+                        inspiring and technology-enabled learning spaces for children across India.</p>
                     <a href="#" class="globalbtn">Read Our Story</a>
                 </div>
             </div>
@@ -105,12 +113,14 @@
 <section class="fourth-section">
     <div class="main-row">
         <div class="left-img">
-            <img src="/assets/imgs/1/1.avif" alt="" width="100%">
+            <img src="/assets/imgs/1/left-1.webp" alt="left" width="100%">
         </div>
         <div class="right-content">
             <div class="inner-content">
-                <h2 class="mb-3">Every Number Tells a <span class="subheading">Story</span></h2>
-                <p>A focused intervention across <strong>government schools in rural Rajasthan</strong> is creating better opportunities for children through digital learning, safe drinking water and teacher training.</p>
+                <h2 class="mb-3">Every Number Tells <span class="subheading">A Story</span></h2>
+                <p>A focused intervention across <strong>government schools in rural Rajasthan</strong> is creating
+                    better opportunities for children through digital learning, safe drinking water and teacher
+                    training.</p>
             </div>
             <div class="row mt-5">
                 <div class="col-6 col-md-4 mb-5 text-center">
@@ -120,7 +130,7 @@
 
                 <div class="col-6 col-md-4 mb-5 text-center">
                     <h2 class="counter" data-target="2">2</h2>
-                    <p>Districts Reached</p>
+                    <p>Districts <br> Reached</p>
                 </div>
 
                 <div class="col-6 col-md-4 mb-5 text-center">
@@ -166,28 +176,32 @@
                         <div class="story-box">
                             <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
                             <h3>Smart Learning Begins</h3>
-                            <p>AI Interactive Flat Panel Displays were installed to make classroom learning more engaging, interactive and effective.</p>
+                            <p>AI Interactive Flat Panel Displays were installed to make classroom learning more
+                                engaging, interactive and effective.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
                             <h3>Safe Drinking Water</h3>
-                            <p>RO-enabled water coolers were installed to provide students and staff with safe and clean drinking water.</p>
+                            <p>RO-enabled water coolers were installed to provide students and staff with safe and clean
+                                drinking water.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/22.png" alt="20" width="100%">
                             <h3>Empowering Teachers</h3>
-                            <p>Faculty received hands-on orientation on operating and using Smartboards effectively in classroom teaching.</p>
+                            <p>Faculty received hands-on orientation on operating and using Smartboards effectively in
+                                classroom teaching.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/23.png" alt="20" width="100%">
                             <h3>Better Learning Environment</h3>
-                            <p>The initiative is helping create more inspiring, safe and technology-enabled learning spaces for rural children.</p>
+                            <p>The initiative is helping create more inspiring, safe and technology-enabled learning
+                                spaces for rural children.</p>
                         </div>
                     </div>
                 </div>
@@ -234,31 +248,38 @@
         </div>
     </div>
     <div class="video-clm text-center mt-5">
-        <video autoplay muted loop playsinline width="56%">
-            <source src="/assets/videos/1.mp4" type="video/mp4">
+        <video autoplay muted loop playsinline preload="metadata" width="56%">
+            <source src="/assets/videos/2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
         </video>
+        <!-- <div class="readmore text-center mt-5">
+            <a href="#" class="globalbtn">Donate Now >></a>
+        </div> -->
     </div>
 </section>
 
 <section class="fifth-section">
     <div class="container">
-        <h2 class="text-center mb-4"><i>"At NextGen Impact, we believe that better infrastructure can create better opportunities for children to learn, explore and grow."</i></h2>
+        <h2 class="text-center mb-4"><i>"At NextGen Impact, we believe that better infrastructure can create better
+                opportunities for children to learn, explore and grow."</i></h2>
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="img-box">
-                    <img src="/assets/imgs/1/10.png" alt="2" width="100%">
+                    <img src="/assets/imgs/1/26.jpeg" alt="2" width="100%">
                     <h3>Be Part of the Mission.<span></span></h3>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="right-img-box">
-                    <img src="/assets/imgs/1/11.avif" alt="11" width="48%" class="me-3">
-                    <img src="/assets/imgs/1/12.avif" alt="12" width="48%">
+                    <img src="/assets/imgs/1/27.jpeg" alt="11" width="48%" class="me-3">
+                    <img src="/assets/imgs/1/28.jpeg" alt="12" width="48%">
                 </div>
                 <div class="content-box">
-                    <h3 class="first">Together, we can help create government schools where children have access to better learning technology, safe drinking water and supportive learning environments.</h3>
+                    <h3 class="first">Together, we can help create government schools where children have access to
+                        better learning technology, safe drinking water and supportive learning environments.</h3>
                     <h3 class="number">3 Schools</h3>
-                    <h3 class="last"><strong>Already supported through the Build My School Mission - India. </strong></h3>
+                    <h3 class="last"><strong>Already supported through the Build My School Mission - India. </strong>
+                    </h3>
                     <a href="#" class="globalbtn">Support the Mission - Donate Now</a>
                 </div>
             </div>
@@ -453,69 +474,77 @@
 </section>
 
 <section class="br-faq-section">
-    <div class="br-faq-wrapper">
-        <div class="br-faq-visual">
-            <div class="br-question-mark">?</div>
-        </div>
-        <div class="br-faq-content">
-            <h2 class="br-faq-title">FAQs</h2>
-            <div class="br-faq-list">
-                <div class="br-faq-item">
-                    <button class="br-faq-question">
-                        <span class="br-faq-icon">+</span>
-                        <span>What is the Build My School Mission?</span>
-                    </button>
-                    <div class="br-faq-answer">
-                        <p>Build My School Mission is an initiative under NextGen Impact focused on strengthening government schools in underserved rural areas through improved learning infrastructure and basic student amenities.</p>
+    <div class="container-fluid">
+        <div class="br-faq-wrapper row">
+            <div class="br-faq-visual col-md-6">
+                <div class="br-question-mark">?</div>
+            </div>
+            <div class="br-faq-content col-md-6">
+                <h2 class="br-faq-title">FAQs</h2>
+                <div class="br-faq-list">
+                    <div class="br-faq-item">
+                        <button class="br-faq-question">
+                            <span class="br-faq-icon">+</span>
+                            <span>What is the Build My School Mission?</span>
+                        </button>
+                        <div class="br-faq-answer">
+                            <p>Build My School Mission is an initiative under NextGen Impact focused on strengthening
+                                government schools in underserved rural areas through improved learning infrastructure
+                                and basic student amenities.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="br-faq-item">
-                    <button class="br-faq-question">
-                        <span class="br-faq-icon">+</span>
-                        <span>Where has the project been implemented?</span>
-                    </button>
+                    <div class="br-faq-item">
+                        <button class="br-faq-question">
+                            <span class="br-faq-icon">+</span>
+                            <span>Where has the project been implemented?</span>
+                        </button>
 
-                    <div class="br-faq-answer">
-                        <p>The project has been implemented across three government schools in Churu and Nagaur districts of Rajasthan.</p>
+                        <div class="br-faq-answer">
+                            <p>The project has been implemented across three government schools in Churu and Nagaur
+                                districts of Rajasthan.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="br-faq-item">
-                    <button class="br-faq-question">
-                        <span class="br-faq-icon">+</span>
-                        <span>What facilities were provided?</span>
-                    </button>
-                    <div class="br-faq-answer">
-                        <p>Each school received an AI Interactive Flat Panel Display (Smartboard) and a water cooler with RO unit.</p>
+                    <div class="br-faq-item">
+                        <button class="br-faq-question">
+                            <span class="br-faq-icon">+</span>
+                            <span>What facilities were provided?</span>
+                        </button>
+                        <div class="br-faq-answer">
+                            <p>Each school received an AI Interactive Flat Panel Display (Smartboard) and a water cooler
+                                with RO unit.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="br-faq-item">
-                    <button class="br-faq-question">
-                        <span class="br-faq-icon">+</span>
-                        <span>Was teacher training provided?</span>
-                    </button>
-                    <div class="br-faq-answer">
-                        <p>Yes. Hands-on orientation was conducted for school faculty on operating and effectively using the Smartboard.</p>
+                    <div class="br-faq-item">
+                        <button class="br-faq-question">
+                            <span class="br-faq-icon">+</span>
+                            <span>Was teacher training provided?</span>
+                        </button>
+                        <div class="br-faq-answer">
+                            <p>Yes. Hands-on orientation was conducted for school faculty on operating and effectively
+                                using the Smartboard.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="br-faq-item">
-                    <button class="br-faq-question">
-                        <span class="br-faq-icon">+</span>
-                        <span>What is the expected impact?</span>
-                    </button>
-                    <div class="br-faq-answer">
-                        <p>The project aims to improve classroom engagement, access to safe drinking water, teaching capacity and the overall learning environment.</p>
+                    <div class="br-faq-item">
+                        <button class="br-faq-question">
+                            <span class="br-faq-icon">+</span>
+                            <span>What is the expected impact?</span>
+                        </button>
+                        <div class="br-faq-answer">
+                            <p>The project aims to improve classroom engagement, access to safe drinking water, teaching
+                                capacity and the overall learning environment.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="br-faq-item">
-                    <button class="br-faq-question">
-                        <span class="br-faq-icon">+</span>
-                        <span>Who are the CSR partners?</span>
-                    </button>
-                    <div class="br-faq-answer">
-                        <p>GEM Enviro Management Ltd. (Green Earth Movement) and Securocrop are the CSR partners supporting the initiative.</p>
+                    <div class="br-faq-item">
+                        <button class="br-faq-question">
+                            <span class="br-faq-icon">+</span>
+                            <span>Who are the CSR partners?</span>
+                        </button>
+                        <div class="br-faq-answer">
+                            <p>GEM Enviro Management Ltd. (Green Earth Movement) and Securocrop are the CSR partners
+                                supporting the initiative.</p>
+                        </div>
                     </div>
-                </div>
-                <!-- <div class="br-faq-item">
+                    <!-- <div class="br-faq-item">
                     <button class="br-faq-question">
                         <span class="br-faq-icon">+</span>
                         <span>HOW SAFE IS MY PERSONAL INFORMATION WITH NextGen Impact?</span>
@@ -527,6 +556,7 @@
                         </p>
                     </div>
                 </div> -->
+                </div>
             </div>
         </div>
     </div>
@@ -850,10 +880,10 @@ document.addEventListener("DOMContentLoaded", function() {
         function updateCounter() {
             current += increment;
             if (current < target) {
-                counter.textContent = Math.floor(current) + "";
+                counter.textContent = Math.floor(current) + "+";
                 requestAnimationFrame(updateCounter);
             } else {
-                counter.textContent = target + "";
+                counter.textContent = target + "+";
             }
         }
         updateCounter();
