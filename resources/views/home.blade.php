@@ -5,12 +5,126 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <style>
+.scroll-section {
+    position: relative;
+}
 
+[data-animate] {
+    opacity: 0;
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+}
+
+[data-animate="fade-up"] {
+    transform: translateY(50px);
+}
+
+[data-animate="fade-down"] {
+    transform: translateY(-50px);
+}
+
+[data-animate="fade-left"] {
+    transform: translateX(-60px);
+}
+
+[data-animate="fade-right"] {
+    transform: translateX(60px);
+}
+
+[data-animate="zoom"] {
+    transform: scale(0.88);
+}
+
+[data-animate="fade"] {
+    transform: none;
+}
+
+[data-animate].animate-show {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+}
+
+[data-delay="1"] {
+    transition-delay: 0.10s;
+}
+
+[data-delay="2"] {
+    transition-delay: 0.20s;
+}
+
+[data-delay="3"] {
+    transition-delay: 0.30s;
+}
+
+[data-delay="4"] {
+    transition-delay: 0.40s;
+}
+
+[data-delay="5"] {
+    transition-delay: 0.50s;
+}
+
+[data-delay="6"] {
+    transition-delay: 0.60s;
+}
+
+
+.scroll-section {
+    opacity: 0;
+    transform: translateY(35px);
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.scroll-section.section-show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    [data-animate],
+    .scroll-section {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    [data-animate="fade-up"] {
+        transform: translateY(30px);
+    }
+
+    [data-animate="fade-down"] {
+        transform: translateY(-30px);
+    }
+
+    [data-animate="fade-left"] {
+        transform: translateX(-35px);
+    }
+
+    [data-animate="fade-right"] {
+        transform: translateX(35px);
+    }
+
+    [data-animate="zoom"] {
+        transform: scale(0.94);
+    }
+
+    .scroll-section {
+        transform: translateY(20px);
+    }
+}
 </style>
 @endsection
 @section('body')
 
-<section class="first-hero-section">
+<section class="first-hero-section scroll-section">
     <picture>
         <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/3.webp">
         <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/3.webp">
@@ -23,40 +137,40 @@
     </picture>
 </section>
 
-<section class="first-section">
+<section class="first-section scroll-section">
     <div class="container">
         <div class="about-clm text-center">
-            <div class="title ct-tooltip">About Us</div>
-            <h2>Build My School Mission <span>- INDIA</span></h2>
-            <h3 class="subheading">- NextGen Impact</h3>
-            <p>"Let's not just build school, let's build a childhood worth remembering"</p>
+            <div class="title ct-tooltip" data-animate="fade-left">About Us</div>
+            <h2 data-animate="fade-right">Build My School Mission <span>- INDIA</span></h2>
+            <h3 data-animate="fade-left" class="subheading">- NextGen Impact</h3>
+            <p data-animate="fade-right" data-delay="2">"Let's not just build school, let's build a childhood worth remembering"</p>
         </div>
         <div class="row imgs-row mt-3">
             <div class="col-12 col-md">
-                <img src="/assets/imgs/about/1.webp" alt="1" width="100%">
+                <img src="/assets/imgs/about/1.webp" alt="1" width="100%" data-animate="zoom">
                 <p>Digital <br>Learning</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/about/2.webp" alt="1" width="100%">
+                <img src="/assets/imgs/about/2.webp" alt="1" width="100%" data-animate="zoom">
                 <p>Safe Drinking<br> Water</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/about/3.webp" alt="1" width="100%">
+                <img src="/assets/imgs/about/3.webp" alt="1" width="100%" data-animate="zoom">
                 <p>Faculty <br>Training</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/about/4.jpeg" alt="1" width="100%">
+                <img src="/assets/imgs/about/4.jpeg" alt="1" width="100%" data-animate="zoom">
                 <p>Better <br>Classrooms</p>
             </div>
             <div class="col-12 col-md">
-                <img src="/assets/imgs/about/5.jpeg" alt="1" width="100%">
+                <img src="/assets/imgs/about/5.jpeg" alt="1" width="100%" data-animate="zoom">
                 <p>Sustainable <br>Impact</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="second-section">
+<section class="second-section scroll-section">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-5">
@@ -86,7 +200,7 @@
     </div>
 </section>
 
-<section class="third-section">
+<section class="third-section scroll-section">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 d-flex align-items-center">
@@ -110,7 +224,7 @@
     </div>
 </section>
 
-<section class="fourth-section">
+<section class="fourth-section scroll-section">
     <div class="main-row">
         <div class="left-img">
             <img src="/assets/imgs/1/left-1.webp" alt="left" width="100%">
@@ -156,7 +270,7 @@
     </div>
 </section>
 
-<section class="story-section">
+<section class="story-section scroll-section">
     <div class="container">
         <div class="row">
             <div class="about-clm text-center">
@@ -213,8 +327,7 @@
     </div>
 </section>
 
-
-<section class="our-work-section">
+<section class="our-work-section scroll-section">
     <div class="container">
         <div class="about-clm text-center">
             <div class="title ct-tooltip">Our Work</div>
@@ -258,7 +371,7 @@
     </div>
 </section>
 
-<section class="fifth-section">
+<section class="fifth-section scroll-section">
     <div class="container">
         <h2 class="text-center mb-4"><i>"At NextGen Impact, we believe that better infrastructure can create better
                 opportunities for children to learn, explore and grow."</i></h2>
@@ -306,7 +419,7 @@
     </div>
 </section>
 
-<section class="clinic-testimonial-section my-5">
+<section class="clinic-testimonial-section my-5 scroll-section">
     <div class="testimonial-bg-title">
         Testimonials
     </div>
@@ -422,7 +535,7 @@
 
 </section>
 
-<section class="story-section">
+<section class="story-section scroll-section">
     <div class="container">
         <div class="row">
             <div class="about-clm text-center">
@@ -473,7 +586,7 @@
     </div>
 </section>
 
-<section class="br-faq-section">
+<section class="br-faq-section scroll-section">
     <div class="container-fluid">
         <div class="br-faq-wrapper row">
             <div class="br-faq-visual col-md-6">
@@ -946,4 +1059,82 @@ $('.first-hero-section').slick({
     }]
 });
 </script>
+
+<script>
+    /* =========================================
+   PREMIUM SCROLL ANIMATION
+========================================= */
+
+document.addEventListener("DOMContentLoaded", function () {
+
+/* -----------------------------------------
+   SECTION REVEAL
+----------------------------------------- */
+
+const sections = document.querySelectorAll(".scroll-section");
+
+const sectionObserver = new IntersectionObserver(
+    function (entries, observer) {
+
+        entries.forEach(function (entry) {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("section-show");
+
+                // Animate only once
+                observer.unobserve(entry.target);
+            }
+
+        });
+
+    },
+    {
+        threshold: 0.15,
+        rootMargin: "0px 0px -80px 0px"
+    }
+);
+
+
+sections.forEach(function (section) {
+    sectionObserver.observe(section);
+});
+
+
+/* -----------------------------------------
+   ELEMENT ANIMATION
+----------------------------------------- */
+
+const animatedElements = document.querySelectorAll("[data-animate]");
+
+const elementObserver = new IntersectionObserver(
+    function (entries, observer) {
+
+        entries.forEach(function (entry) {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("animate-show");
+
+                // Animate only once
+                observer.unobserve(entry.target);
+            }
+
+        });
+
+    },
+    {
+        threshold: 0.15,
+        rootMargin: "0px 0px -60px 0px"
+    }
+);
+
+
+animatedElements.forEach(function (element) {
+    elementObserver.observe(element);
+});
+
+});
+</script>
+
 @endsection

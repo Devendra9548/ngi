@@ -2,9 +2,9 @@
   text-align: center;
 }
 .first-section .main-headling {
-  font-size: 32px;
+  font-size: 26px;
   font-family: "Geist", sans-serif !important;
-  color: #000;
+  color: #555;
   font-style: italic;
 }
 .first-section img {
@@ -16,4 +16,27 @@
      object-position: bottom;
   margin-top: 30px;
   text-align: center;
+}
+
+.second-section img {
+  height: 352px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.second-section .about-clm p {
+  font-size: 26px;
+  font-weight: 500;
+  font-style: italic;
+  color: #555;
+}
+.second-section .flex-box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.second-section .mt-90 {
+  margin-top: 120px !important;
 }/*# sourceMappingURL=about.css.map */
