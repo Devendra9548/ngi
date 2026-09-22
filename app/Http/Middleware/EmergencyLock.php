@@ -15,10 +15,6 @@ class EmergencyLock
 
             cache()->forever('emergency_lock', true);
 
-            // Current session invalidate
-            $request->session()->invalidate();
-            $request->session()->regenerateToken();
-
             return redirect('/safty');
         }
 

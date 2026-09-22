@@ -1,125 +1,11 @@
 @extends('templates.front.main')
 @section('customcss')
 <link rel="stylesheet" href="/assets/css/front/home.css">
+<link rel="stylesheet" href="/assets/css/front/animation.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <style>
-.scroll-section {
-    position: relative;
-}
-
-[data-animate] {
-    opacity: 0;
-    transition:
-        opacity 0.8s ease,
-        transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
-    will-change: opacity, transform;
-}
-
-[data-animate="fade-up"] {
-    transform: translateY(50px);
-}
-
-[data-animate="fade-down"] {
-    transform: translateY(-50px);
-}
-
-[data-animate="fade-left"] {
-    transform: translateX(-60px);
-}
-
-[data-animate="fade-right"] {
-    transform: translateX(60px);
-}
-
-[data-animate="zoom"] {
-    transform: scale(0.88);
-}
-
-[data-animate="fade"] {
-    transform: none;
-}
-
-[data-animate].animate-show {
-    opacity: 1;
-    transform: translate3d(0, 0, 0) scale(1);
-}
-
-[data-delay="1"] {
-    transition-delay: 0.10s;
-}
-
-[data-delay="2"] {
-    transition-delay: 0.20s;
-}
-
-[data-delay="3"] {
-    transition-delay: 0.30s;
-}
-
-[data-delay="4"] {
-    transition-delay: 0.40s;
-}
-
-[data-delay="5"] {
-    transition-delay: 0.50s;
-}
-
-[data-delay="6"] {
-    transition-delay: 0.60s;
-}
-
-
-.scroll-section {
-    opacity: 0;
-    transform: translateY(35px);
-    transition:
-        opacity 0.9s ease,
-        transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.scroll-section.section-show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-    [data-animate],
-    .scroll-section {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
-    }
-}
-
-@media (max-width: 767.98px) {
-
-    [data-animate="fade-up"] {
-        transform: translateY(30px);
-    }
-
-    [data-animate="fade-down"] {
-        transform: translateY(-30px);
-    }
-
-    [data-animate="fade-left"] {
-        transform: translateX(-35px);
-    }
-
-    [data-animate="fade-right"] {
-        transform: translateX(35px);
-    }
-
-    [data-animate="zoom"] {
-        transform: scale(0.94);
-    }
-
-    .scroll-section {
-        transform: translateY(20px);
-    }
-}
 </style>
 @endsection
 @section('body')
@@ -146,24 +32,24 @@
             <p data-animate="fade-right" data-delay="2">"Let's not just build school, let's build a childhood worth remembering"</p>
         </div>
         <div class="row imgs-row mt-3">
-            <div class="col-12 col-md">
-                <img src="/assets/imgs/about/1.webp" alt="1" width="100%" data-animate="zoom">
+            <div class="col-12 col-md" data-animate="fade-top" data-delay="1">
+                <img src="/assets/imgs/about/1.webp" alt="1" width="100%">
                 <p>Digital <br>Learning</p>
             </div>
-            <div class="col-12 col-md">
-                <img src="/assets/imgs/about/2.webp" alt="1" width="100%" data-animate="zoom">
+            <div class="col-12 col-md" data-animate="fade-top" data-delay="2">
+                <img src="/assets/imgs/about/2.webp" alt="1" width="100%">
                 <p>Safe Drinking<br> Water</p>
             </div>
-            <div class="col-12 col-md">
-                <img src="/assets/imgs/about/3.webp" alt="1" width="100%" data-animate="zoom">
+            <div class="col-12 col-md" data-animate="fade-top" data-delay="3">
+                <img src="/assets/imgs/about/3.webp" alt="1" width="100%">
                 <p>Faculty <br>Training</p>
             </div>
-            <div class="col-12 col-md">
-                <img src="/assets/imgs/about/4.jpeg" alt="1" width="100%" data-animate="zoom">
+            <div class="col-12 col-md" data-animate="fade-top" data-delay="4">
+                <img src="/assets/imgs/about/4.jpeg" alt="1" width="100%">
                 <p>Better <br>Classrooms</p>
             </div>
-            <div class="col-12 col-md">
-                <img src="/assets/imgs/about/5.jpeg" alt="1" width="100%" data-animate="zoom">
+            <div class="col-12 col-md" data-animate="fade-top" data-delay="5">
+                <img src="/assets/imgs/about/5.jpeg" alt="1" width="100%">
                 <p>Sustainable <br>Impact</p>
             </div>
         </div>
@@ -173,28 +59,28 @@
 <section class="second-section scroll-section">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-5">
-                <img src="/assets/imgs/1/25.webp" alt="6" width="100%" clsas="mt-3">
+            <div class="col-12 col-md-6">
+                <img src="/assets/imgs/1/student-reading.webp" alt="6" width="100%" clsas="mt-3">
             </div>
-            <div class="col-12 col-md-7">
-                <h2>NextGen Impact <span> - A Unit of Earth Initiative Foundation</span></h2>
-                <p class="mb-2">Earth Initiative Foundation is a registered non-governmental organization working to
+            <div class="col-12 col-md-6 ps-md-4">
+                <h2 data-animate="fade-left" data-delay="9">NextGen Impact <span> - A Unit of Earth Initiative Foundation</span></h2>
+                <p class="mb-2" data-animate="fade-left" data-delay="11">Earth Initiative Foundation is a registered non-governmental organization working to
                     strengthen education and child development through Corporate Social Responsibility initiatives. </p>
-                <p>Under its flagship CSR programme, NextGen Impact, the Foundation launched the Build My School Mission
+                <p data-animate="fade-left" data-delay="9">Under its flagship CSR programme, NextGen Impact, the Foundation launched the Build My School Mission
                     in Rajasthan to create safe, inspiring and technology-enabled learning environments for children
                     from rural and economically weaker backgrounds.</p>
-                <div class="d-flex">
-                    <div class="mission-vision-clm">
+                <!-- <div class="d-flex">
+                    <div class="mission-vision-clm" data-animate="fade-left" data-delay="11">
                         <h3>Our Vision</h3>
                         <p>Every government school inspires curiosity, nurtures creativity and empowers every child
                             through joyful learning, innovation and life skills.</p>
                     </div>
-                    <div class="mission-vision-clm">
+                    <div class="mission-vision-clm" data-animate="fade-left" data-delay="11">
                         <h3>Our Mission</h3>
                         <p>To create spaces where children feel safe, inspired and excited to learn every day.</p>
                     </div>
-                </div>
-                <a href="#" class="globalbtn">Read Our Story</a>
+                </div> -->
+                <a href="#" class="globalbtn" data-animate="fade-left" data-delay="11">Read Our Story</a>
             </div>
         </div>
     </div>
@@ -1059,82 +945,5 @@ $('.first-hero-section').slick({
     }]
 });
 </script>
-
-<script>
-    /* =========================================
-   PREMIUM SCROLL ANIMATION
-========================================= */
-
-document.addEventListener("DOMContentLoaded", function () {
-
-/* -----------------------------------------
-   SECTION REVEAL
------------------------------------------ */
-
-const sections = document.querySelectorAll(".scroll-section");
-
-const sectionObserver = new IntersectionObserver(
-    function (entries, observer) {
-
-        entries.forEach(function (entry) {
-
-            if (entry.isIntersecting) {
-
-                entry.target.classList.add("section-show");
-
-                // Animate only once
-                observer.unobserve(entry.target);
-            }
-
-        });
-
-    },
-    {
-        threshold: 0.15,
-        rootMargin: "0px 0px -80px 0px"
-    }
-);
-
-
-sections.forEach(function (section) {
-    sectionObserver.observe(section);
-});
-
-
-/* -----------------------------------------
-   ELEMENT ANIMATION
------------------------------------------ */
-
-const animatedElements = document.querySelectorAll("[data-animate]");
-
-const elementObserver = new IntersectionObserver(
-    function (entries, observer) {
-
-        entries.forEach(function (entry) {
-
-            if (entry.isIntersecting) {
-
-                entry.target.classList.add("animate-show");
-
-                // Animate only once
-                observer.unobserve(entry.target);
-            }
-
-        });
-
-    },
-    {
-        threshold: 0.15,
-        rootMargin: "0px 0px -60px 0px"
-    }
-);
-
-
-animatedElements.forEach(function (element) {
-    elementObserver.observe(element);
-});
-
-});
-</script>
-
+<script src="/assets/js/front/animation.js"></script>
 @endsection

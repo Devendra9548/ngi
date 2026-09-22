@@ -71,6 +71,12 @@
 .second-section .globalbtn {
   margin-top: 35px !important;
 }
+.second-section img {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  bottom: 0px;
+}
 
 #india-map {
   width: 100%;
@@ -760,5 +766,24 @@
 @media only screen and (min-width: 1400px) {
   .fifth-section .img-box h3 {
     height: 12%;
+  }
+}
+@media only screen and (max-width: 1365px) {
+  .second-section {
+    margin-top: 0px !important;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .second-section {
+    margin-top: 100px !important;
+  }
+  .second-section h2 {
+    color: rgb(117, 172, 57);
+    font-family: "Geist", sans-serif;
+    font-size: 44px;
+  }
+  .second-section h2 span {
+    color: #000;
+    font-size: 38px;
   }
 }/*# sourceMappingURL=home.css.map */

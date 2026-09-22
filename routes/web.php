@@ -17,12 +17,6 @@ use App\Http\Controllers\RazorpayController;
 |
 */
 
-
-Route::get('/unlock-emergency', function () {
-  cache()->forget('emergency_lock');
-  return redirect('/');
-});
-
 Route::post('/reviews', [frontendController::class, 'reviewData'])->name('reviews');
 
 Route::get('/safty', [frontendController::class, 'websecure']);
@@ -139,5 +133,5 @@ Route::prefix('/admin')->group(function(){
 
 Route::get('/{slug}',[frontendController::class, 'redirectpage'])->name('front.redirectpage');
 
-
 });
+
