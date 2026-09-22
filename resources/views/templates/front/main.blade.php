@@ -27,6 +27,7 @@
 @endif
 <link rel="stylesheet" href="/assets/css/front/header.css">
 <link rel="stylesheet" href="/assets/css/front/footer.css">
+<link rel="stylesheet" href="/assets/css/front/animation.css">
 @yield('customcss')
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
@@ -133,5 +134,5 @@
 </script>
 
 </body>
-
+<script src="/assets/js/front/animation.js"></script>
 </html>

@@ -1,7 +1,6 @@
 @extends('templates.front.main')
 @section('customcss')
 <link rel="stylesheet" href="/assets/css/front/home.css">
-<link rel="stylesheet" href="/assets/css/front/animation.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
@@ -10,10 +9,10 @@
 @endsection
 @section('body')
 
-<section class="first-hero-section scroll-section">
+<section class="first-hero-section">
     <picture>
-        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/3.webp">
-        <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/3.webp">
+        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/5.webp">
+        <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/5.webp">
         <img src="/assets/imgs/banners/new/3.webp" alt="Banner" width="100%">
     </picture>
     <picture>
@@ -91,17 +90,17 @@
         <div class="row">
             <div class="col-12 col-md-6 d-flex align-items-center">
                 <div class="content">
-                    <h2 class="mb-4">Our Future Goal - <span>Building Better Schools, Across India</span></h2>
-                    <p class="mb-3">The Build My School Mission begins with strengthening government schools in
+                    <h2 class="mb-4" data-animate="fade-left" data-delay="2">Our Future Goal - <span>Building Better Schools, Across India</span></h2>
+                    <p class="mb-3" data-animate="fade-right" data-delay="2">The Build My School Mission begins with strengthening government schools in
                         underserved communities. With a vision to expand to more schools, NextGen Impact is working
                         towards a future where every child can learn in an environment that inspires curiosity,
                         creativity and confidence.</p>
-                    <p class="mb-4">Expand the Build My School Mission to more government schools, creating safe,
+                    <p class="mb-4" data-animate="fade-left" data-delay="2">Expand the Build My School Mission to more government schools, creating safe,
                         inspiring and technology-enabled learning spaces for children across India.</p>
-                    <a href="#" class="globalbtn">Read Our Story</a>
+                    <a href="#" class="globalbtn" data-animate="fade-top" data-delay="2">Read Our Story</a>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6"  data-animate="fade-right" data-delay="2">
                 <div id="india-map"></div>
                 <div id="state-tooltip"></div>
 
@@ -117,8 +116,8 @@
         </div>
         <div class="right-content">
             <div class="inner-content">
-                <h2 class="mb-3">Every Number Tells <span class="subheading">A Story</span></h2>
-                <p>A focused intervention across <strong>government schools in rural Rajasthan</strong> is creating
+                <h2 class="mb-3" data-animate="fade-top" data-delay="2">Every Number Tells <span class="subheading">A Story</span></h2>
+                <p data-animate="fade-bottom" data-delay="2">A focused intervention across <strong>government schools in rural Rajasthan</strong> is creating
                     better opportunities for children through digital learning, safe drinking water and teacher
                     training.</p>
             </div>
@@ -160,19 +159,9 @@
     <div class="container">
         <div class="row">
             <div class="about-clm text-center">
-                <!-- <div class="title ct-tooltip">Stories</div> -->
                 <h2>Success <span>Stories</span></h2>
-                <!-- <h3 class="subheading">Left Behind</h3> -->
-                <!-- <p>NextGen Impact's interventions have empowered countless marginalised children to transform their
-                    own lives. From the slums of Delhi to remote rural reaches, we have witnessed stories of triumph in
-                    the face of child marriage, poverty, health struggles and more. The organisation's investment in
-                    instilling skills, mindsets, and values is fuelling journeys to education, financial independence
-                    and advocacy roles within communities. Be it defeating poverty or combating chronic diseases,
-                    success stories speak of incredible resilience and change catalysed in the most vulnerable
-                    communities.
-                </p> -->
                 <div class="row mt-4">
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="2">
                         <div class="story-box">
                             <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
                             <h3>Smart Learning Begins</h3>
@@ -180,7 +169,7 @@
                                 engaging, interactive and effective.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
                             <h3>Safe Drinking Water</h3>
@@ -188,7 +177,7 @@
                                 drinking water.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="4">
                         <div class="story-box">
                             <img src="/assets/imgs/1/22.png" alt="20" width="100%">
                             <h3>Empowering Teachers</h3>
@@ -196,7 +185,7 @@
                                 classroom teaching.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="5">
                         <div class="story-box">
                             <img src="/assets/imgs/1/23.png" alt="20" width="100%">
                             <h3>Better Learning Environment</h3>
@@ -216,34 +205,26 @@
 <section class="our-work-section scroll-section">
     <div class="container">
         <div class="about-clm text-center">
-            <div class="title ct-tooltip">Our Work</div>
-            <h2>Our Areas of <span>Impact</span></h2>
+            <div class="title ct-tooltip" data-animate="fade-left" data-delay="2">Our Work</div>
+            <h2 data-animate="fade-right" data-delay="2">Our Areas of <span>Impact</span></h2>
         </div>
         <div class="row text-center mt-5">
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" data-animate="fade-left" data-delay="2">
                 <img src="/assets/imgs/works/1.webp" alt="first" width="60%">
                 <p class="first">EDUCATION </p>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" data-animate="fade-left" data-delay="3">
                 <img src="/assets/imgs/works/2.webp" alt="second" width="60%">
                 <p class="second">SAFE WATER </p>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" data-animate="fade-left" data-delay="4">
                 <img src="/assets/imgs/works/3.webp" alt="third" width="60%">
                 <p class="third">FACULTY DEVELOPMENT </p>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" data-animate="fade-left" data-delay="5">
                 <img src="/assets/imgs/works/4.webp" alt="fourth" width="60%">
                 <p class="fourth">CHILD DEVELOPMENT </p>
             </div>
-            <!-- <div class="col-6 col-md-2">
-                <img src="/assets/imgs/works/5.webp" alt="fifth" width="60%">
-                <p class="fifth">PROTECTION </p>
-            </div>
-            <div class="col-6 col-md-2">
-                <img src="/assets/imgs/works/6.webp" alt="sixth" width="60%">
-                <p class="sixth">HUMANITARIAN </p>
-            </div> -->
         </div>
     </div>
     <div class="video-clm text-center mt-5">
@@ -251,9 +232,6 @@
             <source src="/assets/videos/2.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <!-- <div class="readmore text-center mt-5">
-            <a href="#" class="globalbtn">Donate Now >></a>
-        </div> -->
     </div>
 </section>
 
@@ -289,15 +267,16 @@
 <div class="img-fluid text-center">
     <img src="/assets/imgs/bg-girls.png" alt="bg-girls" width="64%">
 </div>
+
 <section class="cta-section">
     <div class="container-fluid">
-        <h2 class="text-center">Take <span>Actions</span></h2>
+        <h2 class="text-center" data-animate="fade-top">Take <span>Actions</span></h2>
         <div class="row">
-            <div class="col-12 col-md-6 text-center inner-clms">
+            <div class="col-12 col-md-6 text-center inner-clms"  data-animate="fade-left">
                 <img src="/assets/imgs/1/21.webp" alt="21" width="100%">
                 <a href="#" class="globalbtn">Support a School <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="col-12 col-md-6 text-center inner-clms">
+            <div class="col-12 col-md-6 text-center inner-clms"  data-animate="fade-right">
                 <img src="/assets/imgs/1/22.webp" alt="22" width="100%">
                 <a href="#" class="globalbtn">Join the Mission <i class="fa-solid fa-arrow-right"></i></a>
             </div>
@@ -425,15 +404,7 @@
     <div class="container">
         <div class="row">
             <div class="about-clm text-center">
-                <!-- <div class="title ct-tooltip">News</div> -->
                 <h2>Our <span>Blogs</span></h2>
-                <!-- <h3 class="subheading">Left Behind</h3>
-                <p>Donors across the country share our commitment to providing every child with a safe and nurturing
-                    environment. Here, you can read inspiring words, written by people like you, about how they value
-                    investing in underprivileged children and showing them a better and brighter future. Through their
-                    words, you will discover that every rupee and every person matters in our common journey towards a
-                    better tomorrow.
-                </p> -->
                 <div class="row mt-4">
                     <div class="col-12 col-md-3">
                         <div class="story-box">
@@ -945,5 +916,4 @@ $('.first-hero-section').slick({
     }]
 });
 </script>
-<script src="/assets/js/front/animation.js"></script>
 @endsection
