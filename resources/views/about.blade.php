@@ -64,7 +64,7 @@
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">Our Mission</div>
             <h2 data-animate="fade-right">Project <span> Objectives</span></h2>
-            <!-- <h3 data-animate="fade-left" class="subheading">- NextGen Impact</h3> -->
+            
             <p class="theme-para" data-animate="fade-right" data-delay="2">Creating meaningful and sustainable change through
                 technology, education, and community development.</p>
         </div>
@@ -380,7 +380,7 @@
                     </h3>
 
                     <div class="school-address">
-                        <!-- <i class="bi bi-pin-map"></i> -->
+                        
                         <span>Address: Jhatera, G.P. – Jhadisara,
                             District Nagaur, Rajasthan
                         </span>
@@ -455,21 +455,16 @@
 
 <section class="implementation-methodology">
     <div class="container">
-
-        
-        <div class="method-heading text-center">
-            <span>HOW WE IMPLEMENTED</span>
-            <h2>Implementation <strong>Methodology</strong></h2>
-            <p>
-                A structured, collaborative approach ensuring that every
-                intervention reaches the schools effectively and sustainably.
-            </p>
+        <div class="about-clm text-center">
+            <div class="title ct-tooltip" data-animate="fade-left">How We implemented</div>
+            <h2 data-animate="fade-right">Implementation <span>Methodology</span></h2>
+            <p class="theme-para" data-animate="fade-right" data-delay="2">A structured, collaborative approach ensuring that every
+                intervention reaches the schools effectively and sustainably.</p>
         </div>
-
         
         <div class="method-timeline">
 
-            
+          
             <div class="method-step">
                 <div class="method-dot">
                     <span>01</span>
@@ -623,24 +618,14 @@
 
 <section class="impact-journey-section">
     <div class="container">
-
-        
-        <div class="impact-journey-header">
-            <div class="impact-title">
-                <span>THE CHANGE WE AIM TO CREATE</span>
-                <h2>Expected Impact <b>& Outcomes</b></h2>
-            </div>
-
-            <div class="impact-intro">
-                <p>
-                    The project is designed to create meaningful change
+        <div class="about-clm text-center">
+            <div class="title ct-tooltip" data-animate="fade-left">The Change We Aim To Create</div>
+            <h2 data-animate="fade-right">Expected Impact <span>& Outcomes</span></h2>
+            <p class="theme-para" data-animate="fade-right" data-delay="2">The project is designed to create meaningful change
                     beyond infrastructure — improving learning, well-being,
-                    teacher capacity, and long-term educational outcomes.
-                </p>
-            </div>
+                    teacher capacity, and long-term educational outcomes.</p>
         </div>
-
-
+ 
         
         <div class="impact-journey">
 
@@ -785,24 +770,113 @@
 
         </div>
 
-
-        
-        <div class="impact-closing">
-            <div class="impact-closing-icon">
-                <i class="bi bi-arrow-up-right"></i>
-            </div>
-
-            <div>
-                <span>FROM INVESTMENT TO IMPACT</span>
-                <h3>Creating Change That Lasts</h3>
-            </div>
-
-            <p>
-                Building stronger schools, empowered teachers,
-                and better opportunities for rural children.
-            </p>
-        </div>
-
     </div>
+</section>
+
+<section class="ngi-final-section">
+    <div class="ngi-final-top"></div>
+    <div class="container position-relative">
+        <div class="ngi-bg-word">IMPACT</div>
+        <div class="row align-items-center">
+            <div class="col-lg-12 text-center">
+                <div class="ngi-final-content">
+                    <!-- <div class="ngi-final-label">
+                        <span></span>
+                        THE MISSION CONTINUES
+                    </div> -->
+                    <h2>
+                        Let's build a
+                        <strong>better childhood.</strong>
+                    </h2>
+
+                    <p class="ngi-final-description">
+                        The Build My School Mission is bringing smarter learning,
+                        better facilities and new possibilities to government
+                        schools across India. With our CSR partners, NextGen Impact continues to work
+                        towards creating school environments where every child
+                        can learn, imagine and grow with confidence.
+                    </p>
+                  
+                    <div class="ngi-impact-row">
+                        <div class="ngi-impact-item">
+                            <strong>03</strong>
+                            <span>Schools<br>supported</span>
+                        </div>
+
+                        <div class="ngi-impact-line"></div>
+
+                        <div class="ngi-impact-item">
+                            <strong>01</strong>
+                            <span>Mission<br>growing</span>
+                        </div>
+
+                        <div class="ngi-impact-line"></div>
+
+                        <div class="ngi-impact-item">
+                            <strong>∞</strong>
+                            <span>Possibilities<br>ahead</span>
+                        </div>
+
+                    </div>
+
+
+                    
+                    <div class="ngi-final-action">
+
+                        <a href="#donate" class="ngi-main-donate">
+                            <span>
+                                <i class="fa-solid fa-heart"></i>
+                                Donate Now
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <span class="ngi-action-note">
+                            Every contribution can help create a better learning
+                            environment.
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+<!-- 
+            
+            <div class="col-lg-5">
+
+                <div class="ngi-final-visual">
+
+                    
+                    <div class="ngi-visual-circle"></div>
+
+                    
+                    <div class="ngi-ring ngi-ring-one"></div>
+                    <div class="ngi-ring ngi-ring-two"></div>
+
+                    
+                    <img src="/assets/imgs/1/1.png"
+                         alt="Students benefiting from Build My School Mission"
+                         class="ngi-student-image">
+
+                    
+                    <div class="ngi-floating-message">
+                        <i class="fa-solid fa-quote-left"></i>
+
+                        <span>
+                            Let's not just build schools,
+                            <b>let's build a childhood worth remembering.</b>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div> -->
+
+        </div>
+    </div>
+
 </section>
 @endsection

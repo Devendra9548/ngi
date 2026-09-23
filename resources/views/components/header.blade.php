@@ -56,7 +56,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="{{route('oursolution')}}">Our Solution</a></li>
+                        <li><a href="{{route('about')}}{{route('oursolution')}}">Our Story</a></li>
                         <li><a href="{{route('impact')}}">Impact</a></li>
                         <li><a href="{{route('gallery')}}">Gallery</a></li>
                         <li><a href="{{route('blog')}}">Blogs</a></li>

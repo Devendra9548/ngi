@@ -651,47 +651,14 @@
   }
 }
 .implementation-methodology {
-  padding: 100px 0;
   background: #ffffff;
-}
-
-.method-heading {
-  max-width: 720px;
-  margin: 0 auto 75px;
-}
-
-.method-heading > span {
-  display: inline-block;
-  margin-bottom: 12px;
-  color: rgb(117, 172, 57);
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 2px;
-}
-
-.method-heading h2 {
-  margin-bottom: 15px;
-  color: #153b50;
-  font-size: 43px;
-  font-weight: 700;
-}
-
-.method-heading h2 strong {
-  color: rgb(117, 172, 57);
-  font-weight: 700;
-}
-
-.method-heading p {
-  margin: 0;
-  color: #718087;
-  font-size: 16px;
-  line-height: 1.75;
 }
 
 .method-timeline {
   position: relative;
   max-width: 1050px;
   margin: 0 auto;
+  margin-top: 40px;
 }
 
 .method-timeline::before {
@@ -747,6 +714,7 @@
   border-radius: 18px;
   background: #f8faf8;
   transition: all 0.35s ease;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.0666666667);
 }
 
 .method-card:hover {
@@ -806,12 +774,6 @@
 @media (max-width: 767px) {
   .implementation-methodology {
     padding: 65px 0;
-  }
-  .method-heading {
-    margin-bottom: 50px;
-  }
-  .method-heading h2 {
-    font-size: 32px;
   }
   .method-timeline::before {
     left: 25px;
@@ -1099,49 +1061,7 @@
   }
 }
 .impact-journey-section {
-  padding: 110px 0;
   background: #ffffff;
-}
-
-.impact-journey-header {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 50px;
-  margin-bottom: 90px;
-}
-
-.impact-title > span {
-  display: block;
-  margin-bottom: 12px;
-  color: rgb(117, 172, 57);
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 2px;
-}
-
-.impact-title h2 {
-  margin: 0;
-  color: #153b50;
-  font-size: 45px;
-  line-height: 1.15;
-  font-weight: 700;
-}
-
-.impact-title h2 b {
-  color: rgb(117, 172, 57);
-  font-weight: 700;
-}
-
-.impact-intro {
-  max-width: 430px;
-}
-
-.impact-intro p {
-  margin: 0;
-  color: #6d7b82;
-  font-size: 15px;
-  line-height: 1.8;
 }
 
 .impact-journey {
@@ -1301,17 +1221,6 @@
   .impact-journey-section {
     padding: 80px 0;
   }
-  .impact-journey-header {
-    display: block;
-    margin-bottom: 65px;
-  }
-  .impact-title h2 {
-    font-size: 38px;
-    margin-bottom: 18px;
-  }
-  .impact-intro {
-    max-width: 650px;
-  }
   .impact-side-left {
     padding-right: 40px;
   }
@@ -1373,5 +1282,333 @@
     width: 100%;
     margin: 5px 0 0;
     padding-left: 75px;
+  }
+}
+.ngi-final-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(115deg, #003d63 0%, #005c70 48%, #008b63 100%);
+  color: #fff;
+  padding: 88px 0 60px;
+}
+
+.ngi-bg-word {
+  position: absolute;
+  right: -30px;
+  top: 70px;
+  font-size: clamp(130px, 18vw, 280px);
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -12px;
+  color: rgba(255, 255, 255, 0.035);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.ngi-final-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffe4c2;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 22px;
+  justify-content: center;
+}
+
+.ngi-final-label span {
+  width: 35px;
+  height: 2px;
+  background: #ffe4c2;
+}
+
+.ngi-final-content h2 {
+  font-size: clamp(48px, 6vw, 82px);
+  line-height: 0.98;
+  letter-spacing: -3px;
+  font-weight: 300;
+  margin: 0 0 30px;
+}
+
+.ngi-final-content h2 strong {
+  display: block;
+  color: #ffe4c2;
+  font-weight: 700;
+}
+
+.ngi-final-description {
+  font-size: 20px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: 12px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ngi-impact-row {
+  display: flex;
+  align-items: center;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  justify-content: center;
+  gap: 50px;
+}
+
+.ngi-impact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ngi-impact-item strong {
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ngi-impact-item span {
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: bold;
+}
+
+.ngi-impact-line {
+  width: 1px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0 28px;
+}
+
+.ngi-final-action {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ngi-main-donate {
+  display: inline-flex;
+  align-items: center;
+  gap: 22px;
+  padding: 6px 8px 6px 23px;
+  border-radius: 60px;
+  background: #fff;
+  color: #005c70;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease;
+}
+
+.ngi-main-donate span {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.ngi-main-donate span i {
+  color: #008b63;
+}
+
+.ngi-main-donate > i {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #005c70;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.ngi-main-donate:hover {
+  color: #005c70;
+  transform: translateY(-4px);
+}
+
+.ngi-main-donate:hover > i {
+  transform: rotate(45deg);
+}
+
+.ngi-action-note {
+  max-width: 220px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ngi-final-visual {
+  position: relative;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ngi-visual-circle {
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  background: #ffe4c2;
+  box-shadow: 0 0 0 18px rgba(255, 255, 255, 0.04), 0 30px 70px rgba(0, 0, 0, 0.15);
+}
+
+.ngi-ring {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.ngi-ring-one {
+  width: 510px;
+  height: 510px;
+}
+
+.ngi-ring-two {
+  width: 570px;
+  height: 570px;
+}
+
+.ngi-student-image {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 500px;
+  max-height: 540px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.22));
+}
+
+.ngi-floating-message {
+  position: absolute;
+  z-index: 5;
+  right: -10px;
+  bottom: 35px;
+  width: 255px;
+  padding: 18px 20px;
+  display: flex;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #183b45;
+  border-radius: 17px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+  transform: rotate(-2deg);
+}
+
+.ngi-floating-message > i {
+  color: #008b63;
+  font-size: 20px;
+}
+
+.ngi-floating-message span {
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.ngi-floating-message b {
+  color: #005c70;
+}
+
+@media (max-width: 991px) {
+  .ngi-final-section {
+    padding: 110px 0 100px;
+  }
+  .ngi-final-visual {
+    height: 500px;
+    margin-top: 30px;
+  }
+  .ngi-visual-circle {
+    width: 370px;
+    height: 370px;
+  }
+  .ngi-ring-one {
+    width: 430px;
+    height: 430px;
+  }
+  .ngi-ring-two {
+    width: 480px;
+    height: 480px;
+  }
+  .ngi-student-image {
+    max-width: 420px;
+  }
+  .ngi-floating-message {
+    right: 5%;
+  }
+}
+@media (max-width: 575px) {
+  .ngi-final-section {
+    padding: 100px 0 80px;
+  }
+  .ngi-final-content h2 {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+  .ngi-final-description {
+    font-size: 14px;
+  }
+  .ngi-impact-row {
+    justify-content: space-between;
+  }
+  .ngi-impact-item {
+    display: block;
+  }
+  .ngi-impact-item strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .ngi-impact-line {
+    margin: 0 10px;
+    height: 40px;
+  }
+  .ngi-final-action {
+    display: block;
+  }
+  .ngi-action-note {
+    display: block;
+    margin-top: 12px;
+  }
+  .ngi-final-visual {
+    height: 400px;
+    margin-top: 20px;
+  }
+  .ngi-visual-circle {
+    width: 290px;
+    height: 290px;
+  }
+  .ngi-ring-one {
+    width: 340px;
+    height: 340px;
+  }
+  .ngi-ring-two {
+    width: 390px;
+    height: 390px;
+  }
+  .ngi-student-image {
+    max-width: 340px;
+  }
+  .ngi-floating-message {
+    right: 0;
+    bottom: 5px;
+    width: 230px;
+  }
+  .ngi-bg-word {
+    font-size: 100px;
+    top: 100px;
   }
 }/*# sourceMappingURL=about.css.map */
