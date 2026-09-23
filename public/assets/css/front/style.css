@@ -1,3 +1,21 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #004b78 0%, #006f7a 45%, #00c853 100%) !important;
+  border-radius: 20px;
+  border: 2px solid #f1f5f3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #003b60 0%, #005d66 45%, #00a844 100%) !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Geist", sans-serif;
 }
@@ -36,6 +54,7 @@ h2 span {
   font-size: 15px;
   font-family: "Geist", sans-serif !important;
   margin-bottom: 15px !important;
+  font-weight: bold;
 }
 
 body {

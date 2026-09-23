@@ -31,7 +31,7 @@
                 <img src="/assets/imgs/1/18.avif" alt="18" width="100%">
             </div>
         </div>
-        <div class="row mt-90">
+        <div class="row mt-90" id="OurVision">
             <div class="col-12 col-md-6" data-animate="fade-left">
                 <img src="/assets/imgs/1/19.avif" alt="18" width="100%">
             </div>
@@ -162,7 +162,7 @@
     </div>
 </section>
 
-<section class="project-components-section">
+<section class="project-components-section" id="WhatWeDeliver">
     <div class="container">
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">What We Deliver</div>
@@ -255,7 +255,7 @@
     </div>
 </section>
 
-<section class="schools-covered-section">
+<section class="schools-covered-section" id="ProjectReach">
     <div class="container">
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">Project Reach</div>
@@ -453,7 +453,7 @@
     </div>
 </section>
 
-<section class="implementation-methodology">
+<section class="implementation-methodology" id="HowWeimplemented">
     <div class="container">
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">How We implemented</div>
@@ -773,6 +773,112 @@
     </div>
 </section>
 
+<section class="ngi-team-section" id="OurTeam">
+    <div class="container">
+        <div class="about-clm text-center">
+            <div class="title ct-tooltip" data-animate="fade-left"><i class="fa-solid fa-people-group"></i> Our Team</div>
+            <h2 data-animate="fade-right">Meet Our <span>- Team</span></h2>
+            <p class="theme-para" data-animate="fade-right" data-delay="2">Meet the passionate people working together to create meaningful change and lasting impact.</p>
+        </div>
+
+        <div class="row g-4 mt-3">
+            <div class="col-lg-4 col-md-6">
+                <div class="ngi-team-card">
+                   <div class="ngi-team-image">
+                        <img src="/assets/imgs/about/3.jpeg"
+                             alt="Team Member"
+                             class="img-fluid">
+
+                        <div class="ngi-team-social">
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" aria-label="Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="ngi-team-content">
+                        <span>Founder &amp; Director</span>
+                        <h3>Team Member Name</h3>
+                        <p>
+                            Leading the vision and initiatives that turn
+                            ideas into meaningful social impact.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Member 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="ngi-team-card">
+
+                    <div class="ngi-team-image">
+                        <img src="/assets/imgs/about/3.jpeg"
+                             alt="Team Member"
+                             class="img-fluid">
+
+                        <div class="ngi-team-social">
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" aria-label="Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="ngi-team-content">
+                        <span>Program Lead</span>
+                        <h3>Team Member Name</h3>
+                        <p>
+                            Driving programs and partnerships that bring
+                            positive change to communities.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Member 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="ngi-team-card">
+
+                    <div class="ngi-team-image">
+                        <img src="/assets/imgs/about/3.jpeg"
+                             alt="Team Member"
+                             class="img-fluid">
+
+                        <div class="ngi-team-social">
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" aria-label="Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="ngi-team-content">
+                        <span>Community Coordinator</span>
+                        <h3>Team Member Name</h3>
+                        <p>
+                            Connecting people, schools and communities to
+                            make every initiative more impactful.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <section class="ngi-final-section">
     <div class="ngi-final-top"></div>
     <div class="container position-relative">
@@ -780,10 +886,6 @@
         <div class="row align-items-center">
             <div class="col-lg-12 text-center">
                 <div class="ngi-final-content">
-                    <!-- <div class="ngi-final-label">
-                        <span></span>
-                        THE MISSION CONTINUES
-                    </div> -->
                     <h2>
                         Let's build a
                         <strong>better childhood.</strong>
@@ -842,38 +944,6 @@
                 </div>
 
             </div>
-
-<!-- 
-            
-            <div class="col-lg-5">
-
-                <div class="ngi-final-visual">
-
-                    
-                    <div class="ngi-visual-circle"></div>
-
-                    
-                    <div class="ngi-ring ngi-ring-one"></div>
-                    <div class="ngi-ring ngi-ring-two"></div>
-
-                    
-                    <img src="/assets/imgs/1/1.png"
-                         alt="Students benefiting from Build My School Mission"
-                         class="ngi-student-image">
-
-                    
-                    <div class="ngi-floating-message">
-                        <i class="fa-solid fa-quote-left"></i>
-
-                        <span>
-                            Let's not just build schools,
-                            <b>let's build a childhood worth remembering.</b>
-                        </span>
-                    </div>
-
-                </div>
-
-            </div> -->
 
         </div>
     </div>

@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <style>
+
+
 </style>
 @endsection
 @section('body')
@@ -100,7 +102,7 @@
                     <a href="#" class="globalbtn" data-animate="fade-top" data-delay="2">Read Our Story</a>
                 </div>
             </div>
-            <div class="col-12 col-md-6"  data-animate="fade-right" data-delay="2">
+            <div class="col-12 col-md-6">
                 <div id="india-map"></div>
                 <div id="state-tooltip"></div>
 

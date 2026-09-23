@@ -1294,18 +1294,19 @@
 
 .ngi-bg-word {
   position: absolute;
-  right: -30px;
   top: 70px;
   font-size: clamp(130px, 18vw, 280px);
   line-height: 1;
   font-weight: 900;
-  letter-spacing: -12px;
+  letter-spacing: 22px;
   color: rgba(255, 255, 255, 0.035);
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   pointer-events: none;
+  width: 100%;
+  text-align: center;
 }
 
 .ngi-final-label {
@@ -1610,5 +1611,128 @@
   .ngi-bg-word {
     font-size: 100px;
     top: 100px;
+  }
+}
+.ngi-team-section {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.ngi-team-card {
+  height: 100%;
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.ngi-team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.11);
+}
+
+.ngi-team-image {
+  position: relative;
+  height: 390px;
+  overflow: hidden;
+  background: #e8eee8;
+}
+
+.ngi-team-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.ngi-team-card:hover .ngi-team-image img {
+  transform: scale(1.06);
+}
+
+.ngi-team-social {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: all 0.35s ease;
+}
+
+.ngi-team-card:hover .ngi-team-social {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ngi-team-social a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+  color: #153b32;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ngi-team-social a:hover {
+  background: rgb(117, 172, 57);
+  color: #fff;
+}
+
+.ngi-team-content {
+  padding: 26px 28px 30px;
+}
+
+.ngi-team-content span {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: rgb(117, 172, 57);
+}
+
+.ngi-team-content h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #153b32;
+}
+
+.ngi-team-content p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #777;
+}
+
+@media (max-width: 991px) {
+  .ngi-team-section {
+    padding: 75px 0;
+  }
+  .ngi-team-image {
+    height: 350px;
+  }
+}
+@media (max-width: 575px) {
+  .ngi-team-section {
+    padding: 60px 0;
+  }
+  .ngi-team-title {
+    font-size: 38px;
+  }
+  .ngi-team-image {
+    height: 360px;
+  }
+  .ngi-team-content {
+    padding: 23px;
   }
 }/*# sourceMappingURL=about.css.map */

@@ -49,15 +49,16 @@
                                 <i id="uparrow" class="fa-solid fa-chevron-down darrow" style="font-size:12px"></i></a>
                             <div class="submenu sub-p-1" id="submenu">
                                 <ul class="m-0 p-0" style="list-style:none">
-                                    <li><a href="{{route('about')}}">Mission</a></li>
-                                    <li><a href="{{route('about')}}">Why Government Schools</a></li>
-                                    <li><a href="{{route('about')}}">Our Timeline</a></li>
-                                    <li><a href="{{route('about')}}">Our Partners</a></li>
+                                    <li><a href="{{route('about')}}">Our Story</a></li>
+                                    <li><a href="{{route('about')}}#WhatWeDeliver">What We Deliver</a></li>
+                                    <li><a href="{{route('about')}}#ProjectReach">Project Reach</a></li>
+                                    <li><a href="{{route('about')}}#HowWeimplemented">How We implemented</a></li>
+                                    <li><a href="{{route('about')}}#OurTeam">Our Team</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="{{route('about')}}{{route('oursolution')}}">Our Story</a></li>
-                        <li><a href="{{route('impact')}}">Impact</a></li>
+                        <!-- <li><a href="{{route('oursolution')}}">Our Solution</a></li> -->
+                        <li><a href="{{route('impact')}}">Our Impact</a></li>
                         <li><a href="{{route('gallery')}}">Gallery</a></li>
                         <li><a href="{{route('blog')}}">Blogs</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
