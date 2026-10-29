@@ -1,0 +1,328 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #004b78 0%, #006f7a 45%, #00c853 100%) !important;
+  border-radius: 20px;
+  border: 2px solid #f1f5f3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #003b60 0%, #005d66 45%, #00a844 100%) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Geist", sans-serif;
+}
+
+p, div, a, span, strong, i, u, ul, li, table, td, th, tr, ol {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  color: rgb(117, 172, 57);
+  font-family: "Geist", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h2 span {
+  color: #000;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.subheading {
+  font-style: italic;
+  font-size: 52px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Instrument Serif", serif !important;
+}
+
+.ct-tooltip {
+  display: inline-block;
+  background: rgb(255, 159, 28);
+  color: #fff !important;
+  padding: 6px 15px;
+  border-radius: 100px;
+  font-size: 15px;
+  font-family: "Geist", sans-serif !important;
+  margin-bottom: 15px !important;
+  font-weight: bold;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.theme-para {
+  width: 58% !important;
+  margin: 0px auto !important;
+  font-size: 22px !important;
+  font-style: italic;
+}
+
+.prev-arrow, .next-arrow {
+  position: absolute;
+  z-index: 999;
+  font-size: 21px;
+  background: transparent;
+  color: #000000;
+  border: 2px solid #fff;
+  left: -1px;
+  padding: 10px 20px;
+}
+
+.slick-next, .slick-prev {
+  bottom: -70px;
+}
+
+.next-arrow {
+  right: 0px;
+  left: auto;
+}
+
+.slick-dots {
+  bottom: -55px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 14px !important;
+}
+
+.prev-arrow:hover, .next-arrow:hover {
+  background: #fff !important;
+  color: #000 !important;
+  border-color: #fff !important;
+}
+
+.globalbtn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 12px 26px !important;
+  border: none !important;
+  border-radius: 10px !important;
+  background: linear-gradient(135deg, #004b78 0%, #006f7a 45%, #00c853 100%) !important;
+  color: #fff !important;
+  font-family: "Lato", sans-serif !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  box-shadow: 0 7px 20px rgba(0, 75, 120, 0.22), 0 3px 10px rgba(0, 200, 83, 0.12) !important;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, background 0.35s ease !important;
+}
+
+.globalbtn::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -100%;
+  width: 60%;
+  height: 140%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-25deg);
+  transition: left 0.65s ease;
+}
+
+.globalbtn::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+}
+
+.globalbtn:hover {
+  color: #fff !important;
+  transform: translateY(0px);
+  background: linear-gradient(135deg, #003f68 0%, #007d76 45%, #00d45a 100%);
+  box-shadow: 0 14px 30px rgba(0, 75, 120, 0.28), 0 6px 18px rgba(0, 200, 83, 0.22);
+}
+
+.globalbtn:hover::before {
+  left: 140%;
+}
+
+.globalbtn:active {
+  transform: translateY(-1px) scale(0.97);
+}
+
+.globalbtn i {
+  color: #fff !important;
+  position: relative !important;
+  top: 2px !important;
+  left: 5px !important;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-family: slick;
+  font-size: 26px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #000 !important;
+}
+
+section {
+  padding: 80px 0px;
+}
+
+.main-banner-pages {
+  position: relative;
+  overflow: hidden;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner-pages img {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  height: 480px;
+  top: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  opacity: 1 !important;
+}
+
+.main-banner-pages h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #fff !important;
+  font-family: "Geist", sans-serif;
+  margin-bottom: 0px;
+}
+.main-banner-pages p {
+  font-family: "Instrument Serif", serif;
+  color: rgb(255, 159, 28) !important;
+  font-size: 65px;
+  font-weight: 600;
+  font-style: italic;
+}
+.main-banner-pages .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+.bg-layer {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 480px;
+  background: linear-gradient(29deg, black 6%, transparent);
+}
+
+.cta-section {
+  background-color: rgb(249, 234, 216) !important;
+}
+.cta-section h2 {
+  color: #000 !important;
+}
+.cta-section h2 span {
+  font-family: "Instrument Serif", serif !important;
+  font-weight: 500;
+  font-style: italic;
+  color: #000 !important;
+}
+.cta-section .heading {
+  font-size: 26px !important;
+  font-weight: 600;
+  margin-bottom: 5px !important;
+}
+.cta-section .address {
+  margin-bottom: 25px;
+  color: #555 !important;
+  font-size: 20px !important;
+  font-style: italic;
+  width: 38%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-section .globalbtn {
+  margin-top: 15px !important;
+  background: linear-gradient(135deg, #ff9f1c 0%, #ff9f1c 45%, #ff9f1c 100%) !important;
+  color: #fff !important;
+  width: auto;
+  padding: 10px 30px !important;
+  font-size: 18px !important;
+  letter-spacing: 1px;
+  border: 0px !important;
+}
+.cta-section .globalbtn i {
+  padding: 5px;
+  width: 22px;
+  height: 22px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  left: 10px !important;
+  top: 0px !important;
+  background: #fff !important;
+  color: #000 !important;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .globalbtn {
+    font-size: 16px !important;
+  }
+  .prev-arrow, .next-arrow {
+    top: 46%;
+    z-index: 999;
+    font-size: 9px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #b8b6b6;
+    padding: 5px 5px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  h2 span {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .subheading {
+    font-size: 26px;
+  }
+  .ct-tooltip {
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+  section {
+    overflow: hidden;
+    padding: 30px 0px;
+  }
+  p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,85 @@
+@import 'style.sass'
+
+.first-section
+    p
+        font-size: 18px
+        line-height: 32px
+        widows: 80%
+        margin: auto
+    .blue-line
+        margin-bottom: 15px
+
+.second-section
+    .row
+        box-shadow: 0px 0px 5px 4px #b6b6b675
+    .cards
+        border: 0px solid #0005
+        height: 100%
+        background: #fff
+
+    img
+        height: 380px
+        object-fit: cover
+        object-position: center
+        border-radius: 10px
+    .blue-line
+        margin-bottom: 20px
+        margin-left: 0px
+        width: 75%
+
+.goldensection
+    background-image: url('/assets/imgs/29.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+    .bgimg
+        background: #16447879
+    h2,h3,i,p
+        color: #fff
+    h3,i,p
+        text-align: center
+    i
+        font-size: 42px
+        display: block
+        margin-bottom: 15px
+    p
+        margin: auto
+        width: 90%
+        margin-bottom: 0px
+
+.cta-section
+    text-align: center
+    a
+        text-decoration: none
+    i
+        margin-right: 5px
+
+.joinateamsection
+    .cards
+        border: 3px solid $golden
+        padding: 20px
+        border-radius: 15px
+        height: 100%
+        i
+            color: $blue
+            text-align: center
+            font-size: 52px
+            display: block
+            margin-bottom: 15px
+            margin-top: 15px
+        h3
+            text-align: center
+        p
+            text-align: center
+
+@media only screen and (max-width:768px)
+    .second-section
+        .container
+            width: 90% !important
+            img
+                height: 250px !important
+                margin: 15px 0px
+
+    .joinateamsection, .first-section   
+        .blue-line
+            width: 60% !important
