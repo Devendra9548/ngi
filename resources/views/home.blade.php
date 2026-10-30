@@ -546,37 +546,45 @@
                     <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="2">
                         <div class="story-box">
                             <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
+                            <div class="content">
                             <h3>Smart Learning Begins</h3>
                             <p>AI Interactive Flat Panel Displays were installed to make classroom learning more
                                 engaging, interactive and effective.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
+                            <div class="content">
                             <h3>Safe Drinking Water</h3>
                             <p>RO-enabled water coolers were installed to provide students and staff with safe and clean
                                 drinking water.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="4">
                         <div class="story-box">
                             <img src="/assets/imgs/1/22.png" alt="20" width="100%">
+                            <div class="content">
                             <h3>Empowering Teachers</h3>
                             <p>Faculty received hands-on orientation on operating and using Smartboards effectively in
                                 classroom teaching.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3" data-animate="fade-bottom" data-delay="5">
                         <div class="story-box">
                             <img src="/assets/imgs/1/23.png" alt="20" width="100%">
+                            <div class="content">
                             <h3>Better Learning Environment</h3>
                             <p>The initiative is helping create more inspiring, safe and technology-enabled learning
                                 spaces for rural children.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="readmore text-center mt-5">
+                <div class="readmore text-center mt-md-5">
                     <a href="#" class="globalbtn">Read More Stories</a>
                 </div>
             </div>
@@ -646,7 +654,7 @@
     </div>
 </section>
 
-<div class="img-fluid text-center">
+<div class="img-fluid text-center image-two-girs">
     <img src="/assets/imgs/bg-girls.png" alt="bg-girls" width="64%">
 </div>
 
@@ -675,7 +683,7 @@
   </svg>
 </div>
 
-<section class="clinic-testimonial-section my-5 scroll-section">
+<section class="clinic-testimonial-section my-md-5 scroll-section">
     <div class="testimonial-bg-title">
         Testimonials
     </div>
@@ -800,33 +808,41 @@
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/20.webp" alt="20" width="100%">
+                            <div class="content">
                             <h3>Build My School Mission – India</h3>
                             <p>An overview of the initiative and its vision for rural government schools.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/21.jpg" alt="20" width="100%">
+                            <div class="content">
                             <h3>Bringing Smart Learning to Rural Schools</h3>
                             <p>How AI Interactive Flat Panel Displays can make classroom learning more engaging.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/22.png" alt="20" width="100%">
+                            <div class="content">
                             <h3>Safe Drinking Water in Schools</h3>
                             <p>Strengthening basic student amenities through RO-enabled water coolers.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="story-box">
                             <img src="/assets/imgs/1/23.png" alt="20" width="100%">
+                            <div class="content">
                             <h3>Empowering Teachers Through Technology</h3>
                             <p>Faculty orientation for effective classroom use of Smartboards.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="readmore text-center mt-5">
+                <div class="readmore text-center mt-md-5">
                     <a href="#" class="globalbtn">Read More Stories</a>
                 </div>
             </div>

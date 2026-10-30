@@ -325,4 +325,13 @@ section {
   p {
     font-size: 15px;
   }
+  .cta-section .inner-clms {
+    margin-bottom: 20px;
+  }
+  .cta-section .globalbtn {
+    left: 26%;
+    font-size: 15px !important;
+    bottom: 15px;
+    padding: 8px 20px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

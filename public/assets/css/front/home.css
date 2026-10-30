@@ -857,4 +857,64 @@
     object-fit: cover;
     margin-top: 30px;
   }
+  .story-box {
+    display: flex;
+  }
+  .story-box .content {
+    padding: 0px 20px;
+  }
+  .story-section .story-box img {
+    height: 123px;
+    width: 110px;
+  }
+  .our-work-section {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .our-work-section video {
+    width: 97% !important;
+    margin-bottom: 20px;
+  }
+  .our-work-section p {
+    margin-top: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .fifth-section .img-box, .fifth-section h3 {
+    height: auto;
+  }
+  .fifth-section h3 {
+    font-size: 24px;
+  }
+  .fifth-section .right-img-box img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .fifth-section .content-box {
+    padding: 20px;
+    margin-top: 0px;
+  }
+  .fifth-section .content-box .first {
+    font-size: 22px;
+  }
+  .fifth-section .content-box .number {
+    font-size: 35px;
+    margin: 15px 0px;
+    letter-spacing: 1px;
+  }
+  .image-two-girs {
+    margin-bottom: -20px !important;
+  }
+  .image-two-girs img {
+    width: 100%;
+  }
+  .story-section .story-box h3 {
+    font-size: 18px !important;
+  }
+  .story-section .story-box p {
+    font-size: 14px !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
 }/*# sourceMappingURL=home.css.map */
