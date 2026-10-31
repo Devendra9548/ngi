@@ -14,7 +14,7 @@
                         <span class="font-special">A Cleaner Earth, A Happier Childhood</span>
                     </h1>
                     <p class="lead seq mt-4">NextGen Impact and GEM Enviro Management Limited, with Gautam Buddha
-                        University as coordination partner, helped villagers and schoolchildren learn to manage plastic
+                        University as coordination partner, helped villagers and school children learn to manage plastic
                         waste responsibly and turn it into a resource.</p>
                     <div class="seq mt-3">
                         <p class="event-meta mb-4"><i class="bi bi-geo-alt-fill me-2"></i>Chuharpur Khadar, Gautam

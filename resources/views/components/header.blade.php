@@ -60,6 +60,8 @@
                         </li>
                         <!-- <li><a href="{{route('oursolution')}}">Our Solution</a></li> -->
                         <li><a href="{{route('impact')}}">Our Impact</a></li>
+                        <li><a href="{{route('gallery')}}">Gallery</a></li>
+                        {{--
                         <li class="p-menu" id="pmenu"><a href="{{route('gallery')}}"
                                 class="menu-toggle">Gallery
                                 <i id="uparrow" class="fa-solid fa-chevron-down darrow" style="font-size:12px"></i></a>
@@ -70,14 +72,17 @@
                                 </ul>
                             </div>
                         </li>
+                        --}}
                         <li><a href="{{route('blog')}}">Blogs</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                         <li><a href="javascript:void(0)" class="globalbtn">Donate Now <i class="fa-solid fa-angles-right"></i></a></li>
                     </ul>
 
                 </nav>
-                <div class="text-end pe-2" id="menuburgar"><a href="javascript:void(0)"><i
-                            class="fa-solid fa-bars"></i></a></div>
+                <div class="text-end pe-md-2" id="menuburgar"><a href="javascript:void(0)">
+                    <!-- <i class="fa-solid fa-bars"></i> -->
+                    <img src="/assets/imgs/menu-bar.png" alt="menu-bar" width="35px">
+                </a></div>
                 <div id="closeiconmenu" class="text-end"><a href="javascript:void(0)"><i class="fa-solid fa-x"></i></a>
                 </div>
             </div>

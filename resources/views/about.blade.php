@@ -6,14 +6,14 @@
 @section('body')
 <x-mainbanner name="About Us" para="We are here always.." imgs="/assets/imgs/banners/about-us.webp" />
 
-<section class="first-section pt-5 py-md-5"> 
+<section class="first-section pt-5 py-md-5">
     <div class="container">
         <p class="text-center main-headling">Earth Initiative Foundation is a registered non-governmental organization
             working to strengthen education and child development through Corporate Social Responsibility (CSR)
             initiatives. Under its flagship CSR programme, NextGen Impact, the Foundation has launched the 'Build My
             School Mission' in Rajasthan, guided by the philosophy: "Let's not just build school, let's build a
             childhood worth remembering."</p>
-        <img src="/assets/imgs/1/16.avif" alt="15" width="100%">
+        <img src="/assets/imgs/3/2%20(12).webp" alt="About Us" width="100%">
     </div>
 </section>
 
@@ -23,22 +23,27 @@
             <div class="col-12 col-md-6 flex-box" data-animate="fade-left">
                 <div class="about-clm text-start pe-md-5">
                     <div class="title ct-tooltip">About Us</div>
-                    <p>The mission focuses on strengthening government schools in under-served rural areas by upgrading learning infrastructure and improving basic student amenities. A commitment to equitable, joyful, and technology-enabled education for children from rural and economically weaker backgrounds.</p>
+                    <p>The mission focuses on strengthening government schools in under-served rural areas by upgrading
+                        learning infrastructure and improving basic student amenities. A commitment to equitable,
+                        joyful, and technology-enabled education for children from rural and economically weaker
+                        backgrounds.</p>
                 </div>
 
             </div>
             <div class="col-12 col-md-6" data-animate="fade-right">
-                <img src="/assets/imgs/1/18.avif" alt="18" width="100%">
+                <img src="/assets/imgs/3/2%20(38).webp" alt="18" width="100%">
             </div>
         </div>
         <div class="row mt-90" id="OurVision">
             <div class="col-12 col-md-6" data-animate="fade-left">
-                <img src="/assets/imgs/1/19.avif" alt="18" width="100%">
+                <img src="/assets/imgs/3/2%20(47).webp" alt="18" width="100%">
             </div>
             <div class="col-12 col-md-6 flex-box" data-animate="fade-right">
                 <div class="about-clm text-start ps-md-3 pe-md-2">
                     <div class="title ct-tooltip">Our Vision</div>
-                    <p>A future where every government school inspires curiosity, nurtures creativity, and empowers every child through joyful learning, scientific exploration, innovation, and life skills to reach their fullest potential.</p>
+                    <p>A future where every government school inspires curiosity, nurtures creativity, and empowers
+                        every child through joyful learning, scientific exploration, innovation, and life skills to
+                        reach their fullest potential.</p>
                 </div>
 
             </div>
@@ -47,12 +52,13 @@
             <div class="col-12 col-md-6 flex-box">
                 <div class="about-clm text-start pe-md-5" data-animate="fade-left">
                     <div class="title ct-tooltip">Our Mission</div>
-                    <p>Our mission is to create spaces where children feel safe, inspired, and excited to learn every day.</p>
+                    <p>Our mission is to create spaces where children feel safe, inspired, and excited to learn every
+                        day.</p>
                 </div>
 
             </div>
             <div class="col-12 col-md-6" data-animate="fade-right">
-                <img src="/assets/imgs/1/18.avif" alt="18" width="100%">
+                <img src="/assets/imgs/3/2%20(35).webp" alt="18" width="100%">
             </div>
         </div>
     </div>
@@ -64,15 +70,16 @@
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">Our Mission</div>
             <h2 data-animate="fade-right">Project <span> Objectives</span></h2>
-            
-            <p class="theme-para" data-animate="fade-right" data-delay="2">Creating meaningful and sustainable change through
+
+            <p class="theme-para" data-animate="fade-right" data-delay="2">Creating meaningful and sustainable change
+                through
                 technology, education, and community development.</p>
         </div>
 
-        
+
         <div class="row g-4 mt-4">
 
-            
+
             <div class="col-lg-4 col-md-6">
                 <div class="objective-card">
                     <div class="objective-number">01</div>
@@ -89,7 +96,7 @@
                 </div>
             </div>
 
-            
+
             <div class="col-lg-4 col-md-6">
                 <div class="objective-card">
                     <div class="objective-number">02</div>
@@ -106,7 +113,7 @@
                 </div>
             </div>
 
-            
+
             <div class="col-lg-4 col-md-6">
                 <div class="objective-card">
                     <div class="objective-number">03</div>
@@ -123,7 +130,7 @@
                 </div>
             </div>
 
-            
+
             <div class="col-lg-6 col-md-6">
                 <div class="objective-card objective-card-wide">
                     <div class="objective-number">04</div>
@@ -140,7 +147,7 @@
                 </div>
             </div>
 
-            
+
             <div class="col-lg-6 col-md-12">
                 <div class="objective-card objective-card-wide">
                     <div class="objective-number">05</div>
@@ -167,10 +174,11 @@
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">What We Deliver</div>
             <h2 data-animate="fade-right">Project <span> Components</span></h2>
-            <p class="theme-para" data-animate="fade-right" data-delay="2">Key interventions designed to transform classrooms,
+            <p class="theme-para" data-animate="fade-right" data-delay="2">Key interventions designed to transform
+                classrooms,
                 improve infrastructure, and empower teachers.</p>
         </div>
-        
+
         <div class="component-item">
             <div class="component-index">
                 <span>01</span>
@@ -198,7 +206,7 @@
             </div>
         </div>
 
-        
+
         <div class="component-item component-reverse">
             <div class="component-index">
                 <span>02</span>
@@ -225,7 +233,7 @@
             </div>
         </div>
 
-        
+
         <div class="component-item">
             <div class="component-index">
                 <span>03</span>
@@ -260,13 +268,14 @@
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">Project Reach</div>
             <h2 data-animate="fade-right">Schools Covered <span> Under the Project</span></h2>
-            <p class="theme-para" data-animate="fade-right" data-delay="2">The project was implemented across three government schools
+            <p class="theme-para" data-animate="fade-right" data-delay="2">The project was implemented across three
+                government schools
                 spread over two districts of Rajasthan — Churu and Nagaur.</p>
         </div>
 
-        
+
         <div class="row g-4 mt-5">
-           
+
             <div class="col-lg-4 col-md-6">
                 <div class="school-card">
 
@@ -274,7 +283,7 @@
                         <div class="school-number"></div>
 
                         <div class="school-location">
-                           01
+                            01
                         </div>
                     </div>
 
@@ -312,7 +321,7 @@
             </div>
 
 
-            
+
             <div class="col-lg-4 col-md-6">
                 <div class="school-card">
 
@@ -320,7 +329,7 @@
                         <div class="school-number"></div>
 
                         <div class="school-location">
-                           02
+                            02
                         </div>
                     </div>
 
@@ -358,7 +367,7 @@
             </div>
 
 
-            
+
             <div class="col-lg-4 col-md-6">
                 <div class="school-card">
 
@@ -366,7 +375,7 @@
                         <div class="school-number"></div>
 
                         <div class="school-location">
-                           03
+                            03
                         </div>
                     </div>
 
@@ -380,7 +389,7 @@
                     </h3>
 
                     <div class="school-address">
-                        
+
                         <span>Address: Jhatera, G.P. – Jhadisara,
                             District Nagaur, Rajasthan
                         </span>
@@ -408,7 +417,7 @@
         </div>
 
 
-        
+
         <div class="school-stats">
 
             <div class="school-stat">
@@ -458,13 +467,14 @@
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">How We implemented</div>
             <h2 data-animate="fade-right">Implementation <span>Methodology</span></h2>
-            <p class="theme-para" data-animate="fade-right" data-delay="2">A structured, collaborative approach ensuring that every
+            <p class="theme-para" data-animate="fade-right" data-delay="2">A structured, collaborative approach ensuring
+                that every
                 intervention reaches the schools effectively and sustainably.</p>
         </div>
-        
+
         <div class="method-timeline">
 
-          
+
             <div class="method-step">
                 <div class="method-dot">
                     <span>01</span>
@@ -489,7 +499,7 @@
             </div>
 
 
-            
+
             <div class="method-step">
                 <div class="method-dot">
                     <span>02</span>
@@ -514,7 +524,7 @@
             </div>
 
 
-            
+
             <div class="method-step">
                 <div class="method-dot">
                     <span>03</span>
@@ -539,7 +549,7 @@
             </div>
 
 
-            
+
             <div class="method-step">
                 <div class="method-dot">
                     <span>04</span>
@@ -563,7 +573,7 @@
             </div>
 
 
-            
+
             <div class="method-step">
                 <div class="method-dot">
                     <span>05</span>
@@ -587,7 +597,7 @@
             </div>
 
 
-            
+
             <div class="method-step">
                 <div class="method-dot">
                     <span>06</span>
@@ -621,19 +631,20 @@
         <div class="about-clm text-center">
             <div class="title ct-tooltip" data-animate="fade-left">The Change We Aim To Create</div>
             <h2 data-animate="fade-right">Expected Impact <span>& Outcomes</span></h2>
-            <p class="theme-para" data-animate="fade-right" data-delay="2">The project is designed to create meaningful change
-                    beyond infrastructure — improving learning, well-being,
-                    teacher capacity, and long-term educational outcomes.</p>
+            <p class="theme-para" data-animate="fade-right" data-delay="2">The project is designed to create meaningful
+                change
+                beyond infrastructure — improving learning, well-being,
+                teacher capacity, and long-term educational outcomes.</p>
         </div>
- 
-        
+
+
         <div class="impact-journey">
 
-            
+
             <div class="impact-center-line"></div>
 
 
-            
+
             <div class="impact-journey-item">
 
                 <div class="impact-side impact-side-left">
@@ -660,7 +671,7 @@
             </div>
 
 
-            
+
             <div class="impact-journey-item">
 
                 <div class="impact-side impact-side-left">
@@ -687,7 +698,7 @@
             </div>
 
 
-            
+
             <div class="impact-journey-item">
 
                 <div class="impact-side impact-side-left">
@@ -715,7 +726,7 @@
             </div>
 
 
-            
+
             <div class="impact-journey-item">
 
                 <div class="impact-side impact-side-left">
@@ -742,7 +753,7 @@
             </div>
 
 
-            
+
             <div class="impact-journey-item">
 
                 <div class="impact-side impact-side-left">
@@ -773,111 +784,247 @@
     </div>
 </section>
 
-<section class="ngi-team-section" id="OurTeam">
+<section class="tm-team" id="team">
     <div class="container">
+
         <div class="about-clm text-center">
-            <div class="title ct-tooltip" data-animate="fade-left"><i class="fa-solid fa-people-group"></i> Our Team</div>
+            <div class="title ct-tooltip" data-animate="fade-left"><i class="fa-solid fa-people-group"></i> Our Team
+            </div>
             <h2 data-animate="fade-right">Meet Our <span>- Team</span></h2>
-            <p class="theme-para" data-animate="fade-right" data-delay="2">Meet the passionate people working together to create meaningful change and lasting impact.</p>
+            <p class="theme-para" data-animate="fade-right" data-delay="2">Meet the passionate people working together
+                to create meaningful change and lasting impact.</p>
         </div>
 
-        <div class="row g-4 mt-3">
-            <div class="col-lg-4 col-md-6">
-                <div class="ngi-team-card">
-                   <div class="ngi-team-image">
-                        <img src="/assets/imgs/about/3.jpeg"
-                             alt="Team Member"
-                             class="img-fluid">
+        <div class="row g-4 justify-content-center">
 
-                        <div class="ngi-team-social">
-                            <a href="#" aria-label="LinkedIn">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" aria-label="Email">
-                                <i class="fa-solid fa-envelope"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="ngi-team-content">
-                        <span>Founder &amp; Director</span>
-                        <h3>Team Member Name</h3>
-                        <p>
-                            Leading the vision and initiatives that turn
-                            ideas into meaningful social impact.
-                        </p>
-                    </div>
-
+            <!-- Member 1 -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="tm-team__card">
+                    <img src="/assets/imgs/teams/sainshringdi-hojai.png" alt="Sainshringdi Hojai"
+                        class="tm-team__img rounded-circle" width="170" height="170" loading="lazy">
+                    <h5 class="tm-team__name">Sainshringdi Hojai</h5>
+                    <p class="tm-team__role">Treasurer</p>
+                    <p class="tm-team__bio">Sainshringdi Hojai, Treasurer of Earth Initiative Foundation, brings a
+                        diverse perspective shaped by her Northeast Indian roots and upbringing in mainland India.
+                        Inspired by her life experiences, she is committed to social impact, inclusive education, and
+                        giving back to society.</p>
+                    <button type="button" class="tm-team__btn" data-bs-toggle="modal"
+                        data-bs-target="#tmTeamModal1">View Profile</button>
                 </div>
             </div>
-
-
             <!-- Member 2 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="ngi-team-card">
-
-                    <div class="ngi-team-image">
-                        <img src="/assets/imgs/about/3.jpeg"
-                             alt="Team Member"
-                             class="img-fluid">
-
-                        <div class="ngi-team-social">
-                            <a href="#" aria-label="LinkedIn">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" aria-label="Email">
-                                <i class="fa-solid fa-envelope"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="ngi-team-content">
-                        <span>Program Lead</span>
-                        <h3>Team Member Name</h3>
-                        <p>
-                            Driving programs and partnerships that bring
-                            positive change to communities.
-                        </p>
-                    </div>
-
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="tm-team__card">
+                    <img src="/assets/imgs/teams/sainshringdi-hojai.png" alt="Sainshringdi Hojai"
+                        class="tm-team__img rounded-circle" width="170" height="170" loading="lazy">
+                    <h5 class="tm-team__name">Sainshringdi Hojai</h5>
+                    <p class="tm-team__role">Treasurer</p>
+                    <p class="tm-team__bio">Sainshringdi Hojai, Treasurer of Earth Initiative Foundation, brings a
+                        diverse perspective shaped by her Northeast Indian roots and upbringing in mainland India.
+                        Inspired by her life experiences, she is committed to social impact, inclusive education, and
+                        giving back to society.</p>
+                    <button type="button" class="tm-team__btn" data-bs-toggle="modal"
+                        data-bs-target="#tmTeamModal2">View Profile</button>
                 </div>
             </div>
-
-
             <!-- Member 3 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="ngi-team-card">
-
-                    <div class="ngi-team-image">
-                        <img src="/assets/imgs/about/3.jpeg"
-                             alt="Team Member"
-                             class="img-fluid">
-
-                        <div class="ngi-team-social">
-                            <a href="#" aria-label="LinkedIn">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" aria-label="Email">
-                                <i class="fa-solid fa-envelope"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="ngi-team-content">
-                        <span>Community Coordinator</span>
-                        <h3>Team Member Name</h3>
-                        <p>
-                            Connecting people, schools and communities to
-                            make every initiative more impactful.
-                        </p>
-                    </div>
-
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="tm-team__card">
+                    <img src="/assets/imgs/teams/sainshringdi-hojai.png" alt="Sainshringdi Hojai"
+                        class="tm-team__img rounded-circle" width="170" height="170" loading="lazy">
+                    <h5 class="tm-team__name">Sainshringdi Hojai</h5>
+                    <p class="tm-team__role">Treasurer</p>
+                    <p class="tm-team__bio">Sainshringdi Hojai, Treasurer of Earth Initiative Foundation, brings a
+                        diverse perspective shaped by her Northeast Indian roots and upbringing in mainland India.
+                        Inspired by her life experiences, she is committed to social impact, inclusive education, and
+                        giving back to society.</p>
+                    <button type="button" class="tm-team__btn" data-bs-toggle="modal"
+                        data-bs-target="#tmTeamModal3">View Profile</button>
                 </div>
             </div>
 
         </div>
     </div>
+
+    <!-- Popup 1 -->
+    <div class="modal fade tm-team__modal" id="tmTeamModal1" tabindex="-1" aria-labelledby="tmTeamModalLabel1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-4 text-center">
+                            <img src="/assets/imgs/teams/sainshringdi-hojai.png" alt="Sainshringdi Hojai"
+                                class="tm-team__modal-img rounded-circle" width="220" height="220" loading="lazy">
+                            <div class="tm-team__social mt-3">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"
+                                    title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.5V21h3z" />
+                                    </svg></a>
+                                <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X" title="X"><svg
+                                        viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M17.7 3h3.1l-6.8 7.8L22 21h-6.3l-4.9-6.4L5.2 21H2.1l7.3-8.3L2 3h6.4l4.4 5.9L17.7 3zm-1.1 16.2h1.7L7.5 4.7H5.7l10.9 14.5z" />
+                                    </svg></a>
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"
+                                    title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M5.4 8.5a1.9 1.9 0 1 1 0-3.8 1.9 1.9 0 0 1 0 3.8zM3.8 10h3.2v10H3.8V10zm5.2 0h3v1.4c.5-.9 1.6-1.7 3.2-1.7 3.2 0 3.8 2.1 3.8 4.8V20h-3.2v-4.9c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V20H9V10z" />
+                                    </svg></a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                    aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2zm0 7.9a3.1 3.1 0 1 1 0-6.2 3.1 3.1 0 0 1 0 6.2zM17.1 6a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 3c-2.4 0-2.7 0-3.7.1-3 .1-4.7 1.8-4.8 4.8C3.4 8.9 3.4 9.1 3.4 12s0 3.1.1 4.1c.1 3 1.8 4.7 4.8 4.8 1 .1 1.3.1 3.7.1s2.7 0 3.7-.1c3-.1 4.7-1.8 4.8-4.8.1-1 .1-1.3.1-4.1s0-3.1-.1-4.1c-.1-3-1.8-4.7-4.8-4.8C14.7 3 14.4 3 12 3zm0 1.7c2.4 0 2.7 0 3.6.1 2.2.1 3.2 1.1 3.3 3.3.1.9.1 1.2.1 3.6s0 2.7-.1 3.6c-.1 2.2-1.1 3.2-3.3 3.3-.9.1-1.2.1-3.6.1s-2.7 0-3.6-.1c-2.2-.1-3.2-1.1-3.3-3.3-.1-.9-.1-1.2-.1-3.6s0-2.7.1-3.6C5.2 5.9 6.2 4.9 8.4 4.8c.9-.1 1.2-.1 3.6-.1z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="tm-team__modal-name" id="tmTeamModalLabel1">Sainshringdi Hojai</h4>
+                            <p class="tm-team__role mb-3">Treasurer, Earth Initiative Foundation</p>
+                            <p class="tm-team__modal-text">Sainshringdi Hojai, Treasurer of Earth Initiative Foundation,
+                                brings a diverse perspective shaped by her Northeast Indian roots and upbringing in
+                                mainland India. Inspired by her life experiences, she is committed to social impact,
+                                inclusive education, and giving back to society.</p>
+
+                            <ul class="tm-team__details list-unstyled mb-0">
+                                <li><span>Organisation</span>Earth Initiative Foundation</li>
+                                <li><span>Designation</span>Treasurer</li>
+                                <li><span>Focus Areas</span>Social impact, inclusive education, community giving</li>
+                                <!-- TODO: apni real email / phone yahan daaliye -->
+                                <li><span>Email</span><a href="mailto:info@example.org">info@example.org</a></li>
+                                <li><span>Phone</span><a href="tel:+910000000000">+91 00000 00000</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Popup 2 -->
+    <div class="modal fade tm-team__modal" id="tmTeamModal2" tabindex="-1" aria-labelledby="tmTeamModalLabel2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-4 text-center">
+                            <img src="/assets/imgs/teams/sainshringdi-hojai.png" alt="Sainshringdi Hojai"
+                                class="tm-team__modal-img rounded-circle" width="220" height="220" loading="lazy">
+                            <div class="tm-team__social mt-3">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"
+                                    title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.5V21h3z" />
+                                    </svg></a>
+                                <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X" title="X"><svg
+                                        viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M17.7 3h3.1l-6.8 7.8L22 21h-6.3l-4.9-6.4L5.2 21H2.1l7.3-8.3L2 3h6.4l4.4 5.9L17.7 3zm-1.1 16.2h1.7L7.5 4.7H5.7l10.9 14.5z" />
+                                    </svg></a>
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"
+                                    title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M5.4 8.5a1.9 1.9 0 1 1 0-3.8 1.9 1.9 0 0 1 0 3.8zM3.8 10h3.2v10H3.8V10zm5.2 0h3v1.4c.5-.9 1.6-1.7 3.2-1.7 3.2 0 3.8 2.1 3.8 4.8V20h-3.2v-4.9c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V20H9V10z" />
+                                    </svg></a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                    aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2zm0 7.9a3.1 3.1 0 1 1 0-6.2 3.1 3.1 0 0 1 0 6.2zM17.1 6a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 3c-2.4 0-2.7 0-3.7.1-3 .1-4.7 1.8-4.8 4.8C3.4 8.9 3.4 9.1 3.4 12s0 3.1.1 4.1c.1 3 1.8 4.7 4.8 4.8 1 .1 1.3.1 3.7.1s2.7 0 3.7-.1c3-.1 4.7-1.8 4.8-4.8.1-1 .1-1.3.1-4.1s0-3.1-.1-4.1c-.1-3-1.8-4.7-4.8-4.8C14.7 3 14.4 3 12 3zm0 1.7c2.4 0 2.7 0 3.6.1 2.2.1 3.2 1.1 3.3 3.3.1.9.1 1.2.1 3.6s0 2.7-.1 3.6c-.1 2.2-1.1 3.2-3.3 3.3-.9.1-1.2.1-3.6.1s-2.7 0-3.6-.1c-2.2-.1-3.2-1.1-3.3-3.3-.1-.9-.1-1.2-.1-3.6s0-2.7.1-3.6C5.2 5.9 6.2 4.9 8.4 4.8c.9-.1 1.2-.1 3.6-.1z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="tm-team__modal-name" id="tmTeamModalLabel2">Sainshringdi Hojai</h4>
+                            <p class="tm-team__role mb-3">Treasurer, Earth Initiative Foundation</p>
+                            <p class="tm-team__modal-text">Sainshringdi Hojai, Treasurer of Earth Initiative Foundation,
+                                brings a diverse perspective shaped by her Northeast Indian roots and upbringing in
+                                mainland India. Inspired by her life experiences, she is committed to social impact,
+                                inclusive education, and giving back to society.</p>
+
+                            <ul class="tm-team__details list-unstyled mb-0">
+                                <li><span>Organisation</span>Earth Initiative Foundation</li>
+                                <li><span>Designation</span>Treasurer</li>
+                                <li><span>Focus Areas</span>Social impact, inclusive education, community giving</li>
+                                <!-- TODO: apni real email / phone yahan daaliye -->
+                                <li><span>Email</span><a href="mailto:info@example.org">info@example.org</a></li>
+                                <li><span>Phone</span><a href="tel:+910000000000">+91 00000 00000</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Popup 3 -->
+    <div class="modal fade tm-team__modal" id="tmTeamModal3" tabindex="-1" aria-labelledby="tmTeamModalLabel3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-4 text-center">
+                            <img src="/assets/imgs/teams/sainshringdi-hojai.png" alt="Sainshringdi Hojai"
+                                class="tm-team__modal-img rounded-circle" width="220" height="220" loading="lazy">
+                            <div class="tm-team__social mt-3">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"
+                                    title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.5V21h3z" />
+                                    </svg></a>
+                                <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X" title="X"><svg
+                                        viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M17.7 3h3.1l-6.8 7.8L22 21h-6.3l-4.9-6.4L5.2 21H2.1l7.3-8.3L2 3h6.4l4.4 5.9L17.7 3zm-1.1 16.2h1.7L7.5 4.7H5.7l10.9 14.5z" />
+                                    </svg></a>
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"
+                                    title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M5.4 8.5a1.9 1.9 0 1 1 0-3.8 1.9 1.9 0 0 1 0 3.8zM3.8 10h3.2v10H3.8V10zm5.2 0h3v1.4c.5-.9 1.6-1.7 3.2-1.7 3.2 0 3.8 2.1 3.8 4.8V20h-3.2v-4.9c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V20H9V10z" />
+                                    </svg></a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                    aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2zm0 7.9a3.1 3.1 0 1 1 0-6.2 3.1 3.1 0 0 1 0 6.2zM17.1 6a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 3c-2.4 0-2.7 0-3.7.1-3 .1-4.7 1.8-4.8 4.8C3.4 8.9 3.4 9.1 3.4 12s0 3.1.1 4.1c.1 3 1.8 4.7 4.8 4.8 1 .1 1.3.1 3.7.1s2.7 0 3.7-.1c3-.1 4.7-1.8 4.8-4.8.1-1 .1-1.3.1-4.1s0-3.1-.1-4.1c-.1-3-1.8-4.7-4.8-4.8C14.7 3 14.4 3 12 3zm0 1.7c2.4 0 2.7 0 3.6.1 2.2.1 3.2 1.1 3.3 3.3.1.9.1 1.2.1 3.6s0 2.7-.1 3.6c-.1 2.2-1.1 3.2-3.3 3.3-.9.1-1.2.1-3.6.1s-2.7 0-3.6-.1c-2.2-.1-3.2-1.1-3.3-3.3-.1-.9-.1-1.2-.1-3.6s0-2.7.1-3.6C5.2 5.9 6.2 4.9 8.4 4.8c.9-.1 1.2-.1 3.6-.1z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="tm-team__modal-name" id="tmTeamModalLabel3">Sainshringdi Hojai</h4>
+                            <p class="tm-team__role mb-3">Treasurer, Earth Initiative Foundation</p>
+                            <p class="tm-team__modal-text">Sainshringdi Hojai, Treasurer of Earth Initiative Foundation,
+                                brings a diverse perspective shaped by her Northeast Indian roots and upbringing in
+                                mainland India. Inspired by her life experiences, she is committed to social impact,
+                                inclusive education, and giving back to society.</p>
+
+                            <ul class="tm-team__details list-unstyled mb-0">
+                                <li><span>Organisation</span>Earth Initiative Foundation</li>
+                                <li><span>Designation</span>Treasurer</li>
+                                <li><span>Focus Areas</span>Social impact, inclusive education, community giving</li>
+                                <!-- TODO: apni real email / phone yahan daaliye -->
+                                <li><span>Email</span><a href="mailto:info@example.org">info@example.org</a></li>
+                                <li><span>Phone</span><a href="tel:+910000000000">+91 00000 00000</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 <section class="ngi-final-section">
     <div class="ngi-final-top"></div>
@@ -898,7 +1045,7 @@
                         towards creating school environments where every child
                         can learn, imagine and grow with confidence.
                     </p>
-                  
+
                     <div class="ngi-impact-row">
                         <div class="ngi-impact-item">
                             <strong>03</strong>
@@ -922,7 +1069,7 @@
                     </div>
 
 
-                    
+
                     <div class="ngi-final-action">
 
                         <a href="#donate" class="ngi-main-donate">

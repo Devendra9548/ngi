@@ -133,7 +133,7 @@
 
                 <div class="col-md-4 text-center">
                     <span>
-                        Visitors: 200299
+                        Developed By <a class="m-0" href="https://devendra-singh-chaudhary.web.app/" target="_blank">Devendra Singh Chaudhary</a>
                     </span>
                 </div>
 

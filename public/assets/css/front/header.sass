@@ -154,6 +154,12 @@ header
             width: 165px
 
 @media only screen and (max-width:768px)
+    header
+        .logo
+            position: relative
+            img
+                height: 56px
+                object-position: left
     .topbar
         display: none
 
@@ -162,7 +168,7 @@ header
 
     #mbnav
         position: fixed
-        top: 69px
+        top: 66px
         width: 100%
         padding: 0px !important
         margin: 0px !important
@@ -180,14 +186,15 @@ header
                 a
                     font-size: 1rem!important
                     font-weight: 800 !important
+                    margin-top: 0px!important
 
     .container-fluid
         width: 100% !important
     #menuburgar
         display: block
         i
-            font-size: 18px
-            margin-right: 10px
+            font-size: 22px
+            margin-right: 0px
     .mb-header
         display: block
     #mbnav
@@ -195,16 +202,20 @@ header
             display: block !important
     #closeiconmenu
         i
-            font-size: 18px
-            margin-right: 20px
+            font-size: 22px
+            margin-right: 0px
 
     header
         .logo
             img
-                height: 70px
+                height: 56px
                 object-fit: contain
+                position: relative
+                left: -5px
+
+    .ds-header
         .row
-            height: 70px
+            height: 65px
 
     .whatsapp
         text-align: right

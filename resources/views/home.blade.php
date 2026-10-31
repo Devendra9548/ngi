@@ -262,7 +262,7 @@
     }
 
     .tagline-wrapper {
-        min-height: 44px;      /* 2 line text aaye to jump na kare */
+        min-height: 44px;     
         padding: 0 10px;
     }
 
@@ -276,7 +276,6 @@
     .cursor-blink { font-size: 1.1rem; }
 }
 
-/* ===== Chhote phones (<= 480px) ===== */
 @media (max-width: 480px) {
     .orbit-stage {
         width: 210px;
@@ -292,7 +291,6 @@
     .typewriter-headline { font-size: 0.92rem; }
 }
 
-/* ===== Bahut chhoti screen (<= 360px) ===== */
 @media (max-width: 360px) {
     .orbit-stage { width: 190px; height: 155px; }
     .ring-1 { width: 170px; height: 170px; }
@@ -302,7 +300,6 @@
     .typewriter-headline { font-size: 0.85rem; }
 }
 
-/* ===== Landscape mode (phone aadha ghuma ho) ===== */
 @media (max-height: 480px) and (orientation: landscape) {
     .orbit-stage { width: 190px; height: 130px; }
     .ring-1 { width: 150px; height: 150px; }
@@ -314,21 +311,18 @@
     .typewriter-headline { font-size: 0.85rem; }
 }
 
-/* ===== Optional: kam motion pasand karne walon ke liye ===== */
 @media (prefers-reduced-motion: reduce) {
     .ring-1, .ring-2, .logo-core { animation: none; }
 }
 
-
-
 .torn-edge{
   width:100%;
   height:60px;
-  margin-top:-59px;      /* banner ke upar overlap */
+  margin-top:-59px;      
   position:relative;
   z-index:5;
   line-height:0;
-  filter:drop-shadow(0 -3px 4px rgba(0,0,0,.25));  /* paper ka shadow */
+  filter:drop-shadow(0 -3px 4px rgba(0,0,0,.25));  
 }
 .torn-edge svg{width:100%;height:100%;display:block}
 
@@ -341,6 +335,7 @@
 </style>
 @endsection
 @section('body')
+
 <div id="ngo-preloader" class="ngo-preloader-bg">
     <img src="{{ asset('assets/1.webp') }}" class="notebook-img" alt="preloader" width="100%" fetchpriority="high"
         loading="eager">
@@ -371,18 +366,18 @@
 
 <section class="first-hero-section">
     <picture>
-        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/7.webp">
+        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/mb/3-mb.webp">
         <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/7.webp">
         <img src="/assets/imgs/banners/new/7.webp" alt="Banner" width="100%">
     </picture>
     <picture>
-        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/5.webp">
+        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/mb/2-mb.webp">
         <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/5.webp">
         <img src="/assets/imgs/banners/new/5.webp" alt="Banner" width="100%">
     </picture>
 
     <picture>
-        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/new/6.webp">
+        <source media="(max-width: 767px)" srcset="/assets/imgs/banners/mb/1-mb.webp">
         <source media="(min-width: 768px)" srcset="/assets/imgs/banners/new/6.webp">
         <img src="/assets/imgs/banners/new/6.webp" alt="Banner" width="100%">
     </picture>
@@ -850,7 +845,7 @@
     </div>
 </section>
 
-<section class="br-faq-section scroll-section">
+<section id="FAQ" class="br-faq-section scroll-section">
     <div class="container-fluid">
         <div class="br-faq-wrapper row">
             <div class="br-faq-visual col-md-6">
