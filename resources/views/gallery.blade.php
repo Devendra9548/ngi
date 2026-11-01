@@ -173,7 +173,7 @@ $gallery=[
 <section class="gallery-section">
     <div class="container">
        <div class="about-clm text-center">
-            <div class="title ct-tooltip" data-animate="fade-left">Our Impact</div>
+            <div class="title ct-tooltip" data-animate="fade-left">Our Gallery</div>
             <h2 data-animate="fade-right">Stories Through <span> Pictures</span></h2>
             <p class="theme-para" data-animate="fade-right" data-delay="2">Every picture tells a story of hope, compassion and
                 positive change. Explore some of the memorable moments

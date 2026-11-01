@@ -112,6 +112,12 @@ class frontendController extends Controller
         $gseo = GlobalSeo::find(1);
         return view('our-work', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
     }
+    function ourTeam(){
+        $pageseo = PageSeo::where('slug', 'our-team')->get();
+        $homepageseo = PageSeo::where('slug', 'our-team')->get();
+        $gseo = GlobalSeo::find(1);
+        return view('our-team', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
+    }
 
 
     function videoGallery(){
@@ -174,6 +180,27 @@ class frontendController extends Controller
         $homepageseo = PageSeo::where('slug', 'privacy-policy')->get();
         $gseo = GlobalSeo::find(1);
         return view('privacy-policy', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
+    }
+
+    function partnerWithUs(){
+        $pageseo = PageSeo::where('slug', 'partner-with-us')->get();
+        $homepageseo = PageSeo::where('slug', 'partner-with-us')->get();
+        $gseo = GlobalSeo::find(1);
+        return view('partner-with-us', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
+    }
+    function donation(){
+        $pageseo = PageSeo::where('slug', 'donation')->get();
+        $homepageseo = PageSeo::where('slug', 'donation')->get();
+        $gseo = GlobalSeo::find(1);
+        return view('donate', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
+    }
+
+
+    function termsConditions(){
+        $pageseo = PageSeo::where('slug', 'terms-and-conditions')->get();
+        $homepageseo = PageSeo::where('slug', 'terms-and-conditions')->get();
+        $gseo = GlobalSeo::find(1);
+        return view('terms-and-conditions', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo]);
     }
     
     function blogcategories(){

@@ -50,11 +50,11 @@
                             <div class="submenu sub-p-1" id="submenu">
                                 <ul class="m-0 p-0" style="list-style:none">
                                     <li><a href="{{route('about')}}">Our Story</a></li>
-                                    <li><a href="{{route('about')}}#WhatWeDeliver">What We Deliver</a></li>
-                                    <li><a href="{{route('about')}}#ProjectReach">Project Reach</a></li>
-                                    <li><a href="{{route('about')}}#HowWeimplemented">How We implemented</a></li>
+                                    <li><a href="{{route('about')}}/#WhatWeDeliver">What We Deliver</a></li>
+                                    <li><a href="{{route('about')}}/#ProjectReach">Project Reach</a></li>
+                                    <li><a href="{{route('about')}}/#HowWeimplemented">How We implemented</a></li>
                                     <li><a href="{{route('ourWork')}}">Our Work</a></li>
-                                    <li><a href="{{route('about')}}#OurTeam">Our Team</a></li>
+                                    <li><a href="{{route('ourTeam')}}">Our Team</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -83,7 +83,7 @@
                     <!-- <i class="fa-solid fa-bars"></i> -->
                     <img src="/assets/imgs/menu-bar.png" alt="menu-bar" width="35px">
                 </a></div>
-                <div id="closeiconmenu" class="text-end"><a href="javascript:void(0)"><i class="fa-solid fa-x"></i></a>
+                <div id="closeiconmenu" class="text-end closeiconmenu"><a href="javascript:void(0)"><img src="/assets/imgs/close.png" alt="menu-bar" width="35px"></a>
                 </div>
             </div>
         </div>
@@ -91,18 +91,26 @@
 </header>
 
 <script>
-document.querySelector("#menuburgar").addEventListener('click', function(event) {
-    event.preventDefault();
-    document.querySelector("#mbnav").style.display = "block";
-    document.querySelector("#closeiconmenu").style.display = "block";
-    document.querySelector("#menuburgar").style.display = "none";
-});
+document.addEventListener('DOMContentLoaded', function () {
+  const closeBtn = document.querySelector('.closeiconmenu');
+  const menuBtn  = document.querySelector('#menuburgar');
+  const mobNav   = document.querySelector('#mbnav');
 
-document.querySelector("#closeiconmenu").addEventListener('click', function(event) {
+  if (!closeBtn || !menuBtn || !mobNav) return;
+
+  closeBtn.addEventListener('click', function (event) {
     event.preventDefault();
-    document.querySelector("#mbnav").style.display = "none";
-    document.querySelector("#closeiconmenu").style.display = "none";
-    document.querySelector("#menuburgar").style.display = "block";
+    mobNav.style.display = 'none';
+    closeBtn.style.display = 'none';
+    menuBtn.style.display = 'block';
+  });
+
+  menuBtn.addEventListener('click', function (event) {
+    event.preventDefault();
+    mobNav.style.display = 'block';
+    menuBtn.style.display = 'none';
+    closeBtn.style.display = 'block';
+  });
 });
 
 
@@ -138,5 +146,38 @@ document.querySelectorAll(".menu-toggle").forEach(function(toggle) {
 
     });
 
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const mobNav   = document.querySelector('#mbnav');
+  const closeBtn = document.querySelector('.closeiconmenu');
+  const menuBtn  = document.querySelector('#menuburgar');
+
+  document.querySelectorAll('#mbnav a[href*="#"]').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      const url = new URL(this.href, window.location.href);
+      const samePage = url.pathname.replace(/\/$/, '') === window.location.pathname.replace(/\/$/, '');
+
+      // menu band karo
+      mobNav.style.display = 'none';
+      if (closeBtn) closeBtn.style.display = 'none';
+      if (menuBtn)  menuBtn.style.display  = 'block';
+      document.body.style.overflow = '';          // agar menu ne scroll lock kiya tha
+      document.documentElement.style.overflow = '';
+
+      // agar already About page par hain to khud scroll karo
+      if (samePage && url.hash) {
+        const target = document.querySelector(url.hash);
+        if (target) {
+          e.preventDefault();
+          setTimeout(function () {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            history.pushState(null, '', url.hash);
+          }, 50);
+        }
+      }
+      // doosre page se aa rahe hain to browser normal navigate karega, kuch nahi karna
+    });
+  });
 });
 </script>

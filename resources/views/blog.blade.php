@@ -5,41 +5,10 @@
 @endsection
 @section('body')
 
-<x-mainbanner
-    name="Our Blogs"
-    para="Stories That Inspire Change..."
-    imgs="/assets/imgs/gallery/gallery-3.jpeg"
-/>
+<x-mainbanner name="Our Blogs" para="Stories That Inspire Change..." imgs="/assets/imgs/contact/13.jpeg"/>
 
 <section class="ngi-blog-section">
     <div class="container">
-
-        <!-- ================= BLOG HEADER ================= -->
-        <!-- <div class="row align-items-end ngi-blog-header">
-
-            <div class="col-lg-7">
-                <span class="ngi-blog-eyebrow">
-                    <i class="fa-solid fa-feather-pointed"></i>
-                    OUR STORIES
-                </span>
-
-                <h1>
-                    Stories That
-                    <span>Inspire Change</span>
-                </h1>
-            </div>
-
-            <div class="col-lg-5">
-                <p>
-                    Discover stories, ideas and experiences from our journey
-                    towards creating meaningful social impact.
-                </p>
-            </div>
-
-        </div> -->
-
-
-        <!-- ================= SEARCH ================= -->
         <div class="ngi-blog-toolbar">
 
             <div class="ngi-blog-count">

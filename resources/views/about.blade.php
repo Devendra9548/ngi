@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 flex-box" data-animate="fade-left">
-                <div class="about-clm text-start pe-md-5">
+                <div class="about-clm text-center text-md-start pe-md-5">
                     <div class="title ct-tooltip">About Us</div>
                     <p>The mission focuses on strengthening government schools in under-served rural areas by upgrading
                         learning infrastructure and improving basic student amenities. A commitment to equitable,
@@ -35,11 +35,11 @@
             </div>
         </div>
         <div class="row mt-90" id="OurVision">
-            <div class="col-12 col-md-6" data-animate="fade-left">
+            <div class="col-12 col-md-6 order-2 order-md-1" data-animate="fade-left">
                 <img src="/assets/imgs/3/2%20(47).webp" alt="18" width="100%">
             </div>
-            <div class="col-12 col-md-6 flex-box" data-animate="fade-right">
-                <div class="about-clm text-start ps-md-3 pe-md-2">
+            <div class="col-12 col-md-6  order-1 order-md-2 flex-box" data-animate="fade-right">
+                <div class="about-clm text-center text-md-start ps-md-3 pe-md-2">
                     <div class="title ct-tooltip">Our Vision</div>
                     <p>A future where every government school inspires curiosity, nurtures creativity, and empowers
                         every child through joyful learning, scientific exploration, innovation, and life skills to
@@ -50,7 +50,7 @@
         </div>
         <div class="row mt-90">
             <div class="col-12 col-md-6 flex-box">
-                <div class="about-clm text-start pe-md-5" data-animate="fade-left">
+                <div class="about-clm text-center text-md-start pe-md-5" data-animate="fade-left">
                     <div class="title ct-tooltip">Our Mission</div>
                     <p>Our mission is to create spaces where children feel safe, inspired, and excited to learn every
                         day.</p>
@@ -1049,21 +1049,21 @@
                     <div class="ngi-impact-row">
                         <div class="ngi-impact-item">
                             <strong>03</strong>
-                            <span>Schools<br>supported</span>
+                            <span>Schools<br> supported</span>
                         </div>
 
                         <div class="ngi-impact-line"></div>
 
                         <div class="ngi-impact-item">
                             <strong>01</strong>
-                            <span>Mission<br>growing</span>
+                            <span>Mission<br> growing</span>
                         </div>
 
                         <div class="ngi-impact-line"></div>
 
                         <div class="ngi-impact-item">
                             <strong>∞</strong>
-                            <span>Possibilities<br>ahead</span>
+                            <span>Possibilities<br> ahead</span>
                         </div>
 
                     </div>

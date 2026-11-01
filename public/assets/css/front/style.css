@@ -359,4 +359,13 @@ section {
     margin-top: 0px !important;
     margin-bottom: 15px;
   }
+  .main-banner-pages, .main-banner-pages img, .bg-layer {
+    height: 270px;
+  }
+  .theme-para {
+    font-size: 16px !important;
+  }
+}
+.globalbtn::before, .globalbtn::after {
+  display: none !important;
 }/*# sourceMappingURL=style.css.map */

@@ -1901,4 +1901,47 @@
   width: 18px;
   height: 18px;
   fill: currentColor;
+}
+
+@media only screen and (max-width: 768px) {
+  .first-section .main-headling {
+    font-size: 16px;
+    text-align: justify !important;
+  }
+  .first-section img {
+    margin-top: 20px;
+  }
+  .second-section .about-clm p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify !important;
+  }
+  .second-section .mt-90 {
+    margin-top: 50px !important;
+  }
+  .ngi-final-content h2 {
+    font-size: 32px;
+  }
+  .ngi-final-description {
+    width: 100%;
+  }
+  .ngi-impact-row {
+    display: block !important;
+  }
+  .ngi-impact-line {
+    margin: 0 10px;
+    height: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ngi-action-note {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ngi-impact-item br {
+    display: none;
+  }
 }/*# sourceMappingURL=about.css.map */

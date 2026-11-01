@@ -67,7 +67,7 @@
 
                     <ul class="brb-footer-links">
                         <li><a href="#">Donate</a></li>
-                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="{{route('partnerWithUs')}}">Partner With Us</a></li>
                         <li><a href="#">Donation Receipt</a></li>
                         <li><a href="#">Other Ways To Help</a></li>
                         <li><a href="#">High Value Gifting</a></li>
@@ -93,26 +93,15 @@
 
             <div class="brb-footer-disclaimer">
                 <p>
-                    <strong>Disclaimer:</strong>
-                    Please note that the products mentioned are to illustrate activities
-                    and the change your donation can make to the lives of children.
-                    NextGen Impact, based on the need on the ground, will allocate
-                    resources to areas that need funds the most.
+                    <strong>Disclaimer:</strong> Please note that the products mentioned are to illustrate activities and the change your donation can make to the lives of children. NextGen Impact, based on the need on the ground, will allocate resources to areas that need funds the most.
                 </p>
 
                 <p>
-                    <strong>Data Security:</strong>
-                    We take utmost precautions with your data, we will never share your
-                    information. We also do not store any sensitive information like
-                    your credit card or bank details. All donations are tax-exempted
-                    under section 80G of the Income Tax Act, 1961.
+                    <strong>Data Security:</strong> We take utmost precautions with your data and do not sell or rent your information. We also do not store any sensitive information like your credit card or bank details.
                 </p>
 
                 <p>
-                    As per the provisions of Indian Income Tax, a donor is required to
-                    give its Full Name, Complete Address (not merely Pin Code and City)
-                    to ensure the maximum benefit to the cause by avoiding diversion of
-                    a good part of the donation towards taxes.
+                    <strong>Tax Benefit:</strong> Donations are eligible for tax exemption under Section 80G of the Income Tax Act. As per Indian income tax provisions, a donor is required to give their full name and complete address (not merely pin code and city) so that we can issue a valid receipt.
                 </p>
             </div>
         </div>
@@ -138,8 +127,8 @@
                 </div>
 
                 <div class="col-md-4 text-center text-md-end">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="{{route('privacy')}}">Privacy Policy</a>
+                    <a href="{{route('termsConditions')}}">Terms &amp; Conditions</a>
                 </div>
 
             </div>

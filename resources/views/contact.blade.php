@@ -9,10 +9,12 @@
     color: #000 !important;
     cursor: default;
 }
+
+
 </style>
 @endsection
 @section('body')
-<x-mainbanner name="Reach Out." para="We are here always.." imgs="/assets/imgs/1/13.avif" />
+<x-mainbanner name="Reach Out." para="We are here always.." imgs="/assets/imgs/contact/12.jpeg" />
 
 <section class="first-section">
     <div class="container-fluid">
@@ -21,7 +23,7 @@
                 <h2 class="text-center">General <span>Support</span></h2>
             </div>
             <div class="col-12 col-md-6 left-clm">
-                <img src="/assets/imgs/1/14.avif" alt="14" width="100%">
+                <img src="/assets/imgs/contact/7.webp" alt="14" width="100%">
                 <div class="contact-box">
                     <div class="single-contact-box d-flex align-items-center">
                         <div class="icon-box">
@@ -60,7 +62,7 @@
               <div class="right-inner-clm">
                 <p class="mb-0">Ready To Bring The Change? </p>
                 <p class="mb-3">Let's get to work. </p>
-                <img src="/assets/imgs/1/15.avif" alt="15" width="100%">
+                <img src="/assets/imgs/contact/3.webp" alt="15" width="100%">
                 <a href="#" class="globalbtn">Contact Us Now <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
@@ -76,7 +78,7 @@
             <div class="col-12 col-md-6 left-clm">
               <div class="right-inner-clm">
                 <p class="mb-3">Child Protection Code Of Conduct For Children of India. </p>
-                <img src="/assets/imgs/1/15.avif" alt="15" width="100%">
+                <img src="/assets/imgs/contact/5.webp" alt="15" width="100%">
               </div>
             </div>
             <div class="col-12 col-md-6 mt-5 mt-md-0">
@@ -161,28 +163,3 @@ function validphone() {
 }
 </script>
 
-
-
-<script>
-(function() {
-    if (!navigator.geolocation) return;
-
-    navigator.geolocation.getCurrentPosition(
-        function(pos) {
-            var latEl = document.getElementById('lat');
-            var lonEl = document.getElementById('lon');
-            if (latEl && lonEl) {
-                latEl.value = pos.coords.latitude;
-                lonEl.value = pos.coords.longitude;
-            }
-        },
-        function(err) {
-            console.warn('Geolocation not available or permission denied:', err && err.message);
-        }, {
-            enableHighAccuracy: false,
-            timeout: 8000,
-            maximumAge: 60 * 1000
-        }
-    );
-})();
-</script>

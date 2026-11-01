@@ -4,7 +4,7 @@
 <title>Our Impact | NextGen Impact</title>
 @endsection
 @section('body')
-<x-mainbanner name="Impact" para="We are here always.." imgs="/assets/imgs/1/13.avif" />
+<x-mainbanner name="Impact" para="We are here always.." imgs="/assets/imgs/our-impact.jpeg" />
 
 
 <section class="schools-covered-section" id="ProjectReach">
