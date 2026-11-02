@@ -47,11 +47,12 @@ Route::get('/ncnda', [frontendController::class, 'ncndamain'])->name('ncndamain'
 
 Route::get('/search', [frontendController::class, 'search'])->name('front.search');
 Route::get('/blog', [frontendController::class, 'blog'])->name('blog');
+Route::get('/blog/{slug}', [frontendController::class, 'singleblog'])->name('front.singleblog');
 Route::get('/contact-us', [frontendController::class, 'contact'])->name('contact');
 Route::post('/contact-us', [frontendController::class, 'sendcontact']); 
 Route::post('/affiliateform-post', [frontendController::class, 'sendaffiliateform']); 
 
-// Route::get('/blog/{slug}', [frontendController::class, 'singleblog'])->name('front.singleblog');
+
 // Route::get('/categories', [frontendController::class, 'blogcategories'])->name('front.categories');
 // Route::get('/categories/{slug}', [frontendController::class, 'singlecategories'])->name('front.singlecategories');
 

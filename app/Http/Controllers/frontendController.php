@@ -453,17 +453,9 @@ class frontendController extends Controller
     
 
     function singleblog($slug){
-        $seo = BlogSeo::where('canonical', $slug)->get();
         $blog = Blog::where('slug', $slug)->first();
-        $gseo = GlobalSeo::find(1);
-        $cblog = DB::table('blogs')
-                ->leftJoin('blogs_categories', 'blogs.category', '=', 'blogs_categories.id')
-                ->where('blogs_categories.id', $blog->category)
-                ->take(6)
-                ->get();
-         
-        $allblogs = Blog::all();
-        return view('single-blog',['seo'=>$seo,'blog'=>$blog,'gseo'=>$gseo,'cblog'=>$cblog,'allblogs'=>$allblogs]);
+        $allblog = Blog::all();
+        return view('single-blog',['blog'=>$blog, 'allblog'=>$allblog]);
     }
 
     function singlecategories($slug){

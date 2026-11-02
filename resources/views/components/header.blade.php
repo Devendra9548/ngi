@@ -149,9 +149,14 @@ document.querySelectorAll(".menu-toggle").forEach(function(toggle) {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
+  // Sirf mobile (max-width: 768px) par chalega
+  if (!window.matchMedia('(max-width: 768px)').matches) return;
+
   const mobNav   = document.querySelector('#mbnav');
   const closeBtn = document.querySelector('.closeiconmenu');
   const menuBtn  = document.querySelector('#menuburgar');
+
+  if (!mobNav) return;
 
   document.querySelectorAll('#mbnav a[href*="#"]').forEach(function (link) {
     link.addEventListener('click', function (e) {
@@ -162,10 +167,10 @@ document.addEventListener('DOMContentLoaded', function () {
       mobNav.style.display = 'none';
       if (closeBtn) closeBtn.style.display = 'none';
       if (menuBtn)  menuBtn.style.display  = 'block';
-      document.body.style.overflow = '';          // agar menu ne scroll lock kiya tha
+      document.body.style.overflow = '';
       document.documentElement.style.overflow = '';
 
-      // agar already About page par hain to khud scroll karo
+      // agar already same page par hain to khud scroll karo
       if (samePage && url.hash) {
         const target = document.querySelector(url.hash);
         if (target) {
@@ -176,7 +181,6 @@ document.addEventListener('DOMContentLoaded', function () {
           }, 50);
         }
       }
-      // doosre page se aa rahe hain to browser normal navigate karega, kuch nahi karna
     });
   });
 });

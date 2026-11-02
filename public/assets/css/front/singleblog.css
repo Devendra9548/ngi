@@ -1,0 +1,131 @@
+.badge-section {
+  background: #eaf7ff !important;
+  padding: 20px 0px;
+}
+.badge-section a {
+  color: #000 !important;
+}
+
+.main-blog table, .main-blog tr, .main-blog td, .main-blog th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 10px;
+}
+.main-blog table {
+  margin-bottom: 10px;
+}
+.main-blog .left-clm, .main-blog .right-clm {
+  padding: 0px;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.1333333333);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.main-blog .left-clm img {
+  border-radius: 15px;
+}
+.main-blog .left-clm .main-content {
+  padding: 30px;
+}
+.main-blog .left-clm h1 {
+  font-family: "Geist", sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 32px;
+}
+.main-blog .left-clm h2 {
+  font-family: "Geist", sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.main-blog .left-clm h3 {
+  font-family: "Geist", sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.main-blog .left-clm strong {
+  color: #000;
+}
+.main-blog .left-clm p {
+  margin-bottom: 12px !important;
+  font-size: 16px !important;
+}
+.main-blog .left-clm ol {
+  padding-left: 16px !important;
+}
+.main-blog .left-clm ol li {
+  margin-bottom: 12px !important;
+}
+.main-blog .right-clm {
+  padding: 0px 20px !important;
+  margin: 0px 0px 0px 15px;
+}
+.main-blog .right-clm a {
+  color: #000 !important;
+}
+.main-blog .right-clm p {
+  font-size: 16px !important;
+}
+.main-blog .right-clm h2 {
+  font-family: "Geist", sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 32px;
+  margin-top: 30px;
+}
+.main-blog .right-clm .recent-blog {
+  border: 1px solid #bbbbbb;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.main-blog .right-clm .recent-blog:hover {
+  background: #eaf7ff !important;
+}
+.main-blog .right-clm .left {
+  width: 35%;
+}
+.main-blog .right-clm .right {
+  width: 60%;
+  padding: 10px;
+}
+.main-blog .right-clm .right h3 {
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-blog .row {
+    padding: 10px;
+  }
+  .main-blog table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  .main-blog th, .main-blog td {
+    padding: 8px 12px;
+  }
+  .main-blog .left-clm h1 {
+    font-size: 26px;
+  }
+  .main-blog .left-clm h2 {
+    font-size: 20px;
+  }
+  .main-blog .left-clm h3 {
+    font-size: 18px;
+  }
+  .main-blog .left-clm .main-content {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=singleblog.css.map */

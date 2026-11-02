@@ -251,12 +251,12 @@
             <p>If you have questions about this policy, want to use your rights, or wish to raise a concern, please
                 contact:</p>
             <p>
-                <b>Grievance / Privacy Contact:</b> <span class="fill">[Name and designation]</span><br>
+                <b>Grievance / Privacy Contact:</b> <span class="fill">Earth Initiative Foundation (NextGen Impact)</span><br>
                 <b>Organisation:</b> NextGen Impact (A Unit of Earth Initiative Foundation)<br>
                 <b>Address:</b> Plot No. 36, Portion Left, Ground Floor, Block-F14, Phase II, Model Town, Delhi –
                 110009, India<br>
-                <b>Email:</b> <span class="fill">[your-email@yourdomain.org]</span><br>
-                <b>Phone:</b> <span class="fill">[+91-XXXXXXXXXX]</span>
+                <b>Email:</b> <span class="fill">info@nextgenimpact.com</span><br>
+                <b>Phone:</b> <span class="fill">+91 91273 65136</span>
             </p>
             <p>We will try to resolve your concern promptly. If you are not satisfied, you may approach the Data
                 Protection Board of India once it is operational under the Digital Personal Data Protection Act, 2023.

@@ -4,7 +4,8 @@
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="brb-footer-brand">
-                       <img src="{{ asset('assets/imgs/white-logo.png') }}" alt="NextGen Impact" class="brb-footer-logo">
+                        <img src="{{ asset('assets/imgs/white-logo.png') }}" alt="NextGen Impact"
+                            class="brb-footer-logo">
                         <div class="brb-footer-social-title">
                             Follow us on
                         </div>
@@ -39,26 +40,25 @@
                     <h5 class="brb-footer-heading">ABOUT US</h5>
 
                     <ul class="brb-footer-links">
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Mission &amp; Vision</a></li>
-                        <li><a href="#">Governing Council</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Award and Recognition</a></li>
-                        <li><a href="#">Certificates</a></li>
-                        <li><a href="#">Financials</a></li>
+                        <li><a href="/">Overview</a></li>
+                        <li><a href="{{route('about')}}">Mission &amp; Vision</a></li>
+                        <li><a href="{{route('about')}}/#WhatWeDeliver">What We Deliver</a></li>
+                        <li><a href="{{route('about')}}/#ProjectReach">Project Reach</a></li>
+                        <li><a href="{{route('about')}}/#HowWeimplemented">How We implemented</a></li>
+                        <li><a href="{{route('ourWork')}}">Our Work</a></li>
+                        
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-6">
                     <h5 class="brb-footer-heading">WHAT WE DO?</h5>
                     <ul class="brb-footer-links">
-                        <li><a href="#">Our Strategy</a></li>
-                        <li><a href="#">Our Presence</a></li>
-                        <li><a href="#">Education</a></li>
-                        <li><a href="#">Health and Nutrition</a></li>
-                        <li><a href="#">Economic well being</a></li>
-                        <li><a href="#">Child Protection</a></li>
-                        <li><a href="#">Humanitarian</a></li>
+                        <li><a href="{{route('about')}}">Our Strategy</a></li>
+                        <li><a href="{{route('about')}}">Our Presence</a></li>
+                        <li><a href="{{route('about')}}">Education</a></li>
+                        <li><a href="{{route('impact')}}">Our Impact</a></li>
+                        <li><a href="{{route('gallery')}}">Gallery</a></li>
+                        <li><a href="{{route('ourTeam')}}">Our Team</a></li>
                     </ul>
                 </div>
 
@@ -68,11 +68,10 @@
                     <ul class="brb-footer-links">
                         <li><a href="#">Donate</a></li>
                         <li><a href="{{route('partnerWithUs')}}">Partner With Us</a></li>
-                        <li><a href="#">Donation Receipt</a></li>
-                        <li><a href="#">Other Ways To Help</a></li>
-                        <li><a href="#">High Value Gifting</a></li>
-                        <li><a href="#">Child Safeguarding</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="{{route('about')}}">Donation Receipt</a></li>
+                        <li><a href="{{route('about')}}">Other Ways To Help</a></li>
+                        <li><a href="{{route('about')}}">Child Safeguarding</a></li>
+                        <li><a href="{{route('contact')}}">Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -80,12 +79,12 @@
                     <h5 class="brb-footer-heading">RESOURCES</h5>
 
                     <ul class="brb-footer-links">
-                        <li><a href="#">Latest Blog</a></li>
-                        <li><a href="#">Press Coverage</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Reports</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Webstories</a></li>
+                        <li><a href="{{route('privacy')}}">Privacy Policy</a></li>
+                        <li><a href="{{route('termsConditions')}}">Terms &amp; Conditions</a></li>
+                        <li><a href="{{route('blog')}}">Latest Blog</a></li>
+                        <li><a href="{{route('blog')}}">Reports</a></li>
+                        <li><a href="/">FAQs</a></li>
+                        <li><a href="{{route('blog')}}">Webstories</a></li>
                     </ul>
                 </div>
 
@@ -93,15 +92,21 @@
 
             <div class="brb-footer-disclaimer">
                 <p>
-                    <strong>Disclaimer:</strong> Please note that the products mentioned are to illustrate activities and the change your donation can make to the lives of children. NextGen Impact, based on the need on the ground, will allocate resources to areas that need funds the most.
+                    <strong>Disclaimer:</strong> Please note that the products mentioned are to illustrate activities
+                    and the change your donation can make to the lives of children. NextGen Impact, based on the need on
+                    the ground, will allocate resources to areas that need funds the most.
                 </p>
 
                 <p>
-                    <strong>Data Security:</strong> We take utmost precautions with your data and do not sell or rent your information. We also do not store any sensitive information like your credit card or bank details.
+                    <strong>Data Security:</strong> We take utmost precautions with your data and do not sell or rent
+                    your information. We also do not store any sensitive information like your credit card or bank
+                    details.
                 </p>
 
                 <p>
-                    <strong>Tax Benefit:</strong> Donations are eligible for tax exemption under Section 80G of the Income Tax Act. As per Indian income tax provisions, a donor is required to give their full name and complete address (not merely pin code and city) so that we can issue a valid receipt.
+                    <strong>Tax Benefit:</strong> Donations are eligible for tax exemption under Section 80G of the
+                    Income Tax Act. As per Indian income tax provisions, a donor is required to give their full name and
+                    complete address (not merely pin code and city) so that we can issue a valid receipt.
                 </p>
             </div>
         </div>
@@ -122,7 +127,8 @@
 
                 <div class="col-md-4 text-center">
                     <span>
-                        Developed By <a class="m-0" href="https://devendra-singh-chaudhary.web.app/" target="_blank">Devendra Singh Chaudhary</a>
+                        Developed By <a class="m-0" href="https://devendra-singh-chaudhary.web.app/"
+                            target="_blank">Devendra Singh Chaudhary</a>
                     </span>
                 </div>
 

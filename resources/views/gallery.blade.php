@@ -215,9 +215,9 @@ $gallery=[
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
-                <h2>Our Regional <span>Offices</span></h2>
-                <p class="heading">Chennai Office</p>
-                <p class="address">3/2, Karpaga Vinayagar Koil Street, Alandur, Chennai – 600016, India</p>
+                <h2>Our Registered <span>Offices</span></h2>
+                <p class="heading">Our Address</p>
+                <p class="address">Plot No. 36, Portion Left, Ground Floor, Block-F14, Phase II, Model Town, Delhi – 110009</p>
                 <a href="{{route('contact')}}" class="globalbtn">Need Help? Get in Touch<i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>

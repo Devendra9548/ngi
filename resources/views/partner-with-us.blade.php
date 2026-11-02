@@ -8,7 +8,7 @@
 <x-mainbanner name="Partner With Us" para="Let's build a childhood worth remembering, together"
     imgs="/assets/imgs/our-team.jpeg" />
 <div class="pt">
-    <section class="pt-intro">
+    <section class="pt-intro container-fluid">
         <div class="pt-wrap">
             <div>
                 <span class="pt-eyebrow">Join the movement</span>
@@ -31,7 +31,7 @@
     </section>
 
     <!-- 2. WAYS TO PARTNER -->
-    <section class="pt-ways">
+    <section class="pt-ways container-fluid">
         <div class="pt-wrap">
             <div class="pt-head">
                 <span class="pt-eyebrow">Ways to partner</span>
@@ -161,13 +161,13 @@
                     </p>
                 </div>
                 <div class="pt-contact">
-                    <div><small>Email</small><a href="mailto:your-email@yourdomain.org"><span
-                                class="fill">your-email@yourdomain.org</span></a></div>
-                    <div><small>Phone</small><a href="tel:+91XXXXXXXXXX"><span class="fill">+91-XXXXXXXXXX</span></a>
+                    <div><small>Email</small><a href="mailto:info@nextgenimpact.com"><span
+                                class="fill">info@nextgenimpact.com</span></a></div>
+                    <div><small>Phone</small><a href="tel:+91XXXXXXXXXX"><span class="fill">+91 91273 65136</span></a>
                     </div>
                     <div><small>Office</small>Plot No. 36, Block-F14, Phase II, Model Town, Delhi – 110009</div>
                     <a class="pt-btn pt-btn-green"
-                        href="mailto:your-email@yourdomain.org?subject=Partnership%20enquiry">Write to us</a>
+                        href="mailto:info@nextgenimpact.com?subject=Partnership%20enquiry">Write to us</a>
                 </div>
             </div>
         </div>

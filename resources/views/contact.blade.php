@@ -31,7 +31,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Our Mail</h3>
-                            <p>contact@bhumi.ngo</p>
+                            <p>info@nextgenimpact.com</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Our Contact</h3>
-                            <p>87544-13255</p>
+                            <p>+91 91273 65136</p>
                         </div>
                     </div>
                 </div>
@@ -52,8 +52,8 @@
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div class="contact-text">
-                            <h3>Our Address</h3>
-                            <p>3/2, Karpaga Vinayagar Koil Street, Alandur, Chennai – 600016, India</p>
+                            <h3>Registered Office Address</h3>
+                            <p>Plot No. 36, Portion Left, Ground Floor, Block-F14, Phase II, Model Town, Delhi – 110009</p>
                         </div>
                     </div>
                 </div>
@@ -69,6 +69,7 @@
         </div>
     </div>
 </section>
+
 <section class="contact-us-section pt-0">
     <div class="container-fluid py-5">
         <div class="row">
@@ -126,10 +127,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
-                <h2>Our Regional <span>Offices</span></h2>
-                <p class="heading">Chennai Office</p>
-                <p class="address">3/2, Karpaga Vinayagar Koil Street, Alandur, Chennai – 600016, India</p>
-                <a href="#" class="globalbtn">Have Questions? Check our FAQs <i class="fa-solid fa-arrow-right"></i></a>
+                <h2>Our Registered <span>Offices</span></h2>
+                <p class="heading">Our Address</p>
+                <p class="address">Plot No. 36, Portion Left, Ground Floor, Block-F14, Phase II, Model Town, Delhi – 110009</p>
+                <a href="{{route('contact')}}" class="globalbtn">Need Help? Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </div>

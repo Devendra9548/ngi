@@ -234,11 +234,11 @@
             <p>If you have questions about these terms, please contact:</p>
             <p>
                 <b>Organisation:</b> NextGen Impact (A Unit of Earth Initiative Foundation)<br>
-                <b>Contact person:</b> <span class="fill">[Name and designation]</span><br>
+                <!-- <b>Contact person:</b> <span class="fill">Earth Initiative Foundation (NextGen Impact)</span><br> -->
                 <b>Address:</b> Plot No. 36, Portion Left, Ground Floor, Block-F14, Phase II, Model Town, Delhi –
                 110009, India<br>
-                <b>Email:</b> <span class="fill">[your-email@yourdomain.org]</span><br>
-                <b>Phone:</b> <span class="fill">[+91-XXXXXXXXXX]</span>
+                <b>Email:</b> <span class="fill">info@nextgenimpact.com</span><br>
+                <b>Phone:</b> <span class="fill">+91 91273 65136</span>
             </p>
         </section>
 

@@ -18,9 +18,11 @@
 .pt a {
     text-decoration: none
 }
-
-.pt-wrap {
+.pt-join .pt-wrap, .pt-why .pt-wrap
+{
     max-width: 1140px;
+}
+.pt-wrap {
     margin: 0 auto;
     padding: 0 24px
 }
