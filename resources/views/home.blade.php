@@ -318,19 +318,32 @@
 .torn-edge{
   width:100%;
   height:60px;
-  margin-top:-59px;      
+  margin-top:-59px;
   position:relative;
   z-index:5;
   line-height:0;
-  filter:drop-shadow(0 -3px 4px rgba(0,0,0,.25));  
+  filter: drop-shadow(0 -6px 4px rgba(0,0,0,.25));
 }
-.torn-edge svg{width:100%;height:100%;display:block}
+.torn-edge svg{
+  width:100%;
+  height:calc(100% + 2px);   /* extra 2px neeche, gap band */
+  display:block;
+  margin-bottom:-2px;
+}
+
+/* torn edge ke BAAD wala white section */
+.next-section{
+  background:#fff;
+  position:relative;
+  z-index:6;                 /* torn-edge (5) se upar */
+  margin-top:-1px;           /* 1px overlap, line hat jayegi */
+}
 
 @media(max-width:768px){
   .torn-edge{
     height:36px;
     margin-top:-35px;
-   }
+  }
 }
 </style>
 @endsection
@@ -382,7 +395,15 @@
         <img src="/assets/imgs/banners/new/6.webp" alt="Banner" width="100%">
     </picture>
 </section>
-
+<div class="torn-edge">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none" overflow="visible" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#dfe8e2" transform="translate(0,-7)"
+      d="M0,38 L34,30 L66,40 L98,27 L132,37 L160,29 L196,41 L228,32 L262,43 L290,30 L326,38 L356,26 L392,36 L424,29 L458,42 L490,33 L524,40 L556,28 L592,37 L624,30 L660,43 L694,32 L728,39 L760,27 L796,36 L830,31 L862,42 L898,29 L930,38 L964,28 L998,41 L1030,33 L1064,40 L1096,27 L1130,37 L1162,30 L1198,43 L1230,32 L1264,39 L1296,28 L1330,36 L1362,31 L1396,42 L1440,33 L1440,64 L0,64Z"/>
+    <path fill="#ffffff"
+      d="M0,40 L30,32 L58,41 L90,28 L118,38 L150,30 L185,42 L215,33 L250,44 L280,31 L312,39 L345,27 L378,37 L410,30 L445,43 L478,34 L510,41 L545,29 L580,38 L612,31 L648,44 L680,33 L715,40 L748,28 L785,37 L818,32 L850,43 L885,30 L918,39 L950,29 L985,42 L1018,34 L1050,41 L1085,28 L1118,38 L1150,31 L1185,44 L1218,33 L1250,40 L1285,29 L1318,37 L1350,32 L1385,43 L1415,34 L1440,38 L1440,64 L0,64Z"/>
+  </svg>
+</div>
+<!-- 
 <div class="torn-edge">
   <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
     <path fill="#dfe8e2" transform="translate(0,-7)"
@@ -390,15 +411,15 @@
     <path fill="#ffffff"
       d="M0,40 L30,32 L58,41 L90,28 L118,38 L150,30 L185,42 L215,33 L250,44 L280,31 L312,39 L345,27 L378,37 L410,30 L445,43 L478,34 L510,41 L545,29 L580,38 L612,31 L648,44 L680,33 L715,40 L748,28 L785,37 L818,32 L850,43 L885,30 L918,39 L950,29 L985,42 L1018,34 L1050,41 L1085,28 L1118,38 L1150,31 L1185,44 L1218,33 L1250,40 L1285,29 L1318,37 L1350,32 L1385,43 L1415,34 L1440,38 L1440,60 L0,60Z"/>
   </svg>
-</div>
+</div> -->
 
 <section class="first-section scroll-section">
     <div class="container">
         <div class="about-clm text-center">
-            <div class="title ct-tooltip" data-animate="fade-left">About Us</div>
+            <div class="title ct-tooltip">About Us</div>
             <h2 data-animate="fade-right">Build My School Mission <span>- INDIA</span></h2>
-            <h3 data-animate="fade-left" class="subheading">- NextGen Impact</h3>
-            <p data-animate="fade-right" data-delay="2">"Let's not just build school, let's build a childhood worth
+            <h3 class="subheading">- NextGen Impact</h3>
+            <p>"Let's not just build school, let's build a childhood worth
                 remembering"</p>
         </div>
         <div class="row imgs-row mt-3">
