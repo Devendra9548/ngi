@@ -19,9 +19,8 @@
             </div>
             <div class="col-6">
                 <div class="social-info social-info-right d-flex justify-content-end">
-                    <div class="social-icons me-3"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
-                    <div class="social-icons me-3"><a href=""><i class="fa-brands fa-square-instagram"></i></a></div>
-                    <div class="social-icons"><a href=""><i class="fa-brands fa-square-x-twitter"></i></a></div>
+                    <div class="social-icons me-3"><a href="https://www.instagram.com/p/DeJR-YHCMtE/?xtok=dWY2MDFhanM0YWEw"><i class="fa-brands fa-square-instagram"></i></a></div>
+                    <div class="social-icons"><a href="https://www.youtube.com/@EarthInitiativeFoundation"><i class="fa-brands fa-square-youtube"></i></a></div>
                 </div>
             </div>
         </div>

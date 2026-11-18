@@ -345,6 +345,20 @@
     margin-top:-35px;
   }
 }
+
+@media(max-width:768px){
+  .torn-edge{
+    height:36px;
+    margin-top:-35px;
+    /* sirf left/right clip, upar-neeche shadow aur gap cover rahe */
+    clip-path:inset(-10px 0 -3px 0);
+  }
+  .torn-edge svg{
+    width:260%;          /* jitna bada, utne daant bade aur door */
+    margin-left:-80%;    /* (260-100)/2 = beech ka hissa dikhega */
+    max-width:none;
+  }
+}
 </style>
 @endsection
 @section('body')
